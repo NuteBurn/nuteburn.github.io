@@ -76,6 +76,9 @@ html {
 }
 
 /* About section */
+.fas.fa-cannabis {
+	font-size: 6rem;
+}
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
