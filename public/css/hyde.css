@@ -213,11 +213,11 @@ a.sidebar-nav-item:focus {
 
 /* Green */
 .theme-base-0b .sidebar {
-  background-image: linear-gradient(lightgreen,forestgreen);
+  background-image: linear-gradient(yellow,darkgreen);
 }
 .theme-base-0b .content a,
 .theme-base-0b .related-posts li a:hover {
-  color: forestgreen;
+  color: darkgreen;
 }
 
 /* Cyan */
