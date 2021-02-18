@@ -1,7 +1,7 @@
 # Setup
 title:            NuteBurn
 tagline:          "A Grow Journal"
-description:      "Just some asshole with a blog trying to grow weed. _I'm gonna burn the shit out of these plants_"
+description:      "Just some asshole with a blog trying to grow weed. <i>I'm gonna burn the shit out of these plants</i>"
 url:              "https://nuteburn.github.io/hyde"
 baseurl:          ""
 paginate:         5
