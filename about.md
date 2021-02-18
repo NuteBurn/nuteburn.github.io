@@ -3,27 +3,22 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+# About Me
+Finally tired enough of paying an arm and a leg for weed to try to grow it myself.
+I have very little experiance gardening and growing anything other than houseplants.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+This project was born out of the desire to create a simple grow journal documenting my journey.
 
-There are currently two themes built on Poole:
+# Current Setup
+ ## Hardware
+ * __Light:__ Mars Hydro TS 600W 
+ * __Tent:__ CoolGrows 24x24x48"
+ * __Main Fan:__ AC Infinity 4"
+ * __Pots:__ 5 Gal Fabric
 
-* [Hyde](https://hyde.getpoole.com)
-* [Lanyon](https://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+ ## Organics
+ * __Seeds:__
+   * __Barney's:__ Pineapple Express Auto
+   * __Barney's:__ Gorilla Glue Auto
+ * __Soil:__ TBD
+ * __Nutes:__ TBD
