@@ -1,14 +1,14 @@
 # Setup
 title:            NuteBurn
-tagline:          'A Grow Journal'
-description:      'Just some asshole with a blog trying to grow weed. _I'm gonna burn the shit out of these plants_'
-url:              'https://nuteburn.github.io/hyde'
-baseurl:          ''
+tagline:          "A Grow Journal"
+description:      "Just some asshole with a blog trying to grow weed. _I'm gonna burn the shit out of these plants_"
+url:              "https://nuteburn.github.io/hyde"
+baseurl:          ""
 paginate:         5
 
 # About and contact
 author:
-  name:           'Nute Burn'
+  name:           "Nute Burn"
   url:            nil
 
 # Gems
