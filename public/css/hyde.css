@@ -32,7 +32,10 @@
  */
 
 html {
-  font-family: "Truculenta", "Roboto Condensed", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Truculenta"
 }
 @media (min-width: 48em) {
   html {
@@ -84,6 +87,7 @@ html {
   margin-top: 0;
   font-family: "Truculenta", sans-serif;
   font-size: 4.5rem;
+  text-align: center;
 }
 /* Changes the italic font in the description */
 .lead > i {
