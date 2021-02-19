@@ -1,0 +1,5 @@
+<span class="post-tags">
+    {% if page.tags.size > 0 %} &#32| Tag{% if page.tags.size > 1 %}s{% endif %}:
+      {{ page.tags | sort | join: ", " }}
+    {% endif %}
+  </span>
