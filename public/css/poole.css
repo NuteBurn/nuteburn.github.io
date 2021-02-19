@@ -353,7 +353,9 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 1rem;
   color: #9a9a9a;
 }
-
+.post-date {
+  float: left;
+}
 /* Related posts */
 .related {
   padding-top: 2rem;
