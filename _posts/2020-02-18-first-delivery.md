@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Delivery
-tags: setup first-run
+tags: [ setup, first run]
 ---
 ## Tent's Here
 UPS dropped off the CoolGrows 2x2 today, had it set up in about 10 minutes.  
