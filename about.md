@@ -4,17 +4,18 @@ title: About
 ---
 
 # Me
-Finally tired enough of paying an arm and a leg for weed to try to grow it myself.
+
 I have very little experiance gardening and growing anything other than houseplants.
 
-This project was born out of the desire to create a simple grow journal documenting my journey.
+This project was born out of the desire to create a simple grow journal documenting my journey. Its more for me than it is for you.
 
 # Current Setup
 ## Hardware
- * __Light:__ Mars Hydro TS 600W 
- * __Tent:__ CoolGrows 24x24x48"
- * __Main Fan:__ AC Infinity 4"
- * __Pots:__ 5 Gal Fabric
+ * __Light:__ [Mars Hydro TS 600W](https://www.amazon.com/gp/product/B07VL8FZS1) 
+ * __Tent:__ [CoolGrows 24x24x48"](https://www.amazon.com/gp/product/B01GCHXUVU)
+ * __Main Fan:__ [AC Infinity Cloudline T4](https://www.amazon.com/gp/product/B07VL8FZS1/)
+ * __Timer:__ [Wemo Mini Smart Plug](https://www.amazon.com/gp/product/B08CJGZZZ1)
+ * __Pots:__ [5 Gal Fabric](https://www.amazon.com/gp/product/B0746KXXYR)
 
 ## Organics
  * __Seeds:__

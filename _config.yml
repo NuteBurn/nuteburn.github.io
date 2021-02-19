@@ -5,6 +5,7 @@ description:      "Just some asshole with a blog trying to grow weed. <br><i>I'm
 url:              https://nuteburn.com
 baseurl:          ""
 paginate:         5
+github:           https://github.com/NuteBurn/nuteburn.github.io
 
 # About and contact
 author:
