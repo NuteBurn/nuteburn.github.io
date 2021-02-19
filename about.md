@@ -19,7 +19,7 @@ This project was born out of the desire to create a simple grow journal document
 
 ## Organics
  * __Seeds:__
-   * __Barney's:__ Pineapple Express Auto
-   * __Barney's:__ Gorilla Glue Auto
+   * __Barney's:__ [Pineapple Express Auto](https://www.barneysfarm.com/pineapple-express-auto-37)
+   * __Barney's:__ [Gorilla Glue Auto](https://www.barneysfarm.com/gorilla-glue-auto-515)
  * __Soil:__ TBD
  * __Nutes:__ TBD
