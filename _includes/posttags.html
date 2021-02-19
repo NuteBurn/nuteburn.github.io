@@ -1,12 +1,12 @@
 {%- if layout == post -%}
 <span class="post-tags">
-    {% if post.tags.size > 0 %} &#32| Tag{% if post.tags.size > 1 %}s{% endif %}:
+    {% if post.tags.size > 0 %} | Tag{% if post.tags.size > 1 %}s{% endif %}:
       {{ post.tags | sort | join: ", " }}
     {% endif %}
 </span>
 {%- else -%}
-<span class="post-tags">
-    {% if page.tags.size > 0 %} &#32| Tag{% if page.tags.size > 1 %}s{% endif %}:
+<span class="page-tags">
+    {% if page.tags.size > 0 %} | Tag{% if page.tags.size > 1 %}s{% endif %}:
     {{ page.tags | sort | join: ", " }}
     {% endif %}
 </span>
