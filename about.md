@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-# About Me
+# Me
 Finally tired enough of paying an arm and a leg for weed to try to grow it myself.
 I have very little experiance gardening and growing anything other than houseplants.
 
