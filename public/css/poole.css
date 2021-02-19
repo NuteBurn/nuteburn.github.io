@@ -352,6 +352,7 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 1rem;
   color: orange;
   text-transform: capitalize;
+  font-size: .75rem;
 }
 .post-date {
   float: left;

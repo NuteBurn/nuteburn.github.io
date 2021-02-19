@@ -60,8 +60,10 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
-  background-color: #202020;
+  background-image: linear-gradient(orange,darkgreen);
+  background-color: darkgreen;
 }
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -179,24 +181,4 @@ a.sidebar-nav-item:focus {
     margin-left: 4rem;
     margin-right: 22rem;
   }
-}
-
-
-
-/*
- * Themes
- *
- * As of v1.1, Hyde includes optional themes to color the sidebar and links
- * within blog posts. To use, add the class of your choosing to the `body`.
- */
-
-/* Base16 (http://chriskempson.github.io/base16/#default) */
-
-/* Green */
-.theme-base-0b .sidebar {
-  background-image: linear-gradient(orange,darkgreen);
-}
-.theme-base-0b .content a,
-.theme-base-0b .related-posts li a:hover {
-  color: darkgreen;
 }
