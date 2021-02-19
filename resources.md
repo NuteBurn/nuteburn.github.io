@@ -16,3 +16,11 @@ title: Resources
 # Subreddits
 * [r/autoflowers](https://www.reddit.com/r/autoflowers)
 * [r/microgrowery](https://www.reddit.com/r/microgrowery)
+
+# Seeds Banks
+ * [North Atlantic Seed Company](https://northatlanticseed.com/)
+   * Maine ❤️
+   * Women owned
+   * Free seeds with every order
+   * Accepts Venmo
+   * Will order more
