@@ -145,14 +145,14 @@ a.sidebar-nav-item:focus {
  * with a 25%-wide `.sidebar`.
  */
 
-.content {
+.content,
+.airtable {
   padding-top:    4rem;
   padding-bottom: 4rem;
 }
 
 @media (min-width: 48em) {
-  .content,
-  .airtable {
+  .content {
     max-width: 38rem;
     margin-left: 20rem;
     margin-right: 2rem;
@@ -167,8 +167,6 @@ a.sidebar-nav-item:focus {
   .airtable {
     margin-left: 19rem;
     margin-right: 1rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
   }
 }
 
