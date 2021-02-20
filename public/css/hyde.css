@@ -171,13 +171,6 @@ a.sidebar-nav-item:focus {
     padding-bottom: 4rem;
   }
 }
-/* Airetable formatting */
-.airtable {
-  margin-left: 18.5rem;
-  margin-right: 1rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
 
 /*
  * Reverse layout
