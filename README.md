@@ -1,17 +1,16 @@
-# Hyde
+## TO-DO
+- [ ] Make a proper readme
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
-
-![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
-
+***
 
 ## Contents
 
+- [TO-DO](#to-do)
+- [Contents](#contents)
 - [Usage](#usage)
 - [Options](#options)
   - [Sidebar menu](#sidebar-menu)
   - [Sticky sidebar content](#sticky-sidebar-content)
-  - [Themes](#themes)
   - [Reverse layout](#reverse-layout)
 - [Development](#development)
 - [Author](#author)
@@ -63,25 +62,6 @@ By default Hyde ships with a sidebar that affixes its content to the bottom of t
 ```
 
 
-### Themes
-
-Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
-
-![Hyde in red](https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png)
-
-There are eight themes available at this time.
-
-![Hyde theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
-
-To use a theme, add anyone of the available theme classes to the `<body>` element in the `default.html` layout, like so:
-
-```html
-<body class="theme-base-08">
-  ...
-</body>
-```
-
-To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
 
 ### Reverse layout
 
