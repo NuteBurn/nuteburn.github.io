@@ -151,7 +151,8 @@ a.sidebar-nav-item:focus {
 }
 
 @media (min-width: 48em) {
-  .content {
+  .content,
+  .airtable {
     max-width: 38rem;
     margin-left: 20rem;
     margin-right: 2rem;
@@ -162,6 +163,12 @@ a.sidebar-nav-item:focus {
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
+  }
+  .airtable {
+    margin-left: 18.5rem;
+    margin-right: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 }
 /* Airetable formatting */
