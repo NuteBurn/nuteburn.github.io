@@ -5,7 +5,7 @@ title: About
 
 # Me
 
-I have very little experiance gardening and growing anything other than houseplants.
+I have very little experience gardening and growing anything other than houseplants.
 
 This project was born out of the desire to create a simple grow journal documenting my journey. Its more for me than it is for you.
 
