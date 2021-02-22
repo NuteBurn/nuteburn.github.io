@@ -21,10 +21,10 @@ This project was born out of the desire to create a simple grow journal document
  * __Seeds:__
    * __Barney's:__ [Pineapple Express Auto](https://www.barneysfarm.com/pineapple-express-auto-37)
    * __Barney's:__ [Gorilla Glue Auto](https://www.barneysfarm.com/gorilla-glue-auto-515)
-   * __Fast Buds:__ [AK Auto](https://2fast4buds.com/seeds/original-auto-ak)<i class=green>freebie</i>_
+   * __Fast Buds:__ [AK Auto](https://2fast4buds.com/seeds/original-auto-ak) <i class=green>freebie</i>
  * __Soil:__ 
-   * [Detroit Nutrient Company Just Add Water](https://detroitnutrientcompany.com/collections/most-popular/products/great-lakes-water-only-soil)
-   * [Fox Farm Happy Frog](https://foxfarm.com/product/happy-frog-potting-soil)
+   * [Detroit Nutrient Company: Just Add Water](https://detroitnutrientcompany.com/collections/most-popular/products/great-lakes-water-only-soil)
+   * [Fox Farm: Happy Frog](https://foxfarm.com/product/happy-frog-potting-soil)
  * __Nutes:__ 
-   * [Dr Earth Home Grown](https://drearth.com/product/home-grown/)
-   * [Dr Earth All Purpose](https://www.homedepot.com/p/DR-EARTH-3-lbs-45-sq-ft-Organic-Pure-Gold-All-Purpose-Fertilizer-Pelletized-100534587/306120783)
+   * [Dr Earth: Home Grown](https://drearth.com/product/home-grown/)
+   * [Dr Earth: All Purpose](https://www.homedepot.com/p/DR-EARTH-3-lbs-45-sq-ft-Organic-Pure-Gold-All-Purpose-Fertilizer-Pelletized-100534587/306120783)
