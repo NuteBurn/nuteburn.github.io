@@ -11,7 +11,7 @@ title: Resources
 
 
 # Sites
-* [Grow Weed Easy](wwww.growweedeasy.com)
+* [Grow Weed Easy](https://www.growweedeasy.com)
 
 # Youtubers
 * [Mr.Canuck's Grow](https://www.youtube.com/c/MrCanucksGrowGuide)
