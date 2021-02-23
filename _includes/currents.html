@@ -3,8 +3,8 @@
   <li><b>Seeds</b></li>
   {% for seed in site.data.seeds %}
     <li>
-        {%- if seed.status =="current" -%}
-            {{ seed.mdlink}}
+        {%- if seed.status == "current" -%}
+            {{ seed.mdlink }}
         {%- endif -%}
     </li>
   {% endfor %}

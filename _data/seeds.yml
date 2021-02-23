@@ -5,6 +5,7 @@
   strain: Pineapple Express
   link: https://www.barneysfarm.com/pineapple-express-auto-37
   mdlink: "[Barney's Pineapple Express Auto](https://www.barneysfarm.com/pineapple-express-auto-37)"
+  status: current
 
 - shorty: BGGA
   name: Barney's Gorrilla Glue Auto
@@ -13,6 +14,7 @@
   strain: Gorrilla Glue
   link: https://www.barneysfarm.com/gorilla-glue-auto-515
   mdlink: "[Barney's Gorilla Glue Auto](https://www.barneysfarm.com/gorilla-glue-auto-515)"
+  status: on deck
 
 - shorty: FBAKA
   name: Fast Buds Original AK Auto
@@ -21,3 +23,4 @@
   strain: Original AK
   link: https://2fast4buds.com/seeds/original-auto-ak
   mdlink: "[Fast Buds AK Auto](https://2fast4buds.com/seeds/original-auto-ak)"
+  status: current
