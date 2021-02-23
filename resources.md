@@ -12,7 +12,10 @@ title: Resources
 
 # Sites
 * [Grow Weed Easy](https://www.growweedeasy.com)
+  * Good general guide.
 * [Coco For Cannabis](https://www.cocoforcannabis.com)
+  * Aimed more at growing in coco but useful.
+
 
 # Youtubers
 * [Mr.Canuck's Grow](https://www.youtube.com/c/MrCanucksGrowGuide)

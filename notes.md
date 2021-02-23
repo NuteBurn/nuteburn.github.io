@@ -2,6 +2,9 @@
 layout: page
 title: Notes
 ---
+```
+THIS PAGE IS A WORK IN PROGRESS
+```
 
 ## Grow Environment
 * Starting lights 2.5 - 3.0 feet above
@@ -11,8 +14,9 @@ title: Notes
 * Humidity
   * **Veg:** 40-60%
   * **Flower:** 40-50%
+
 ## Water
-* pH 6.5 - 6.8
+* pH to 6.5 - 6.8
 * Start with 1.5 oz of water to germ the seeds
 
 ## Feeding
@@ -33,10 +37,10 @@ title: Notes
 * Before harvesting let plant rest in darkness for 24-48 hours
 
 ## Drying
-* Dry perion 7-14 days
-* dry room environment 65-69 F
+* Dry period 7-14 days
+* Dry room environment 65-69 F
 * RH 50-58%
-* buds should feel "crispy" and stems should snap when bent
+* Buds should feel "crispy" and stems should snap when bent
 
 ## Trimming
 * Trim over sifts to collect all that sweet sweet hash
