@@ -187,6 +187,7 @@ a.sidebar-nav-item:focus {
 
 #viewbar {
   color: white;
+  background-image: linear-gradient(to right, darkgreen , orange) !important;
   background-color: darkgreen;
 }
 
