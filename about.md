@@ -19,9 +19,8 @@ This project was born out of the desire to create a simple grow journal document
 
 ## Organics
  * __Seeds:__
-   * __Barney's:__ [Pineapple Express Auto](https://www.barneysfarm.com/pineapple-express-auto-37)
-   * __Barney's:__ [Gorilla Glue Auto](https://www.barneysfarm.com/gorilla-glue-auto-515)
-   * __Fast Buds:__ [AK Auto](https://2fast4buds.com/seeds/original-auto-ak) <i class=green>freebie</i>
+  * {{ site.data.seeds.BPEA.mdlink }}
+  * {{ site.data.seeds.FBAKA.mdlink }}
  * __Soil:__ 
    * [Detroit Nutrient Company: Just Add Water](https://detroitnutrientcompany.com/collections/most-popular/products/great-lakes-water-only-soil)
    * [Fox Farm: Happy Frog](https://foxfarm.com/product/happy-frog-potting-soil)
