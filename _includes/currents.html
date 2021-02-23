@@ -1,21 +1,21 @@
 <h2>Organics</h2>
+<h3>Seeds</h3>
 <ul>
-  <li><b>Seeds</b></li>
   {% for seed in site.data.seeds %}
     <li>
         {%- if seed.status == "current" -%}
-            <a href="{{seed.link}}">{{ seed.name }}<a>
+            <a href="{{seed.link}}">{{ seed.name }}</a>
         {%- endif -%}
     </li>
   {% endfor %}
 </ul>
 
+<h3>Media</h3>
 <ul>
-  <li><b>Media</b></li>
   {% for media in site.data.media %}
     <li>
         {%- if media.status == "current" -%}
-            <a href="{{media.link}}">{{ media.name }}<a>
+            <a href="{{media.link}}">{{ media.name }}</a>
         {%- endif -%}
     </li>
   {% endfor %}
