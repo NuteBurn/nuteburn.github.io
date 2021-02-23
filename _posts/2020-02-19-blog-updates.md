@@ -5,7 +5,7 @@ tag:  meta
 ---
 
 ## Airtable
-I'm going to try my damnedest to keep as much data from my grows as possible and keep it open on this blog. I chose [Airtable](https://airtable.com/) because its simple enough to integrates with jekyll and github pages through an iframe.
+I'm going to try my damnedest to keep as much data from my grows as possible and keep it open on this blog. I chose [Airtable](https://airtable.com/) because its simple enough to integrate with Jekyll and Github pages through an iframe.
 
 It's pretty bare bones right now as I don't have much data to input yet, but it will <i class="green">grow</i> with my plants.
 

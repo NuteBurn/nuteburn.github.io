@@ -12,6 +12,7 @@ title: Resources
 
 # Sites
 * [Grow Weed Easy](https://www.growweedeasy.com)
+* [Coco For Cannabis](https://www.cocoforcannabis.com)
 
 # Youtubers
 * [Mr.Canuck's Grow](https://www.youtube.com/c/MrCanucksGrowGuide)
