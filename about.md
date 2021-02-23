@@ -17,10 +17,3 @@ title: About
 </ul>
 
 {%- include currents.html -%}
-
-<li><strong>Nutes:</strong>
- <ul>
-  <li><a href="https://drearth.com/product/home-grown/">Dr Earth: Home Grown</a></li>
-  <li><a href="https://www.homedepot.com/p/DR-EARTH-3-lbs-45-sq-ft-Organic-Pure-Gold-All-Purpose-Fertilizer-Pelletized-100534587/306120783">Dr Earth: All Purpose</a></li>
- </ul>
-</li>
