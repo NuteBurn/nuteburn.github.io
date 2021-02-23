@@ -183,14 +183,6 @@ a.sidebar-nav-item:focus {
   }
 }
 
-/* Airtable Tweaks */
-
-#viewbar {
-  color: white;
-  background-image: linear-gradient(to right, darkgreen , orange) !important;
-  background-color: darkgreen;
-}
-
 /*
  * Reverse layout
  *
