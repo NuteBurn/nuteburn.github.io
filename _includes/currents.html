@@ -2,21 +2,21 @@
 <h3>Seeds</h3>
 <ul>
   {% for seed in site.data.seeds %}
+    {%- if seed.status == "current" -%}
     <li>
-        {%- if seed.status == "current" -%}
-            <a href="{{seed.link}}">{{ seed.name }}</a>
-        {%- endif -%}
+      <a href="{{seed.link}}">{{ seed.name }}</a>
     </li>
+    {%- endif -%}
   {% endfor %}
 </ul>
 
 <h3>Media</h3>
 <ul>
   {% for media in site.data.media %}
+    {%- if media.status == "current" -%}
     <li>
-        {%- if media.status == "current" -%}
-            <a href="{{media.link}}">{{ media.name }}</a>
-        {%- endif -%}
+      <a href="{{media.link}}">{{ media.name }}</a>
     </li>
+    {%- endif -%}
   {% endfor %}
 </ul>
