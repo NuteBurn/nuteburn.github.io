@@ -65,7 +65,12 @@ i.green {
 i.orange {
   color: orange;
 }
-
+/* 2c as in 2 Column */ 
+img[src *="#2c"] {
+  float:left;
+  max-width: 45%;
+  margin-left: .5rem
+}
 
 /*
  * Sidebar
