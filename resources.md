@@ -35,3 +35,7 @@ title: Resources
    * Free seeds with every order
    * Accepts Venmo
    * Will order more
+
+# My Local Hydro Stores
+* [Brew & Grow Chicago](https://www.brewandgrow.com/)
+* [Chicago Roots](https://www.chicagoroots.com/)
