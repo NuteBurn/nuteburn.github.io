@@ -8,6 +8,7 @@ THIS PAGE IS A WORK IN PROGRESS
 
 ## Grow Environment
 * Starting lights 2.5 - 3.0 feet above
+  * Currently set to 2 feet to get the seeds a little warmer.
 * Temp:
   *  **Veg:** 70-85F
   *  **Flower:** 65-80F  
@@ -17,7 +18,14 @@ THIS PAGE IS A WORK IN PROGRESS
 
 ## Water
 * pH to 6.5 - 6.8
+  * I think i pHed mine a little low, around 6.1-6.2 (
+  * a little ph down goes a long way. **noted**
+  * 1 cap for 2 gallons of tap was too much
 * Start with 1.5 oz of water to germ the seeds
+  * I used a little more, ~2 oz
+* Water sprout as needed the same way.
+* Once sprouted (~ day 7), increase water, keep the top moist and start adding water to the tray to let the bottom soil hydrate
+* Water when dry
 
 ## Feeding
 * Last top dress week 5 of flower
