@@ -12,11 +12,11 @@ title: Notes
 * Starting lights 2.5 - 3.0 feet above
   * Currently set to 2 feet to get the seeds a little warmer.
 * Temp:
-  *  <i class="green">Veg</i>: 70-85F
-  *  <i class="purple">Flower</i>: 65-80F  
+  *  <i class="green">Veg</i> : 70-85F
+  *  <i class="purple">Flower</i> : 65-80F  
 * Humidity
-  * <i class="green">Veg</i>: 40-60%
-  * <i class="purple">Flower</i>: 40-50%
+  * <i class="green">Veg</i> : 40-60%
+  * <i class="purple">Flower</i> : 40-50%
 
 ## Water
 
