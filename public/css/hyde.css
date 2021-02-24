@@ -65,6 +65,9 @@ i.green {
 i.orange {
   color: orange;
 }
+i.purple {
+  color: purple;
+}
 /* 2c as in 2 Column */ 
 img[src *="#2c"] {
   float:left;
