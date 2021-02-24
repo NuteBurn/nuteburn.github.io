@@ -23,7 +23,7 @@ title: Resources
 
 - [Mr.Canuck's Grow](https://www.youtube.com/c/MrCanucksGrowGuide)
 - [Mr.Grow It](https://www.youtube.com/c/MrGrowIt)
-    - [Garden Talk](https://www.youtube.com/channel/UC9GzxSYh-Ha3kkC0zfXb5oQ)
+  - [Garden Talk](https://www.youtube.com/channel/UC9GzxSYh-Ha3kkC0zfXb5oQ)
 - [Apogee Instruments](https://www.youtube.com/c/Apogeeinstrumentsincorporated)
 
 ## Subreddits
@@ -42,5 +42,5 @@ title: Resources
 
 ## Chicago Hydro Stores
 
-- [Brew & Grow Chicago](https://www.brewandgrow.com/)
-- [Chicago Roots](https://www.chicagoroots.com/)
+- [Brew & Grow Chicago](https://www.brewandgrow.com)
+- [Chicago Roots](https://www.chicagoroots.com)
