@@ -1,4 +1,4 @@
-- shorty: BPEA
+- BPEA:
   name: Barney's Pineapple Express Auto
   breeder: Barney's
   type: auto
@@ -7,7 +7,7 @@
   mdlink: "[Barney's Pineapple Express Auto](https://www.barneysfarm.com/pineapple-express-auto-37)"
   status: current
 
-- shorty: BGGA
+- BGGA:
   name: Barney's Gorrilla Glue Auto
   breeder: Barney's
   type: auto
@@ -16,7 +16,7 @@
   mdlink: "[Barney's Gorilla Glue Auto](https://www.barneysfarm.com/gorilla-glue-auto-515)"
   status: on deck
 
-- shorty: FBAKA
+- FBAKA:
   name: Fast Buds Original AK Auto
   breeder: Fast Buds
   type: auto

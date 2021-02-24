@@ -1,4 +1,4 @@
-- shorty: homegrown
+- homegrown:
   name: Dr. Earth's Home Grown
   brand: Dr Earth
   uses: [tomato,vegetable,herb]
@@ -6,7 +6,7 @@
   link: https://drearth.com/product/home-grown/
   status: current
 
-- shorty: DEAP
+- DEAP:
   name: Dr. Earth's Pure Gold
   brand: Dr Earth
   uses: All Purpose
@@ -14,7 +14,7 @@
   link: https://drearth.com/product/pure-gold/
   status: current
 
-- shorty: ECU
+- ECU:
   name: Earthworm Castings
   brand: Earthworm Castings Unlimited
   uses: Soil Enricher
