@@ -22,7 +22,7 @@
   status: current
 - name: Honeywell Cool Mist
   brand: Honeywell
-  type: humidifier
+  type: Humidifier
   size: 1 Gallon
   link: https://www.honeywellstore.com/store/products/germ-free-cool-mist-humidifier-hcm-350.htm
   status: current
