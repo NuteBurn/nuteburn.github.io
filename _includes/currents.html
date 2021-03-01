@@ -1,3 +1,15 @@
+<h1 id="current-setup">Current Setup</h1>
+<h2> Hardware </h2>
+<ul>
+  {% for item in site.data.equipment %}
+    {%- if item.status == "current" -%}
+    <li>
+      <b>{{ item.type }}:</b><a href="{{item.link}}">{{ item.name }}</a>
+    </li>
+    {%- endif -%}
+  {% endfor %}
+</ul>
+
 <h2>Organics</h2>
 <h3>Seeds</h3>
 <ul>

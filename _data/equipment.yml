@@ -1,0 +1,34 @@
+- name: Mars Hydro TS 600W
+  brand: Mars Hydro
+  type: Light
+  link: https://www.amazon.com/gp/product/B07VL8FZS1
+  status: current
+- name: CoolGrows 24"x24"x48"
+  brand: CoolGrows
+  Type: Tent
+  size: 2'x2'x4'
+  link: https://www.amazon.com/gp/product/B01GCHXUVU
+  status: current
+- name: AC Infinity Cloudline T4
+  brand: AC Infinity
+  type: Exhaust Fan
+  size: 4"
+  link: https://www.amazon.com/gp/product/B07VL8FZS1
+  status: current
+- name: Wemo Smart Plug Mini
+  brand: Wemo
+  type: Smart Plug
+  link: https://www.amazon.com/gp/product/B08CJGZZZ1
+  status: current
+- name: Honeywell Cool Mist
+  brand: Honeywell
+  type: humidifier
+  size: 1 Gallon
+  link: https://www.honeywellstore.com/store/products/germ-free-cool-mist-humidifier-hcm-350.htm
+  status: current
+- name: Ming Wei Grow Bags
+  brand: Ming Wei
+  type: Grow Bag
+  size: 5 Gallon
+  link: https://www.amazon.com/gp/product/B0746KXXYR
+  status: current  
