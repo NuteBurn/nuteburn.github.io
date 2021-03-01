@@ -1,13 +1,12 @@
 # Setup
 title:            NuteBurn
 tagline:          "A Grow Journal"
-description:      "Just some asshole with a blog trying to some dank-ass grow weed. <br><i>I'm gonna burn the shit out of these plants</i>"
+description:      "Just some asshole with a blog trying to grow some dank-ass weed. <br><i>I'm gonna burn the shit out of these plants</i>"
 url:              https://nuteburn.com
 baseurl:          ""
 paginate:         5
 github:           https://github.com/NuteBurn/nuteburn.github.io
-shareimage:       https://repository-images.githubusercontent.com/340120407/80775a80-7a75-11eb-87c1-e5b44491713f
-
+shareimage:       https://repository-images.githubusercontent.com/340120407/09e95580-7a93-11eb-965a-337880c1006e
 # About and contact
 author:
   name:           "Nute Burn"
