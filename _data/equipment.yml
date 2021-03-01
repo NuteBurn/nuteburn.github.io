@@ -5,7 +5,7 @@
   status: current
 - name: CoolGrows 24"x24"x48"
   brand: CoolGrows
-  Type: Tent
+  type: Tent
   size: 2'x2'x4'
   link: https://www.amazon.com/gp/product/B01GCHXUVU
   status: current
@@ -28,7 +28,7 @@
   status: current
 - name: Ming Wei Grow Bags
   brand: Ming Wei
-  type: Grow Bag
+  type: Grow Bags
   size: 5 Gallon
   link: https://www.amazon.com/gp/product/B0746KXXYR
   status: current  
