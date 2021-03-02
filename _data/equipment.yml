@@ -31,4 +31,9 @@
   type: Grow Bags
   size: 5 Gallon
   link: https://www.amazon.com/gp/product/B0746KXXYR
-  status: current  
+  status: current
+- name: Blumat Drip Irrigation System
+  brand: Blumat
+  type: Irrigation
+  link: https://www.blumat.com/tropf/das-tropf-blumat-system/vorteile
+  status: ordered
