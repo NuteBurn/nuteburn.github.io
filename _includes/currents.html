@@ -1,14 +1,12 @@
 <h1 id="current-setup">Current Setup</h1>
 <h2> Hardware </h2>
 <ul>
-  {% for equipment_hash in site.data.equipment %}
-    {%- for equipment in equipment_hash -%}
+  {% for equipment in site.data.equipment %}
       {%- if equipment.status == "current" -%}
       <li>
         <a href="{{equipment.link}}">{{ equipment.name }}</a>
       </li>
       {%- endif -%}
-    {%- endfor -%}
   {% endfor %}
 </ul>
 
