@@ -1,4 +1,4 @@
-- BPEA:
+BPEA:
   name: Barney's Pineapple Express Auto
   breeder: Barney's
   type: auto
@@ -9,7 +9,7 @@
   grows: 1
   status: current
 
-- BGGA:
+BGGA:
   name: Barney's Gorrilla Glue Auto
   breeder: Barney's
   type: auto
@@ -20,7 +20,7 @@
   grows: 0
   status: on deck
 
-- FBAKA:
+FBAKA:
   name: Fast Buds Original AK Auto
   breeder: Fast Buds
   type: auto
@@ -31,7 +31,7 @@
   grows: 1
   status: current
 
-- SSRPA:
+SSRPA:
   name: Sweet Seeds Red Poison Auto
   breeder: Sweet Seeds
   type: auto
