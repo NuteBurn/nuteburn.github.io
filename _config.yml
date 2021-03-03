@@ -7,6 +7,7 @@ baseurl:          ""
 paginate:         5
 github:           https://github.com/NuteBurn/nuteburn.github.io
 shareimage:       https://repository-images.githubusercontent.com/340120407/09e95580-7a93-11eb-965a-337880c1006e
+
 # About and contact
 author:
   name:           "Nute Burn"
@@ -16,3 +17,8 @@ author:
 plugins:
   - jekyll-paginate
   - jekyll-gist
+
+# Social Profiles
+reddit:
+  profile: https://www.reddit.com/user/Nute-burn
+  username: Nute-Burn
