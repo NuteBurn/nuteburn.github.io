@@ -8,17 +8,18 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}">
   <meta property="og:title" content="{{ site.title }} &middot; {{ site.tagline }}">
-  <meta property="og:description" content="Just one guy's journey to grow some dank ass weed.">
   <meta property="og:image" content=" {{ site.shareimage }}">
-
+  
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="{{ site.url }}">
   <meta property="twitter:title" content="{{site.title }} &middot; {{ site.tagline}}">
-  <meta property="twitter:description" content="{{ site.description}}">
   <meta property="twitter:image" content=" {{ site.shareimage }}">
-
-
+  
+  <!--Description-->  
+  <meta property="og:description" content="{{site.description}}">
+  <meta property="twitter:description" content="{{ site.description}}">
+  <meta name="description" content="{{ site.description }}">
   
   <title>
     {% if page.title == "Home" %}
@@ -27,7 +28,6 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
-  <meta name="description" content="{{ site.description }}">
 
   <!--Fontawesome-->
   <script src="https://kit.fontawesome.com/f83ddbd721.js" crossorigin="anonymous"></script>
