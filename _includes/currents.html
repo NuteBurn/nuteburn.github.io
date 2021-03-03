@@ -13,13 +13,14 @@
 <h2>Organics</h2>
 <h3>Seeds</h3>
 <ul>
-  {% for seed in site.data.seeds %}
-    <!--{%- if seed.status == "current" -%}
-    <li>
-      <a href="{{seed.link}}">{{ seed.name }}</a>
-    </li>
-    {%- endif -%} -->
-  <li>{{ seed }}</li>
+  {% for seed_hash in site.data.seeds %}
+    {%- for seed in seed_hash -%}
+      {%- if seed.status == "current" -%}
+      <li>
+        <a href="{{seed.link}}">{{ seed.name }}</a>
+      </li>
+      {%- endif -%}
+    {%- endfor -%}
   {% endfor %}
 </ul>
 
