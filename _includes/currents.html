@@ -14,11 +14,11 @@
 <h3>Seeds</h3>
 <ul>
   {% for seed in site.data.seeds %}
-    {%- if status == "current" -%}
+    <!--{%- if seed.status == "current" -%}-->
     <li>
-      <a href="{{link}}">{{ name }}</a>
+      <a href="{{seed.link}}">{{ seed.name }}</a>
     </li>
-    {%- endif -%}
+    <!--{%- endif -%} -->
   {% endfor %}
 </ul>
 
