@@ -1,12 +1,14 @@
 <h1 id="current-setup">Current Setup</h1>
 <h2> Hardware </h2>
 <ul>
-  {% for item in site.data.equipment %}
-    {%- if item.status == "current" -%}
-    <li>
-      <b>{{ item.type }}: </b><a href="{{item.link}}">{{ item.name }}</a>
-    </li>
-    {%- endif -%}
+  {% for equipment_hash in site.data.equipment %}
+    {%- for equipment in equipment_hash -%}
+      {%- if equipment.status == "current" -%}
+      <li>
+        <a href="{{equipment.link}}">{{ equipment.name }}</a>
+      </li>
+      {%- endif -%}
+    {%- endfor -%}
   {% endfor %}
 </ul>
 
@@ -26,22 +28,26 @@
 
 <h3>Media</h3>
 <ul>
-  {% for media in site.data.media %}
-    {%- if media.status == "current" -%}
-    <li>
-      <a href="{{media.link}}">{{ media.name }}</a>
-    </li>
-    {%- endif -%}
+  {% for media_hash in site.data.media %}
+    {%- for media in media_hash -%}
+      {%- if media.status == "current" -%}
+      <li>
+        <a href="{{media.link}}">{{ media.name }}</a>
+      </li>
+      {%- endif -%}
+    {%- endfor -%}
   {% endfor %}
 </ul>
 
 <h3>Amendments & Nutrients</h3>
 <ul>
-  {% for amendment in site.data.amendments %}
-    {%- if amendment.status == "current" -%}
-    <li>
-      <a href="{{amendment.link}}">{{ amendment.name }}</a>
-    </li>
-    {%- endif -%}
+  {% for amendments_hash in site.data.amendments %}
+    {%- for amendment in amendments_hash -%}
+      {%- if amendment.status == "current" -%}
+      <li>
+        <a href="{{amendment.link}}">{{ amendment.name }}</a>
+      </li>
+      {%- endif -%}
+    {%- endfor -%}
   {% endfor %}
 </ul>
