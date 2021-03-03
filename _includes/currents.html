@@ -14,7 +14,7 @@
 <h3>Seeds</h3>
 <ul>
   {% for seed in site.data.seeds %}
-    {%- if seed.status == "current" -%}
+    {%- if seed[0].status == "current" -%}
     <li>
       <a href="{{seed.link}}">{{ seed.name }}</a>
     </li>
