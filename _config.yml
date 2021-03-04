@@ -12,7 +12,7 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
 
-Socialmedia:
+socialmedia:
   - title: Reddit
     link: https://www.reddit.com/user/Nute-burn
     user: Nute-Burn
