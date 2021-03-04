@@ -131,7 +131,7 @@ img[src *="#2c"] {
 
 /* Sidebar nav */
 .sidebar-nav {
-  margin-bottom: 1rem;
+  margin-bottom: .25rem;
 }
 .sidebar-nav-item {
   display: block;
@@ -140,17 +140,21 @@ img[src *="#2c"] {
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
+  color: orange
 }
 .sidebar-nav-item.active {
   font-weight: bold;
 }
 
 /* Sidebar Social Icons */
-
+#social-media {
+  text-align: center;
+  margin-bottom: .25rem;
+}
 #social-media .fab,
 #social-media .fas {
     padding:  10px;
-    font-size: 2em;
+    font-size: 2rem;
   }
 #social-media .fab:hover,
 #social-media .fas:hover {
