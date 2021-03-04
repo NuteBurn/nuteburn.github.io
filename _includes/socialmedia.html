@@ -1,0 +1,6 @@
+{% for each in site.social-profiles %}
+    {%- for profile in each -%}
+        <a target="_blank" rel="noopener" href="{{profile.href}}" title="{{ profile.title}}"><i
+                    class="{{profile.fa-icon}} social-icon"></i></a>
+    {%- endfor -%}
+{% endfor %} 

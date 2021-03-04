@@ -27,9 +27,10 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github }}" title="For all the stoner engineers">GitHub project</a>
     </nav>
-
+    <nav class="sidebar-social sidebar-nav-item">
+      {%- include socialmedia.html -%}
+    </nav>
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
