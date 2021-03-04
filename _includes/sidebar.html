@@ -29,7 +29,9 @@
 
     </nav>
     <nav class="sidebar-social sidebar-nav-item">
-      {%- include socialmedia.html -%}
+      {%- for profile in site.social-profiles %}
+        <a target="_blank" rel="noopener" href="{{profile.href}}" title="{{ profile.title}}"><i class="{{profile.fa-icon}} social-icon"></i></a>
+      {% endfor %} 
     </nav>
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>

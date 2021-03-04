@@ -12,15 +12,13 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
 
-Social-Profiles:
-  reddit:
+Socialmedia:
+  - title: Reddit
     href: https://www.reddit.com/user/Nute-burn
     user: Nute-Burn
-    title: Reddit
     fa-icon: fab fa-reddit
-  
-  github:
+
+  - title: GitHub
     href: https://github.com/NuteBurn/nuteburn.github.io
     user: nuteburn
-    title: GitHub
     fa-icon: 'fab fa-github-square'
