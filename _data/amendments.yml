@@ -21,3 +21,12 @@ ECU:
   npk: 1.25-0-0
   link: http://earthwormcastingsunlimited.com/
   status: current
+
+BSM:
+  name: Organic Blackstrap Molasses 
+  brand: Wholesome Sweeteners
+  uses: Microbe food
+  npk:
+  link: https://www.amazon.com/Wholesome-Sweeteners-Blackstrap-Molasses-16/dp/B000QUZXHO
+  status: on deck
+  
