@@ -14,11 +14,11 @@ plugins:
 
 Socialmedia:
   - title: Reddit
-    href: https://www.reddit.com/user/Nute-burn
+    link: https://www.reddit.com/user/Nute-burn
     user: Nute-Burn
-    fa-icon: fab fa-reddit
+    fa-icon: 'fab fa-reddit'
 
   - title: GitHub
-    href: https://github.com/NuteBurn/nuteburn.github.io
+    link: https://github.com/NuteBurn/nuteburn.github.io
     user: nuteburn
     fa-icon: 'fab fa-github-square'
