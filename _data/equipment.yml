@@ -37,3 +37,15 @@
   type: Irrigation
   link: https://www.blumat.com/tropf/das-tropf-blumat-system/vorteile
   status: ordered
+- name: Tetra Whisper 10 Gallon
+  brand: Tetra
+  type: Air Pump
+  link: https://www.chewy.com/tetra-whisper-non-ul-air-pump/dp/133138
+  size: 10 Gallon
+  status: ordered
+- name: Air Stone
+  brand:
+  type: Air Stone
+  link:
+  size:
+  status:
