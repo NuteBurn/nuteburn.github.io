@@ -1,5 +1,5 @@
-<h1 id="current-setup">Current Setup</h1>
-<h2> Hardware </h2>
+<h2 id="current-setup">Current Setup</h2>
+<h3> Hardware </h3>
 <ul>
   {% for equipment in site.data.equipment %}
       {%- if equipment.status == "current" -%}
@@ -10,8 +10,8 @@
   {% endfor %}
 </ul>
 
-<h2>Organics</h2>
-<h3>Seeds</h3>
+<h3>Organics</h3>
+<h4>Seeds</h4>
 <ul>
   {% for seed_hash in site.data.seeds %}
     {%- for seed in seed_hash -%}
@@ -24,7 +24,7 @@
   {% endfor %}
 </ul>
 
-<h3>Media</h3>
+<h4>Media</h4>
 <ul>
   {% for media_hash in site.data.media %}
     {%- for media in media_hash -%}
@@ -37,7 +37,7 @@
   {% endfor %}
 </ul>
 
-<h3>Amendments & Nutrients</h3>
+<h4>Amendments & Nutrients</h4>
 <ul>
   {% for amendments_hash in site.data.amendments %}
     {%- for amendment in amendments_hash -%}
