@@ -77,7 +77,7 @@ img[src *="#2c"] {
   display: block
 }
 .pic-row {
-  display:block;
+  display: inline-block;
 }
 
 /*
