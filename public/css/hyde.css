@@ -71,9 +71,10 @@ i.purple {
 /* 2c as in 2 Column */ 
 img[src *="#2c"] {
   float:left;
-  max-width: 45%;
+  max-width: 48%;
   min-width: 45%;
-  margin-left: .5rem
+  margin-left: .5rem ;
+  display: block
 }
 
 /*
