@@ -76,6 +76,9 @@ img[src *="#2c"] {
   margin-left: .5rem ;
   display: block
 }
+.pic-row {
+  display:block;
+}
 
 /*
  * Sidebar
