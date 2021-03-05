@@ -22,6 +22,7 @@ title: Resources
 ## Youtubers
 
 - [Mr.Canuck's Grow](https://www.youtube.com/c/MrCanucksGrowGuide)
+  - [Compost Tea Recipe](https://www.youtube.com/watch?v=whE2F72P8Tg)
 - [Mr.Grow It](https://www.youtube.com/c/MrGrowIt)
   - [Garden Talk](https://www.youtube.com/channel/UC9GzxSYh-Ha3kkC0zfXb5oQ)
 - [Apogee Instruments](https://www.youtube.com/c/Apogeeinstrumentsincorporated)
