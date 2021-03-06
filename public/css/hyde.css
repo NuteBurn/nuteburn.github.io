@@ -53,16 +53,14 @@ h1, h2, h3, h4, h5, h6 {
   html {
     font-size: 20px;
   }
-}
-@media (min-width: 20em) {
   .sidebar-nav-item {
-   display: inline !important;
- }
- .sidebar-nav-item::before { 
-   content: '\002  '
- }
-
+    display: block !important;
+  }
+  .sidebar-nav-item::before { 
+    content: none
+  }
 }
+
 /*
  * Markdown Cheats
  * These are for adding color inline to markdown
@@ -149,8 +147,11 @@ img[src *="#2c"] {
   margin-bottom: .25rem;
 }
 .sidebar-nav-item {
-  display: block;
+  display: inline;
   line-height: 1.75;
+}
+.sidebar-nav-item::before{
+  content: '\002  '
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
