@@ -58,8 +58,8 @@ h1, h2, h3, h4, h5, h6 {
   .sidebar-nav-item {
    display: inline !important;
  }
- .sidebar-nav-item::before {
-   content: '\2022  '
+ .sidebar-nav-item::before { 
+   content: '\002  '
  }
 
 }
