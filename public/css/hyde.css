@@ -146,10 +146,16 @@ img[src *="#2c"] {
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
-  color: orange
+  color: purple;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+  color: orange;
+}
+.sidebar-nav-item.active::after {
+  content: ' \f4d8';
+  font-family: FontAwesome;
+  color: darkgreen;
 }
 
 /* Sidebar Social Icons */
