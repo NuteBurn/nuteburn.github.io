@@ -4,7 +4,7 @@
   {% for equipment in site.data.equipment %}
       {%- if equipment.status == "current" -%}
       <li>
-        <a href="{{equipment.link}}">{{ equipment.name }}</a>
+        <strong>{{ equipment.type }}: </strong><a href="{{equipment.link}}">{{ equipment.name }}</a>
       </li>
       {%- endif -%}
   {% endfor %}
