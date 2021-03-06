@@ -153,9 +153,9 @@ a.sidebar-nav-item:focus {
   color: orange;
 }
 .sidebar-nav-item.active::after {
-  content: ' \f4d8';
+  content: '\f4d8 ';
   font-family: FontAwesome;
-  color: darkgreen;
+  color: orange;
 }
 
 /* Sidebar Social Icons */
