@@ -116,7 +116,7 @@ img[src *="#2c"] {
 }
 /* Sidebar cursor */
 .sidebar {
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍌</text></svg>")
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='32' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍌</text></svg>")
  16 0,auto;
 }
 /* Sidebar links */
@@ -155,7 +155,6 @@ img[src *="#2c"] {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
   color: purple;
 }
 .sidebar-nav-item.active {
