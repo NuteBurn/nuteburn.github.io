@@ -18,7 +18,7 @@ title: Notes
 ## Grow Environment
 
 * Starting lights 2.5 - 3.0 feet above
-  * Currently set to 2 feet to get the seeds a little warmer.
+  * Currently set to 2 feet.
 * Temp:
   *  <i class="green">Veg</i> : 70-85F
   *  <i class="purple">Flower</i> : 65-80F  
