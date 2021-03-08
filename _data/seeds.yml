@@ -38,6 +38,17 @@ SSRPA:
   strain: Red Poison
   link: https://sweetseeds.es/en/red-poison/
   mdlink: "[Sweet Seeds Red Poison Auto](https://sweetseeds.es/en/red-poison/)"
-  stock: 0
+  stock: 4
   grows: 0
   status: on deck
+
+BBA:
+  name: Fast Buds Bruce Banner Auto
+  breeder: Fast Buds
+  type: Auto
+  strain: Bruce Banner
+  link: https://2fast4buds.com/seeds/bruce-banner-auto
+  mdlink: "[Fast Buds Bruce Banner Auto](https://2fast4buds.com/seeds/bruce-banner-auto)"
+  stock: 1
+  grows: 0
+  status: storage
