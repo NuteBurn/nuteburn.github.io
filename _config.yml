@@ -12,6 +12,11 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
 
+# Author
+author:
+  name: "Nute Burn"
+  email: nuteburns@gmail.com
+
 socialmedia:
   - title: Reddit
     link: https://www.reddit.com/user/Nute-burn
