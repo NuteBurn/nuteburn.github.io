@@ -7,6 +7,18 @@ title: Notes
 > THIS PAGE IS A WORK IN PROGRESS
 >
 
+## Content
+
+* [Grow Environment](#grow-environment)
+* [Water](#water)
+* [Feeding](#feeding)
+* [Low Stress Training](#low-stress-training)
+* [Defoliation](#defoliation)
+* [Dark Period](#dark-period)
+* [Drying](#drying)
+* [Trimming](#trimming)
+* [Curring](#curring)
+
 ## Grow Environment
 
 * Starting lights 2.5 - 3.0 feet above
@@ -41,7 +53,7 @@ title: Notes
 * Molasses: Can be feed anytime during the grow, as its for the microbe life in the soil, not the plant.
   * I watered in Molasses on day 7. 1 tsp to a 1/2 Gallon of water.
 
-## Low Stress Training (LST)
+## Low Stress Training
 
 * You can start LST when the plant has developed 4 nodes
 * Repeat LST weekly by tying down new branches and adjusting old ties.
