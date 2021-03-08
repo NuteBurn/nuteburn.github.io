@@ -3,10 +3,6 @@ layout: page
 title: Notes
 ---
 
->
-> THIS PAGE IS A WORK IN PROGRESS
->
-
 ## Contents
 
 * [Grow Environment](#grow-environment)
