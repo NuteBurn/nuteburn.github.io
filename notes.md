@@ -7,7 +7,7 @@ title: Notes
 > THIS PAGE IS A WORK IN PROGRESS
 >
 
-## Content
+## Contents
 
 * [Grow Environment](#grow-environment)
 * [Water](#water)
