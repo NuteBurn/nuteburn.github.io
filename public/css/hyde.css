@@ -113,6 +113,9 @@ img[src *="#2c"] {
     width: 18rem;
     text-align: left;
   }
+  .sidebar a {
+    padding: 0px !important;
+  }
 }
 /* Sidebar cursor */
 /*.sidebar {
@@ -122,6 +125,7 @@ img[src *="#2c"] {
 /* Sidebar links */
 .sidebar a {
   color: #fff;
+  padding: .25rem;
 }
 
 /* About section */
