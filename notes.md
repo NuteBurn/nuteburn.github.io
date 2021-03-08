@@ -28,6 +28,7 @@ title: Notes
   * I used a little more, ~2 oz
 * Water sprout as needed the same way.
 * Once sprouted (~ day 7), increase water, keep the top moist and start adding water to the tray to let the bottom soil hydrate
+  * Jumped the gun here, watered them a bit too much at day 7. A quart each was too much.
 * Water when dry
 
 ## Feeding
@@ -37,6 +38,8 @@ title: Notes
 * Re-amend around 20-30 days after germination
   * Slowly water after top dressing
 * Top dress every 3 weeks after first
+* Molasses: Can be feed anytime during the grow, as its for the microbe life in the soil, not the plant.
+  * I watered in Molasses on day 7. 1 tsp to a 1/2 Gallon of water.
 
 ## Low Stress Training (LST)
 
