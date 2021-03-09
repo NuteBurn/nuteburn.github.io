@@ -6,8 +6,8 @@ tag: 'first run'
 
 ## Day Ten Since Sprout
 
-I was looking at the Barney's website last night and they some pictures of the plant at various stages of growth. I didn't see anything similar on Fast Buds site. One of those photos is day ten and I think they are counting since sprout. Here's what they have:
-![Barney's Day 10](https://www.barneysfarm.com/images/products/pineapple-express-auto_2_691892.jpg)  
+I was looking at the Barney's website last night and they have some pictures of the plant at various stages of growth. I didn't see anything similar on Fast Buds site unfortunately. One of those photos is day ten and I think they are counting since sprout. Here's what they have:
+![Barney's Day 10](https://www.barneysfarm.com/images/products/pineapple-express-auto_2_691892.jpg#50)  
 
 ### My Babbies
 
