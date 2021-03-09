@@ -75,20 +75,25 @@ i.orange {
 i.purple {
   color: purple;
 }
-/* 2c as in 2 Column */ 
+
+/* Image Setting Tags */ 
+/* 2c for 2 Column    */ 
+/* 75 for 75%         */ 
+
+
 img[src *="#2c"] {
   float:left;
-  max-width: 48%;
+  max-width: 46%;       
   min-width: 45%;
   margin-left: .5rem ;
   display: block
 }
+
 img[src *="#75"] {
   max-width: 75%;
   min-width: 75%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1rem auto;
 }
 .pic-row {
   display: inline-block;
@@ -100,6 +105,7 @@ img[src *="#75"] {
  * Flexible banner for housing site name, intro, and "footer" content. Starts
  * out above content in mobile and later moves to the side with wider viewports.
  */
+ 
 #copyright {
   text-align: center;
 }
@@ -124,11 +130,7 @@ img[src *="#75"] {
     padding: 0px !important;
   }
 }
-/* Sidebar cursor */
-/*.sidebar {
-/*  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='32' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍌</text></svg>")
-/* 16 0,auto;
-/*}
+
 /* Sidebar links */
 .sidebar a {
   color: #fff;
