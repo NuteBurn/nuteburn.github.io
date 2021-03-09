@@ -11,6 +11,8 @@ I was looking at the Barney's website last night and they some pictures of the p
 
 ### My Babbies
 
+The Pineapple Express(left) looks just a little bit smaller than theirs but the AK (Right) looks to be the same size. Nice 👍
+
 <span class="pic-row">
 ![My Pineapple Day 10](/public/images/first-run/day13-pineapple.jpeg#2c)
 ![AK Day 10](/public/images/first-run/day13-AK.jpeg#2c)
