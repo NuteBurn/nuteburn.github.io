@@ -13,6 +13,10 @@ Didn't get a chance to post but I was doing some site updates.
 They both got about 4 cups of water, hoping that it wasn't too much, but it was less than my last water.
 I didn't need to pH the water as it came in around 6.2 when I tested it.
 
+## Light
+
+Backed the light off a few more inches too, from 24" to about 26.5".
+
 ### Pineapple Express
 
 ![Day 12 Pineapple](/public/images/first-run/day12-pineapple.jpeg)
