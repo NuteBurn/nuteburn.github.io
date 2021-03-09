@@ -12,11 +12,8 @@ I was looking at the Barney's website last night and they some pictures of the p
 ### My Babbies
 
 <span class="pic-row">
-
 ![My Pineapple Day 10](/public/images/first-run/day13-pineapple.jpeg#2c)
-
 ![AK Day 10](/public/images/first-run/day13-AK.jpeg#2c)
-
 </span>
 
 ## Something to look forward to
