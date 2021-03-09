@@ -10,7 +10,7 @@ Didn't get a chance to post but I was doing some site updates.
 
 ## Water
 
-They both got about 4 cups of water, hoping that it wasn't too much, but time will tell, but it was less than my last water.
+They both got about 4 cups of water, hoping that it wasn't too much, but it was less than my last water.
 I didn't need to pH the water as it came in around 6.2 when I tested it.
 
 ### Pineapple Express
