@@ -5,6 +5,7 @@ title: Notes
 
 ## Contents
 
+* [Note On Days](#note-on-days)
 * [Grow Environment](#grow-environment)
 * [Water](#water)
 * [Feeding](#feeding)
@@ -14,6 +15,11 @@ title: Notes
 * [Drying](#drying)
 * [Trimming](#trimming)
 * [Curring](#curring)
+
+## Note On Days
+
+Im counting the day I put the seeds in the pot as day 0.  
+The seeds sprouted on day 3 meaning 3 days after I planted them.
 
 ## Grow Environment
 
