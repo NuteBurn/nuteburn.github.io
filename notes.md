@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Notes
+toc: true
 ---
 
 ## Contents

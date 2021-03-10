@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Resources
+toc: true
 ---
 
 ## Contents
