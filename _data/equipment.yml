@@ -49,3 +49,10 @@
   link:
   size:
   status:
+  note: "got this at the local pet shop for 2 bucks"
+- name: TeaLabs Brew Bag
+  brand: TeaLabs
+  type: Brew Bag
+  link: https://smile.amazon.com/gp/product/B00JWAK33S/
+  size: 9x14"
+  status: ordered
