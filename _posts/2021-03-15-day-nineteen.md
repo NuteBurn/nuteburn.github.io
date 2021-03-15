@@ -19,16 +19,16 @@ I watered the girls first thing in the morning Saturday, around 9:30, and waited
 
 <span class="pic-row">
 ![blumat drip](/public/images/first-run/blumat-drip.jpeg#2c)
-![blumat setup](/public/images/first-run/blumat-setup.jpeg#2c)
+![blumat setup](/public/images/first-run/blumat-setup.jpg#2c)
 </span>
 
 ## Light Schedule
 
 I updated the light cycle to 20 on and 4 off on Saturday. I figure with a reliable water source they can take the extra 2 hours of light and im hoping they show me their appreciation with more growth.
 
-## The girls
+## The Girls
 
-The Pineapple Express has caught up and may actually be out pacing the AK. I'm thinking I'll start pony tailing them this week to open up some of the sites bellow the top leaves.
+I'm thinking I'll start pony tailing them this week to open up some of the sites bellow the top leaves.
 
 <span class="pic-row">
 ![Day 19  Pineapple](/public/images/first-run/day19-pineapple.jpeg#2c)
