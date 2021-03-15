@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Day Nineteen
-tags: [first run, bugs, blumat, IPM]
+tags: [first run, bugs, blumat, IPM, setup]
 ---
 
 ## Integrated Pest Management (IPM)
