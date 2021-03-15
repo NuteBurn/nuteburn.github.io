@@ -54,11 +54,14 @@ The seeds sprouted on day 3 meaning 3 days after I planted them.
 * Top dress every 3 weeks after first
 * Molasses: Can be feed anytime during the grow, as its for the microbe life in the soil, not the plant.
   * I watered in Molasses on day 7. 1 tsp to a 1/2 Gallon of water.
+* When plants switch to flowering they will need less nitrogen and more phosphorus. 
+  * I plan to make a compost tea with the Flower Girl and worm castings around the 30 day mark.
 
 ## Low Stress Training
 
 * You can start LST when the plant has developed 4 nodes
 * Repeat LST weekly by tying down new branches and adjusting old ties.
+* Pony Tailing
 
 ## Defoliation
 
