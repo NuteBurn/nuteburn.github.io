@@ -2,57 +2,67 @@
   brand: Mars Hydro
   type: Light
   link: https://www.amazon.com/gp/product/B07VL8FZS1
+  price:
   status: current
 - name: CoolGrows 24"x24"x48"
   brand: CoolGrows
   type: Tent
   size: 2'x2'x4'
   link: https://www.amazon.com/gp/product/B01GCHXUVU
+  price:
   status: current
 - name: AC Infinity Cloudline T4
   brand: AC Infinity
   type: Exhaust Fan
   size: 4"
   link: https://www.amazon.com/gp/product/B07VL8FZS1
+  price:
   status: current
 - name: Wemo Smart Plug Mini
   brand: Wemo
   type: Smart Plug
   link: https://www.amazon.com/gp/product/B08CJGZZZ1
+  price:
   status: current
 - name: Honeywell Cool Mist
   brand: Honeywell
   type: Humidifier
   size: 1 Gallon
   link: https://www.honeywellstore.com/store/products/germ-free-cool-mist-humidifier-hcm-350.htm
+  price: free
   status: current
 - name: Ming Wei Grow Bags
   brand: Ming Wei
   type: Grow Bags
   size: 5 Gallon
   link: https://www.amazon.com/gp/product/B0746KXXYR
+  price:
   status: current
 - name: Blumat Drip Irrigation System
   brand: Blumat
   type: Irrigation
   link: https://www.blumat.com/tropf/das-tropf-blumat-system/vorteile
-  status: ordered
+  status: current
+  price: 
 - name: Tetra Whisper 10 Gallon
   brand: Tetra
   type: Air Pump
   link: https://www.chewy.com/tetra-whisper-non-ul-air-pump/dp/133138
   size: 10 Gallon
   status: current
+  price:
 - name: Air Stone
   brand:
   type: Air Stone
   link:
   size:
   status:
+  price: 2.50
   note: "got this at the local pet shop for 2 bucks"
 - name: TeaLabs Brew Bag
   brand: TeaLabs
   type: Brew Bag
   link: https://smile.amazon.com/gp/product/B00JWAK33S/
   size: 9x14"
+  price:
   status: ordered
