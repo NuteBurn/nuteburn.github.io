@@ -1,11 +1,14 @@
 - name: Mosquito Bites
   link: https://www.homedepot.com/p/Mosquito-Bits-30-oz-Granular-Biological-Mosquito-Control-117-6/206940251
   purpose: [mosquitos, gnats]
+  status: current
 - name: Yellow Sticky Traps
   link: https://smile.amazon.com/gp/product/B07DRN8H49/
   active-ingredient:
   purpose: gnats
+  status: current
 - name: Captain Jack's Deadbug Brew
   link: https://www.homedepot.com/p/Bonide-32-oz-Captain-Jack-s-Deadbug-Brew-Ready-To-Use-2506/203564356
   active-ingredient: Spinosad
   purpose: [gnats, caterpillars, thrips, loopers, leaf miners, spider mites]
+  status: current
