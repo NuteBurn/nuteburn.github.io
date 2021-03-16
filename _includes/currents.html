@@ -49,3 +49,13 @@
     {%- endfor -%}
   {% endfor %}
 </ul>
+
+<h4>Integrated Pest Management</h4>
+<ul>
+ {%- for ipm in site.data.pest-control -%}
+    {%- if ipm.status == "current" -%}
+    <li>
+      <a href="{{ipm.link}}">{{ ipm.name }}</a>
+    </li>
+    {%- endif -%}
+ {%- endfor -%}
