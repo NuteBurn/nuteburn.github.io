@@ -28,9 +28,13 @@ I updated the light cycle to 20 on and 4 off on Saturday. I figure with a reliab
 
 ## The Girls
 
-I'm thinking I'll start pony tailing them this week to open up some of the sites bellow the top leaves.
+### Before
 
 <span class="pic-row">
 ![Day 19  Pineapple](/public/images/first-run/day19-pineapple.jpeg#2c)
 ![Day 19 AK](/public/images/first-run/day19-ak.jpeg#2c)
 </span>
+
+### With A Pony
+
+![Ponytails](https://external-preview.redd.it/GCpVwPGHzeGWd3_hB1uVP_3o_71VFhITIfOuRBUyE0Q.jpg?auto=webp&s=e23a44761de9213956d8fc1103401052a4752dda#75)
