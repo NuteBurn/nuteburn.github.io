@@ -2,14 +2,22 @@
   brand: Mars Hydro
   type: Light
   link: https://www.amazon.com/gp/product/B07VL8FZS1
-  price:
+  size: [veg: 2x2, bloom: 1.5x1.5]
+  price: 79.99
   status: current
+- name: Spider Farmer SF-1000
+  brand: Spider Farmer
+  type: Light
+  link: https://www.amazon.com/gp/product/B07TS82HWB
+  size: [veg: 3x3, bloom: 2x2]
+  price: 151.99
+  status: ordered
 - name: CoolGrows 24"x24"x48"
   brand: CoolGrows
   type: Tent
   size: 2'x2'x4'
   link: https://www.amazon.com/gp/product/B01GCHXUVU
-  price:
+  price: 119
   status: current
 - name: AC Infinity Cloudline T4
   brand: AC Infinity
@@ -65,4 +73,4 @@
   link: https://smile.amazon.com/gp/product/B00JWAK33S/
   size: 9x14"
   price:
-  status: ordered
+  status: current
