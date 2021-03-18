@@ -6,6 +6,7 @@ title: Notes
 ## Contents
 
 * [Note On Days](#note-on-days)
+* [Light Info](#light-info)
 * [Grow Environment](#grow-environment)
 * [Water](#water)
 * [Feeding](#feeding)
@@ -20,6 +21,13 @@ title: Notes
 
 Im counting the day I put the seeds in the pot as day 0.  
 The seeds sprouted on day 3 meaning 3 days after I planted them.
+
+## Light Info
+
+Information on my current light the Spider Farmer SF-1000  
+
+* [Hippy Geek Review](https://www.youtube.com/watch?v=EAQyAN4BaHI)
+* [Migro Par Test](https://www.youtube.com/watch?v=qbhvQelsYXg)
 
 ## Grow Environment
 
