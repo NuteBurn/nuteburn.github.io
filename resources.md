@@ -27,6 +27,7 @@ title: Resources
   - [Garden Talk](https://www.youtube.com/channel/UC9GzxSYh-Ha3kkC0zfXb5oQ)
 - [Apogee Instruments](https://www.youtube.com/c/Apogeeinstrumentsincorporated)
 - [Frenchy Cannoli](https://www.youtube.com/channel/UCgeIHacD5YcF8DISyGrDr6g)
+- [From The Stash](https://www.youtube.com/channel/UCc1epQtHrWccCztMK5DDNmA/)
 
 ## Subreddits
 

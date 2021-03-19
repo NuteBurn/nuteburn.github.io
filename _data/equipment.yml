@@ -4,14 +4,14 @@
   link: https://www.amazon.com/gp/product/B07VL8FZS1
   size: [veg: 2x2, bloom: 1.5x1.5]
   price: 79.99
-  status: current
+  status: returned
 - name: Spider Farmer SF-1000
   brand: Spider Farmer
   type: Light
   link: https://www.amazon.com/gp/product/B07TS82HWB
   size: [veg: 3x3, bloom: 2x2]
   price: 151.99
-  status: ordered
+  status: current
 - name: CoolGrows 24"x24"x48"
   brand: CoolGrows
   type: Tent
