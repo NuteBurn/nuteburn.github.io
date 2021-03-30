@@ -52,3 +52,25 @@ BBA:
   stock: 1
   grows: 0
   status: storage
+
+GWK:
+  name: Mephisto's Grape Walker Kush
+  breeder: Mephisto Genetics
+  type: Auto
+  strain: Grape Walker Kush
+  link: MephistoGenentics.com
+  mdlink:
+  stock: 0
+  grows: 0
+  status: ordered
+
+BLP:
+ name: Barney's Lemon Potion CBD
+ breeder: Barney's
+ type: [Auto, CBD]
+ strain: Lemon Potion CBD
+ link:
+ mdlink:
+ stock: 1
+ grows: 0
+ status: storage
