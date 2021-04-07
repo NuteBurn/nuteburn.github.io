@@ -69,8 +69,19 @@ BLP:
  breeder: Barney's
  type: [Auto, CBD]
  strain: Lemon Potion CBD
- link:
+ link: https://www.barneysfarm.com/cbd-lemon-potion-auto-432
  mdlink:
+ stock: 1
+ grows: 0
+ status: storage
+
+FBAA:
+ name: Fast Bud's Amnesia Auto
+ breeder: Fast Buds
+ type: Auto
+ strain: Amnesia
+ link: https://2fast4buds.com/seeds/original-auto-amnesia-haze
+ mdlink: "[Fast Buds Auto Amnesia Haze](https://2fast4buds.com/seeds/original-auto-amnesia-haze)"
  stock: 1
  grows: 0
  status: storage
