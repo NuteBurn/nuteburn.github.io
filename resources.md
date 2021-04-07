@@ -33,8 +33,10 @@ title: Resources
 
 ## Subreddits
 
-- [r/autoflowers](https://www.reddit.com/r/autoflowers)
-- [r/microgrowery](https://www.reddit.com/r/microgrowery)
+- [r/Autoflowers](https://www.reddit.com/r/autoflowers)
+- [r/Microgrowery](https://www.reddit.com/r/microgrowery)
+- [r/MephHeads](https://www.reddit.com/r/MephHeads)
+- [r/OutdoorGrowing](https://www.reddit.com/r/OutdoorGrowing)
 
 ## Seeds Banks
 
