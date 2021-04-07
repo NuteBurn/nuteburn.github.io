@@ -28,7 +28,7 @@ title: Resources
 - [Apogee Instruments](https://www.youtube.com/c/Apogeeinstrumentsincorporated)
 - [Frenchy Cannoli](https://www.youtube.com/channel/UCgeIHacD5YcF8DISyGrDr6g)
 - [From The Stash](https://www.youtube.com/channel/UCc1epQtHrWccCztMK5DDNmA/)
-- [Seed To Stoned](https://www.youtube.com/c/FromSeedtoStoned)
+- [From Seed To Stoned](https://www.youtube.com/c/FromSeedtoStoned)
 - [The Hippie Geeks](https://www.youtube.com/c/TheHippieGeeks)
 
 ## Subreddits
