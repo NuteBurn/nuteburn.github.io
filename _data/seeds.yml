@@ -51,7 +51,7 @@ BBA:
   mdlink: "[Fast Buds Bruce Banner Auto](https://2fast4buds.com/seeds/bruce-banner-auto)"
   stock: 1
   grows: 0
-  status: storage
+  status: current
 
 GWK:
   name: Mephisto's Grape Walker Kush
@@ -62,7 +62,7 @@ GWK:
   mdlink:
   stock: 0
   grows: 0
-  status: ordered
+  status: storage
 
 BLP:
  name: Barney's Lemon Potion CBD
