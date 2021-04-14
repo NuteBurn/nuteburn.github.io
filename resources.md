@@ -10,6 +10,7 @@ title: Resources
 - [Youtubers](#youtubers)
 - [Subreddits](#subreddits)
 - [Seeds Banks](#seeds-banks)
+- [Direct Seeds](#direct-seeds)
 - [Chicago Hydro Stores](#chicago-hydro-stores)
 
 ## Sites
@@ -18,6 +19,8 @@ title: Resources
   - Good general guide.
 - [Coco For Cannabis](https://www.cocoforcannabis.com)
   - Aimed more at growing in coco but useful.
+- [Build a Soil](https://buildasoil.com/)
+  - Great source for organic growing products and knowledge
 
 ## Youtubers
 
@@ -26,10 +29,15 @@ title: Resources
 - [Mr.Grow It](https://www.youtube.com/c/MrGrowIt)
   - [Garden Talk](https://www.youtube.com/channel/UC9GzxSYh-Ha3kkC0zfXb5oQ)
 - [Apogee Instruments](https://www.youtube.com/c/Apogeeinstrumentsincorporated)
+  - Science and biology focused on Cannabis
 - [Frenchy Cannoli](https://www.youtube.com/channel/UCgeIHacD5YcF8DISyGrDr6g)
+  - The Hash Legend
 - [From The Stash](https://www.youtube.com/channel/UCc1epQtHrWccCztMK5DDNmA/)
+  - Great cannabis podcast with a focus on growing
 - [From Seed To Stoned](https://www.youtube.com/c/FromSeedtoStoned)
 - [The Hippie Geeks](https://www.youtube.com/c/TheHippieGeeks)
+- [Build a Soil](https://www.youtube.com/c/BuildASoil/)
+  - The 10x10 series is a gold mine of knowledge
 
 ## Subreddits
 
@@ -38,7 +46,7 @@ title: Resources
 - [r/MephHeads](https://www.reddit.com/r/MephHeads)
 - [r/OutdoorGrowing](https://www.reddit.com/r/OutdoorGrowing)
 
-## Seeds Banks
+## Seeds Banks 
 
 - [North Atlantic Seed Company](https://northatlanticseed.com/)
   - Maine ❤️
@@ -46,6 +54,14 @@ title: Resources
   - Free seeds with every order
   - Accepts Venmo
   - Will order more
+
+## Direct Seeds
+
+- [Mephisto Genetics](https://www.mephistogenetics.com/)
+  - Best of the best
+  - American grower - Colorado
+  - Mephisto Freebies!
+  - Accepts credit cards
 
 ## Chicago Hydro Stores
 
