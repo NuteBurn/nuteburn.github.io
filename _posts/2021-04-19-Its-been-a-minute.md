@@ -32,15 +32,17 @@ The PE isn't even going to come close to finishing around May 3rd, I feel like i
 
 ## Bruce Banner Day 9
 
-The Bruce sprouted day 3, 4/13. It was tucked into the corner of the tent and not getting ery much light so its a little stunted and leggy. It needed more light to grow so I had to get creative, on Thursday(4/15) I pulled the Bruce from the back of the tent, opened the tent up and put the BB on a box closer to the light.
+The Bruce sprouted day 3, 4/13. It was tucked into the corner of the tent and not getting very much light so its a little stunted and leggy. It needed more light to grow so I had to get creative, on Thursday(4/15) I pulled the Bruce from the back of the tent, opened the tent up and put the BB on a box closer to the light.
 
 ![Little Helper](public/images/first-run/little-helper.jpg#75)
 
-The tent will stay open until I can get this little guy outside but theres no telling how long before then, as the plant is already behind where it should be, sorry... It's not ideal but it works. <i class="purple">I need more grow space.</i>
+The tent will stay open until I can get this little guy outside. I was hoping around the 2 week mark once it developed a few nodes and some nice leaves, but theres no telling how long now as the plant is already behind where it should be, sorry little lady... It's not ideal but it works. <i class="purple">I need more grow space.</i>
+
+I planted some Crimson Clover in the pot with the Bruce, yesterday, as a cover crop so when its outside the soil isn't totally exposed. Clover is supposed to be a nitrogen fixer too, meaning it adds nitrogen to the soil over time. I've read this actually takes a long time though and the clover may not actually add much nitrogen over the short life cycle of cannabis. I figured I'd try and it might be pretty!
 
 ## Lights
 
-Sometime last week I chickened out and went back to 18/6. I couldn't stand seeing the PE burn like that and knew something else had to be done. I hope this decreased its Daily Light Integral(DLI) and stops stressing the PE out. 
+Sometime last week (I think it was Wednesday, 4/14) I chickened out and went back to 18/6. I couldn't stand seeing the PE burn like that and knew something else had to be done. I hope this decreased its Daily Light Integral(DLI) and stops stressing the PE out. 
 
 ## The Ladies
 

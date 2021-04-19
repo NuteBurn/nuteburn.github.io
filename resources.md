@@ -46,7 +46,7 @@ title: Resources
 - [r/MephHeads](https://www.reddit.com/r/MephHeads)
 - [r/OutdoorGrowing](https://www.reddit.com/r/OutdoorGrowing)
 
-## Seeds Banks 
+## Seeds Banks
 
 - [North Atlantic Seed Company](https://northatlanticseed.com/)
   - Maine ❤️
