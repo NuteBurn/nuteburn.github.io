@@ -36,5 +36,12 @@ BSM:
   uses: Microbe food
   npk: 
   link: https://www.amazon.com/Wholesome-Sweeteners-Blackstrap-Molasses-16/dp/B000QUZXHO
-  status: on deck
-  
+  status: 
+
+GL:
+  name: Garden Lime
+  brand: Espoma
+  uses: Soil buffer
+  npk: 0-0-0
+  link: https://www.espoma.com/product/garden-lime-3/
+  status: 
