@@ -89,6 +89,14 @@ img[src *="#2c"] {
   display: block
 }
 
+img[src *="#3c"] {
+  float:left;
+  max-width: 32%;       
+  min-width: 30%;
+  margin-left: .5rem ;
+  display: block
+}
+
 img[src *="#75"] {
   max-width: 75%;
   min-width: 75%;
