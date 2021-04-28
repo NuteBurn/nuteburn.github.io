@@ -79,7 +79,7 @@ i.purple {
 /* Image Setting Tags */ 
 /* 2c for 2 Column    */ 
 /* 75 for 75%         */ 
-
+/* Ill need to figure out 3 columm stacking for mobile */
 
 img[src *="#2c"] {
   float:left;
@@ -93,7 +93,7 @@ img[src *="#3c"] {
   float:left;
   max-width: 32%;       
   min-width: 30%;
-  margin-left: .5rem ;
+  margin-left: .25rem ;
   display: block
 }
 
