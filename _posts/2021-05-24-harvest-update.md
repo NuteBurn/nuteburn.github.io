@@ -8,10 +8,7 @@ tags: [first run, first outdoor, harvest]
 
 Yesterday I defoliated the AK and put it back into the tent for its last few hours of light before an extended dark cycle. I know I said I probably wasn't going to do that for the AK, but again I figured why not. Tomorrow night (day 90) I'll chop it down to hang in the closet with the PE to start drying.
 
-The PE is still drying, the smaller stems are starting to get brittle and close to snapping when bent. I plan to trim the PE this weekend (either day 13-14 of drying) and get it into jars before I leave for a few days on a camping trip 🏕️.
-
-
-The PE is still drying, the smaller stems are stilling to get brittle and are close to snapping when bent.
+The PE is still drying, the smaller stems are starting to get brittle and are close to snapping when bent. I plan to trim the PE this weekend (either day 13-14 of drying) and get it into jars before I leave for a few days on a camping trip 🏕️.
 
 ## Outdoor Day 12
 
