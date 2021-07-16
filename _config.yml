@@ -28,3 +28,8 @@ socialmedia:
     link: https://github.com/NuteBurn/nuteburn.github.io
     user: nuteburn
     fa-icon: 'fab fa-github'
+  
+  - title: Mastodon
+    link: https://topbudsonly.com
+    user: nuteburn
+    fa-icon: 'fab fa-mastodon'
