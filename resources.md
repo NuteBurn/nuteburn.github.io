@@ -58,9 +58,9 @@ title: Resources
   - Will order more
 
 - [Multiverse Beans](https://multiversebeans.com/)
- - Carries Meph and NightOwl
- - Good reputation on reddit
- - Haven't ordered, but likely will
+  - Carries Meph and NightOwl
+  - Good reputation on reddit
+  - Haven't ordered, but likely will
  
 ## Direct Seeds
 
