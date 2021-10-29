@@ -9,3 +9,9 @@ FFHF:
   link: https://foxfarm.com/product/happy-frog-potting-soil
   mdlink: "[Fox Farm's Happy Frog](https://foxfarm.com/product/happy-frog-potting-soil)"
   status: current
+
+BASL:
+  name: Build a Soil Light
+  link: https://buildasoil.com/products/buildasoil-living-soil-light
+  mdlink:
+  status: current

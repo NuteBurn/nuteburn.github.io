@@ -7,7 +7,7 @@ BPEA:
   mdlink: "[Barney's Pineapple Express Auto](https://www.barneysfarm.com/pineapple-express-auto-37)"
   stock: 0
   grows: 1
-  status: current
+  status: harvested
 
 BGGA:
   name: Barney's Gorilla Glue Auto
@@ -18,7 +18,7 @@ BGGA:
   mdlink: "[Barney's Gorilla Glue Auto](https://www.barneysfarm.com/gorilla-glue-auto-515)"
   stock: 1
   grows: 0
-  status: on deck
+  status: current
 
 FBAKA:
   name: Fast Buds Original AK Auto
@@ -29,7 +29,7 @@ FBAKA:
   mdlink: "[Fast Buds AK Auto](https://2fast4buds.com/seeds/original-auto-ak)"
   stock: 0
   grows: 1
-  status: current
+  status: havested
 
 SSRPA:
   name: Sweet Seeds Red Poison Auto
@@ -38,9 +38,9 @@ SSRPA:
   strain: Red Poison
   link: https://sweetseeds.es/en/red-poison/
   mdlink: "[Sweet Seeds Red Poison Auto](https://sweetseeds.es/en/red-poison/)"
-  stock: 4
-  grows: 0
-  status: on deck
+  stock: 2
+  grows: 1
+  status: havested
 
 BBA:
   name: Fast Buds Bruce Banner Auto
@@ -51,7 +51,7 @@ BBA:
   mdlink: "[Fast Buds Bruce Banner Auto](https://2fast4buds.com/seeds/bruce-banner-auto)"
   stock: 1
   grows: 0
-  status: current
+  status: died
 
 GWK:
   name: Mephisto's Grape Walker Kush
@@ -73,15 +73,15 @@ BLP:
  mdlink:
  stock: 1
  grows: 0
- status: storage
+ status: current
 
 FBAA:
- name: Fast Bud's Amnesia Auto
+ name: Fast Bud's Orange Sherbert Auto
  breeder: Fast Buds
  type: Auto
- strain: Amnesia
- link: https://2fast4buds.com/seeds/original-auto-amnesia-haze
- mdlink: "[Fast Buds Auto Amnesia Haze](https://2fast4buds.com/seeds/original-auto-amnesia-haze)"
+ strain: Orange Sherbert
+ link: https://2fast4buds.com/seeds/orange-sherbet-auto
+ mdlink: "[Fast Buds Orange Sherbert Auto](https://2fast4buds.com/seeds/orange-sherbet-auto)"
  stock: 1
  grows: 0
- status: storage
+ status: current

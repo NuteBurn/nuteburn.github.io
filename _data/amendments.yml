@@ -4,7 +4,7 @@ homegrown:
   uses: [tomato,vegetable,herb]
   npk: 4-6-3
   link: https://drearth.com/product/home-grown/
-  status: current
+  status: storage
 
 DEAP:
   name: Dr. Earth's Pure Gold
@@ -23,11 +23,11 @@ DEFG:
   status: current
 
 ECU:
-  name: Earthworm Castings
-  brand: Earthworm Castings Unlimited
+  name: Karma Earthworm Castings
+  brand: Karma Casting
   uses: Soil Enricher
-  npk: 1.25-0-0
-  link: http://earthwormcastingsunlimited.com/
+  npk:
+  link:
   status: current
 
 BSM:
@@ -45,3 +45,11 @@ GL:
   npk: 0-0-0
   link: https://www.espoma.com/product/garden-lime-3/
   status: 
+
+CB:
+  name: Build a Soil Craft Blend
+  brand: Build a Soil
+  uses: top dress
+  npk: 3-5-2
+  link: https://buildasoil.com/collections/amendments/products/buildasoil-craft-blend-nutrient-pack
+  status: current
