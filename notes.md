@@ -24,7 +24,7 @@ The seeds sprouted on day 3 meaning 3 days after I planted them.
 
 The Timber 3vl, in the 2x4
 
-* https://timbergrowlights.com/model-3vl/
+* [Store Page](https://timbergrowlights.com/model-3vl/)
 
 The Spider Farmer SF-1000, in the 2x2  
 
@@ -32,8 +32,8 @@ The Spider Farmer SF-1000, in the 2x2
 * [Migro Par Test](https://www.youtube.com/watch?v=qbhvQelsYXg)
 
 ## Grow Environment
-Trying to take VPD into consideration these days. Pulse has some great information on VPD here: https://pulsegrow.com/blogs/learn/vpd
 
+Trying to take VPD into consideration these days. Pulse has some great information on [VPD here](https://pulsegrow.com/blogs/learn/vpd)
 
 * Temp:
   *  <i class="green">Veg</i> : 70-85F
