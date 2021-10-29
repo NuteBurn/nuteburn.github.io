@@ -1,3 +1,11 @@
+- name: Timber 3vl
+  brand: Timber Grow Lights
+  type: Light
+  link: https://timbergrowlights.com/model-3vl/
+  size: 2x4
+  price: 420
+  status: current
+  quantity:
 - name: Mars Hydro TS 600W
   brand: Mars Hydro
   type: Light
@@ -19,6 +27,14 @@
   link: https://www.amazon.com/gp/product/B01GCHXUVU
   price: 119
   status: current
+- name: Quictent 48"x24"x72"
+  brand: Quictent
+  type: Tent
+  link: https://smile.amazon.com/dp/B00WM9KASY
+  size: 4'x2'x6'
+  price: 115
+  status: current
+  quantity: 1
 - name: AC Infinity Cloudline T4
   brand: AC Infinity
   type: Exhaust Fan
@@ -72,7 +88,7 @@
   quantity: 2
 - name: TeaLabs BubbleSnake Teabrewer
   brand: TeaLabs
-  type: bubbler
+  type: Aerator
   link: https://buildasoil.com/collections/compost-tea/products/bubblesnake-compost-tea-aerator
   size: 5 Gallon
   price: 28
@@ -80,7 +96,7 @@
   quantity: 1
 - name: GrassRoots Living Soil 30 Gallon
   brand: Grassroots Organics
-  type: Living Soil Pot
+  type: Grow Pot
   link: https://buildasoil.com/collections/containers/products/grassroots-living-soil-pots
   size: 30 gallon
   price: 14.67
@@ -88,17 +104,9 @@
   quantity: 1
 - name: GrassRoots Living Soil 10 Gallon
   brand: Grassroots Organics
-  type: Living Soil Pot
+  type: Grow Pot
   link: https://buildasoil.com/collections/containers/products/grassroots-living-soil-pots
   size: 10 gallon
   price: 8.80
   status: current
   quantity: 3
-- name: Timber 3vl
-  brand: Timber Grow Lights
-  type: light
-  link: https://timbergrowlights.com/model-3vl/
-  size: 2x4
-  price: 420
-  status: current
-  quantity:
