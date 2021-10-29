@@ -7,7 +7,7 @@ title: Resources
 
 - [Contents](#contents)
 - [Sites](#sites)
-- [Youtubers](#youtubers)
+- [Youtube Channels](#youtubers)
 - [Subreddits](#subreddits)
 - [Seeds Banks](#seeds-banks)
 - [Direct Seeds](#direct-seeds)
@@ -21,23 +21,23 @@ title: Resources
   - Aimed more at growing in coco but useful.
 - [Build a Soil](https://buildasoil.com/)
   - Great source for organic growing products and knowledge
+- [Pulse VPD Information](https://pulsegrow.com/blogs/learn/vpd)
 
-## Youtubers
+## Youtubers/Channels
 
+- [Build a Soil](https://www.youtube.com/c/BuildASoil/)
+  - The 10x10 series is a gold mine of knowledge
+- [Future Cannabis Project](https://www.youtube.com/c/FutureCannabisProject/)
+  - I've really been enjoying 'Living Soil Conversations' and 'The Bryan & Marco Show'
 - [Mr.Canuck's Grow](https://www.youtube.com/c/MrCanucksGrowGuide)
-  - [Compost Tea Recipe](https://www.youtube.com/watch?v=whE2F72P8Tg)
 - [Mr.Grow It](https://www.youtube.com/c/MrGrowIt)
   - [Garden Talk](https://www.youtube.com/channel/UC9GzxSYh-Ha3kkC0zfXb5oQ)
 - [Apogee Instruments](https://www.youtube.com/c/Apogeeinstrumentsincorporated)
   - Science and biology focused on Cannabis
 - [Frenchy Cannoli](https://www.youtube.com/channel/UCgeIHacD5YcF8DISyGrDr6g)
-  - The Hash Legend
+  - The Hash Legend, RIP
 - [From The Stash](https://www.youtube.com/channel/UCc1epQtHrWccCztMK5DDNmA/)
   - Great cannabis podcast with a focus on growing
-- [From Seed To Stoned](https://www.youtube.com/c/FromSeedtoStoned)
-- [The Hippie Geeks](https://www.youtube.com/c/TheHippieGeeks)
-- [Build a Soil](https://www.youtube.com/c/BuildASoil/)
-  - The 10x10 series is a gold mine of knowledge
 
 ## Subreddits
 
@@ -45,25 +45,33 @@ title: Resources
 - [r/Microgrowery](https://www.reddit.com/r/microgrowery)
 - [r/MephHeads](https://www.reddit.com/r/MephHeads)
 - [r/OutdoorGrowing](https://www.reddit.com/r/OutdoorGrowing)
+- [r/NoTillGrowery](https://www.reddit.com/r/NoTillGrowery)
 
 ## Seeds Banks
 
 - [North Atlantic Seed Company](https://northatlanticseed.com/)
   - Maine ❤️
   - Women owned
+  - Carries Meph
   - Free seeds with every order
   - Accepts Venmo
   - Will order more
 
+- [Multiverse Beans](https://multiversebeans.com/)
+ - Carries Meph and NightOwl
+ - Good reputation on reddit
+ - Haven't ordered, but likely will
+ 
 ## Direct Seeds
 
 - [Mephisto Genetics](https://www.mephistogenetics.com/)
-  - Best of the best
-  - American grower - Colorado
+  - 'Best of the best'
+  - American grower
   - Mephisto Freebies!
-  - Accepts credit cards
+  - Accepts credit cards 
 
 ## Chicago Hydro Stores
 
 - [Brew & Grow Chicago](https://www.brewandgrow.com)
 - [Chicago Roots](https://www.chicagoroots.com)
+  - Carries Build a Soil products

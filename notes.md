@@ -12,9 +12,7 @@ title: Notes
 * [Feeding](#feeding)
 * [Low Stress Training](#low-stress-training)
 * [Defoliation](#defoliation)
-* [Dark Period](#dark-period)
 * [Drying](#drying)
-* [Trimming](#trimming)
 * [Curring](#curring)
 
 ## Note On Days
@@ -24,15 +22,19 @@ The seeds sprouted on day 3 meaning 3 days after I planted them.
 
 ## Light Info
 
-Information on my current light the Spider Farmer SF-1000  
+The Timber 3vl, in the 2x4
+
+* https://timbergrowlights.com/model-3vl/
+
+The Spider Farmer SF-1000, in the 2x2  
 
 * [Hippy Geek Review](https://www.youtube.com/watch?v=EAQyAN4BaHI)
 * [Migro Par Test](https://www.youtube.com/watch?v=qbhvQelsYXg)
 
 ## Grow Environment
+Trying to take VPD into consideration these days. Pulse has some great information on VPD here: https://pulsegrow.com/blogs/learn/vpd
 
-* Starting lights 2.5 - 3.0 feet above
-  * Currently set to 2 feet.
+
 * Temp:
   *  <i class="green">Veg</i> : 70-85F
   *  <i class="purple">Flower</i> : 65-80F  
@@ -42,42 +44,29 @@ Information on my current light the Spider Farmer SF-1000
 
 ## Water
 
-* pH to 6.5 - 6.8
-  * I think i pHed mine a little low, around 6.1-6.2 (
-  * A little ph down goes a long way. <i class="green">noted</i>
-  * 1 cap for 2 gallons of tap was too much
-* Start with 1.5 oz of water to germ the seeds
-  * I used a little more, ~2 oz
-* Water sprout as needed the same way.
-* Once sprouted (~ day 7), increase water, keep the top moist and start adding water to the tray to let the bottom soil hydrate
-  * Jumped the gun here, watered them a bit too much at day 7. A quart each was too much.
-* Water when dry
+* I haven't been testing my water's pH recently and everything has been fine(I don't believe my issues were pH related)
+* In the 2x2 I have 2 Blumat carrots(1 per plant) with 3 drippers each in a 30 gallon Grassroots Living Soil Pot
+* In the 2x4 Im currently hand watering the little seedlings have 3 carrots (1 per pot/plant) with 3 drippers each in 10 gallon Grassroots Living Soil Pots  
 
 ## Feeding
 
-* Last top dress week 5 of flower
-  * 45 days from seed?
-* Re-amend around 20-30 days after germination
-  * Slowly water after top dressing
-* Top dress every 3 weeks after first
-* Molasses: Can be feed anytime during the grow, as its for the microbe life in the soil, not the plant.
-  * I watered in Molasses on day 7. 1 tsp to a 1/2 Gallon of water.
-* When plants switch to flowering they will need less nitrogen and more phosphorus. 
-  * I plan to make a compost tea with the Flower Girl and worm castings around the 30 day mark.
+Loosely following the "BuildaSoil Way"
+
+* [The write up is here](https://buildasoil.com/pages/the-complete-system)
+* [Their youtube channel](https://www.youtube.com/user/BuildASoil/)
+
 
 ## Low Stress Training
 
+* Currently have a bamboo trellis set up in the 2x2, I've been enjoying it more than the clip and tie down method. Its made keeping the canopy even(ish) much easier
 * You can start LST when the plant has developed 4 nodes
 * Repeat LST weekly by tying down new branches and adjusting old ties.
-* Pony Tailing
+
+### Trellis
 
 ## Defoliation
 
 * You can start to defoliate after the first week of flower. No sooner tho as to prevent stressing and stunting the plant.
-
-## Dark Period
-
-* Before harvesting let plant rest in darkness for 24-48 hours.
 
 ## Drying
 
@@ -85,10 +74,10 @@ Information on my current light the Spider Farmer SF-1000
 * Dry room environment 65-69 F
 * RH 50-58%
 * Buds should feel "crispy" and stems should snap when bent
-
-## Trimming
-
-* Trim over sifts to collect all that sweet sweet hash.
+* BuildaSoil says 60/60/16
+  * 60 Degrees
+  * 60 % RH
+  * 16 Days
 
 ## Curring
 
