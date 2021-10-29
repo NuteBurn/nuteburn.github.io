@@ -21,6 +21,8 @@ title: Resources
   - Aimed more at growing in coco but useful.
 - [Build a Soil](https://buildasoil.com/)
   - Great source for organic growing products and knowledge
+- [Sustainable Village](https://www.sustainablevillage.com/)
+  - American retailer of Blumat products
 - [Pulse VPD Information](https://pulsegrow.com/blogs/learn/vpd)
 
 ## Youtubers/Channels

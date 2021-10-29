@@ -26,12 +26,14 @@
   link: https://www.amazon.com/gp/product/B07VL8FZS1
   price:
   status: current
+  quantity: 2
 - name: Wemo Smart Plug Mini
   brand: Wemo
   type: Smart Plug
   link: https://www.amazon.com/gp/product/B08CJGZZZ1
   price:
   status: current
+  quantity: 2
 - name: Honeywell Cool Mist
   brand: Honeywell
   type: Humidifier
@@ -45,32 +47,58 @@
   size: 5 Gallon
   link: https://www.amazon.com/gp/product/B0746KXXYR
   price:
-  status: current
+  status: retired
 - name: Blumat Drip Irrigation System
   brand: Blumat
   type: Irrigation
   link: https://www.blumat.com/tropf/das-tropf-blumat-system/vorteile
   status: current
-  price: 
+  price:
+  quantity: 5 
 - name: Tetra Whisper 10 Gallon
   brand: Tetra
   type: Air Pump
   link: https://www.chewy.com/tetra-whisper-non-ul-air-pump/dp/133138
   size: 10 Gallon
-  status: current
+  status: retired
   price:
-- name: Air Stone
-  brand:
-  type: Air Stone
-  link:
-  size:
-  status:
-  price: 2.50
-  note: "got this at the local pet shop for 2 bucks"
 - name: TeaLabs Brew Bag
   brand: TeaLabs
   type: Brew Bag
-  link: https://smile.amazon.com/gp/product/B00JWAK33S/
-  size: 9x14"
-  price:
+  link: https://buildasoil.com/collections/compost-tea/products/bubblesnake-brew-bag-by-tealab
+  size: 5 Gallon
+  price: 24
   status: current
+  quantity: 2
+- name: TeaLabs BubbleSnake Teabrewer
+  brand: TeaLabs
+  type: bubbler
+  link: https://buildasoil.com/collections/compost-tea/products/bubblesnake-compost-tea-aerator
+  size: 5 Gallon
+  price: 28
+  status: current
+  quantity: 1
+- name: GrassRoots Living Soil 30 Gallon
+  brand: Grassroots Organics
+  type: Living Soil Pot
+  link: https://buildasoil.com/collections/containers/products/grassroots-living-soil-pots
+  size: 30 gallon
+  price: 14.67
+  status: current
+  quantity: 1
+- name: GrassRoots Living Soil 10 Gallon
+  brand: Grassroots Organics
+  type: Living Soil Pot
+  link: https://buildasoil.com/collections/containers/products/grassroots-living-soil-pots
+  size: 10 gallon
+  price: 8.80
+  status: current
+  quantity: 3
+- name: Timber 3vl
+  brand: Timber Grow Lights
+  type: light
+  link: https://timbergrowlights.com/model-3vl/
+  size: 2x4
+  price: 420
+  status: current
+  quantity:
