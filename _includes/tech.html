@@ -10,47 +10,7 @@
   {% endfor %}
 </ul>
 
-<h3>Organics</h3>
-<h4>Seeds</h4>
-<ul>
-  {% for seed_hash in site.data.seeds %}
-    {%- for seed in seed_hash -%}
-      {%- if seed.status == "current" -%}
-      <li>
-        <a href="{{seed.link}}">{{ seed.name }}</a>
-      </li>
-      {%- endif -%}
-    {%- endfor -%}
-  {% endfor %}
-</ul>
-
-<h4>Media</h4>
-<ul>
-  {% for media_hash in site.data.media %}
-    {%- for media in media_hash -%}
-      {%- if media.status == "current" -%}
-      <li>
-        <a href="{{media.link}}">{{ media.name }}</a>
-      </li>
-      {%- endif -%}
-    {%- endfor -%}
-  {% endfor %}
-</ul>
-
-<h4>Amendments & Nutrients</h4>
-<ul>
-  {% for amendments_hash in site.data.amendments %}
-    {%- for amendment in amendments_hash -%}
-      {%- if amendment.status == "current" -%}
-      <li>
-        <a href="{{amendment.link}}">{{ amendment.name }}</a>
-      </li>
-      {%- endif -%}
-    {%- endfor -%}
-  {% endfor %}
-</ul>
-
-<h4>Integrated Pest Management</h4>
+<h3>Integrated Pest Management</h3>
 <ul>
  {%- for ipm in site.data.pest-control -%}
     {%- if ipm.status == "current" -%}

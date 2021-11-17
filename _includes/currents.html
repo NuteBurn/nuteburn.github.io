@@ -1,0 +1,12 @@
+<h2 id="current-setup">Current Grows</h2>
+<ul>
+  {% for plant in site.data.grows %}
+      {%- if plant.harvestDay == nil or plant.harvestday <= {{ "today" }} -%}
+      <li>
+        <strong>{{ plant.seed }}</strong>
+      </li>
+      {%- endif -%}
+  {% endfor %}
+</ul>
+
+
