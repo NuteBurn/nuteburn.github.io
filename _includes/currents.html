@@ -6,7 +6,7 @@
           <li class="growbox">
             <strong>{{ plant.seed }}</strong>
             <p>Sow Date: {{ plant.sowDate }}</p>
-            <p> Current Day: {% 'today'| Date "%s" | minus plant.sowDate | date "%s" %}
+            <p> Current Day: {% 'today'| Date "%s" | minus plant.sowDate | date "%s" %} </p>
           </li>
           {%- endif -%}
       {% endfor %}
