@@ -3,7 +3,7 @@
     <ul>
       {% for plant in site.data.grows %}
           {%- if plant.harvestDate == nil -%}
-          {% capture sowDate %}{{plant.sowDate | date: "%j"}}{%end capture%}
+          {% capture sowDate %}{{plant.sowDate | date: "%j"}}{% end capture %}
             <li class="growbox">
             <strong>{{ plant.seed }}</strong>
             <p>Current Day: {{ "now" | date: "%j" | minus sowDate }} </p>
