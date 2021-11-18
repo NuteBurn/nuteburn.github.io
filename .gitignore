@@ -3,12 +3,14 @@ _gh_pages
 _site
 .ruby-version
 .jekyll-cache
+Gemfile*
 
 # Numerous always-ignore extensions
 *.diff
 *.err
 *.orig
 *.log
+*.lock
 *.rej
 *.swo
 *.swp
