@@ -225,6 +225,26 @@ a.sidebar-nav-item:focus {
  * with a 25%-wide `.sidebar`.
  */
 
+#growrow {
+  display: flex;
+}
+.growbox {
+ display: grid;
+ border: darkgray;
+ border-style: solid;
+ border-radius: 5px;
+ padding-left: 5px;
+ padding-bottom: 5px;
+ margin: 5px;
+}
+.currentDay {
+  font-size: 3rem;
+  margin-top: -.75rem;
+  margin-bottom: -.75rem;
+}
+.day {
+  font-size: .75rem
+}
 .content,
 .airtable {
   padding-top:    4rem;

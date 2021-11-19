@@ -1,16 +1,14 @@
-<h2 id="current-setup">Current Grows</h2>
-<div>
-    <ul>
-      {% for plant in site.data.grows %}
-          {%- if plant.harvestDate == nil -%}
-          {% capture sowDate %}{{plant.sowDate | date: "%j"}}{% endcapture %}
-            <li class="growbox">
-            <strong>{{ plant.seed }}</strong>
-            <p>Current Day: {{ "now" | date: "%j" | minus: sowDate }} </p>
-            <p>Sow Date: {{ plant.sowDate | date: "%m/%d/%Y" }}</p>
-          </li>
-          {%- endif -%}
-      {% endfor %}
-    </ul>
+<h2>Current Grows</h2>
+<div id="growrow" class="flex-container">
+  {% for plant in site.data.grows %}
+      {%- if plant.harvestDate == nil -%}
+        {% capture sowDate %}{{plant.sowDate | date: "%j"}}{% endcapture %}
+          <div class="growbox">
+            <h4>{{ plant.seed }}</h4>
+            <i class="day">Day:</i><strong class="currentDay">{{ "now" | date: "%j" | minus: sowDate }}</strong>
+            <i class="sown">Sown: {{ plant.sowDate | date: "%m/%d/%y" }}</i>
+          </div>
+        {%- endif -%}
+  {% endfor %}
 </div>
 
