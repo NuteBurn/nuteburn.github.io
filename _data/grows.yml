@@ -1,5 +1,6 @@
 - id: 1
   seed: Barney's Pineapple Express Auto
+  seedID: 1
   sowDate: 2021-02-24
   harvestDate: 2021-05-16
   space: 2x2
@@ -7,6 +8,7 @@
   media: DNC Water Only
 - id: 2
   seed: Original AK Auto Freebie
+  seedID: 3
   sowDate: 2021-02-24
   harvestDate: 2021-05-25
   space: 2x2
@@ -14,6 +16,7 @@
   media: DNC Water Only
 - id: 3
   seed: Sweet Seeds Red Poison
+  seedID: 4
   sowDate: 2021-06-05
   harvestDate: 2021-08-22
   space: 2x2
@@ -21,6 +24,7 @@
   media: DNC Water Only
 - id: 4
   seed: Sweet Seeds Red Poison
+  seedID: 4
   sowDate: 2021-06-05
   harvestDate: 2021-08-30
   space: 2x2
@@ -28,6 +32,7 @@
   media: DNC Water Only
 - id: 5
   seed: Northern Lights
+  seedID: 
   sowDate: 2021-06-05
   harvestDate: 2021-08-23
   space: porch
@@ -35,6 +40,7 @@
   media: Home Mix
 - id: 6
   seed: Trizzlers
+  seedID:
   sowDate: 2021-09-19
   harvestDate:
   space: 2x2
@@ -42,6 +48,7 @@
   media: Living Soil Mix
 - id: 7
   seed: Purple Haze
+  seedID:
   sowDate: 2021-09-28
   harvestDate:
   space: 2x2
@@ -49,6 +56,7 @@
   media: Living Soil Mix
 - id: 8
   seed: Orange Sherbert
+  seedID:
   sowDate: 2021-10-25
   harvestDate:
   space: 2x4
@@ -56,6 +64,7 @@
   media: BaS Light
 - id: 9
   seed: Lemon Potion
+  seedID:
   sowDate: 2021-10-25
   harvestDate:
   space: 2x4
@@ -63,6 +72,7 @@
   media: BaS Light
 - id: 10
   seed: Red Poison
+  seedID:
   sowDate: 2021-11-02
   harvestDate:
   space: 2x4

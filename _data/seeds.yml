@@ -1,64 +1,128 @@
-- name: Barney's Pineapple Express Auto
+- seedID: 1
+  name: Barney's Pineapple Express Auto
   breeder: Barney's
   type: auto
   strain: Pineapple Express
   link: https://www.barneysfarm.com/pineapple-express-auto-37
   stock: 0
   grows: 1
-  status: harvested
-- name: Barney's Gorilla Glue Auto
-  breeder: Barney's
+- seedID: 2
+  name: Gorilla Glue Auto
+  breeder: Barney's Farm
   type: auto
   strain: Gorilla Glue
   link: https://www.barneysfarm.com/gorilla-glue-auto-515
   stock: 0
   grows: 0
-  status: current
-- name: Original AK Auto Freebie
+- seedID: 3
+  name: Original AK Auto Freebie
   breeder: Freebie
   type: auto
   strain: Original AK
-  link: https://2fast4buds.com/seeds/original-auto-ak
+  link:
   stock: 0
   grows: 1
-  status: havested
-- name: Sweet Seeds Red Poison Auto
+- seedID: 4
+  name: Red Poison Auto
   breeder: Sweet Seeds
   type: auto
   strain: Red Poison
   link: https://sweetseeds.es/en/red-poison/
   stock: 1
   grows: 2
-  status: havested
-- name: Bruce Banner Auto Freebie
+- seedID: 5
+  name: Bruce Banner Auto Freebie
   breeder: Freebie
   type: Auto
   strain: Bruce Banner
-  link: https://2fast4buds.com/seeds/bruce-banner-auto
+  link: 
   stock: 1
   grows: 0
-  status: dead
-- name: Mephisto's Grape Walker Kush
+- seedID: 6
+  name: Grape Walker Kush
   breeder: Mephisto Genetics
   type: Auto
   strain: Grape Walker Kush
-  link: MephistoGenentics.com
+  link: https://www.mephistogenetics.com/strains/grape-walker-kush
   stock: 0
   grows: 0
-  status: storage
-- name: Barney's Lemon Potion CBD
+- seedID: 7
+  name: Lemon Potion CBD
   breeder: Barney's
   type: [Auto, CBD]
   strain: Lemon Potion CBD
   link: https://www.barneysfarm.com/cbd-lemon-potion-auto-432
   stock: 0
   grows: 1
-  status: current
-- name: Fast Bud's Orange Sherbert Auto
+- seedID: 8
+  name: Orange Sherbert Auto
   breeder: Fast Buds
   type: Auto
   strain: Orange Sherbert
   link: https://2fast4buds.com/seeds/orange-sherbet-auto
   stock: 0
   grows: 1
-  status: current
+- seedID: 8
+  name: Sour Diesel Auto
+  breeder: Fast Buds
+  type: Auto
+  strain: Sour Diesel
+  link:
+  stock: 3
+  grows: 0
+- seedID: 9
+  name: Brooklyn Sunrise Auto
+  breeder: Dutch Passion
+  type: Auto
+  strain: Brooklyn Sunrise
+  link:
+  stock: 3
+  grows: 0
+- seedID: 10
+  name: Trizzlers Auto
+  breeder: Twenty20 Mendocino
+  type: Auto
+  strain: Trizzlers
+  link: 
+  stock: 0
+  grows: 1
+- seedID: 11
+  name: Hotz
+  breeder: Twenty20 Mendocino
+  type: Auto
+  strain: Hotz
+  link:
+  stock: 2
+  grows: 0
+- seedID: 12
+  name: Wookie Special
+  breeder: Mephisto Genetics
+  type: Auto
+  strain: Wookie Special 
+  link:
+  stock: 5
+  grows: 0
+- seedID: 13
+  name: Canna-Cheese
+  breeder: Mephisto
+  type: [Auto, CBD]
+  strain: Canna-Cheese
+  link:
+  stock: 3
+  grows: 0
+- seedID: 14
+  name: 3 Bears OG
+  breeder: Mephisto Genetics
+  type: Auto
+  strain: 3 Bears OG
+  link:
+  stock: 2
+  grows: 0
+- seedID: 15
+  name: Creme De La Chem
+  breeder: Mephisto Genetics
+  type: Auto
+  strain: Creme De La Chem
+  link: 
+  stock: 2
+  grows: 0
