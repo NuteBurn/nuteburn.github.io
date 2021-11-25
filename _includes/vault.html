@@ -3,8 +3,9 @@
 <table>
 {% for breeder in seeds %}
     {%- assign breederSum = 0 -%}
+    {%- assign breederName = breeder.name -%}
         <thead>
-            <th colspan="3">{{ breeder.name}}</th>
+            <th colspan="3">{{ breederName}}</th>
         </thead>
         <tbody>
         <th>Strain</th>
@@ -26,15 +27,14 @@
                 </tr>
             {% endif %}
         {% endfor %}
-        <tr>
-            <td colspan="2"></td>
-            <td>sum: {{breederSum}}</td>
+        <tr align="right">
+            <td colspan="3"><i>{{breederName}} Total:</i> <strong>{{breederSum}}</strong></td>
         </tr>
         </tbody>
 {% endfor %}
 <tfoot>
     <tr>
-        <td>Total: {{sum}}</td>
+        <td colspan="3">Seed Total: {{sum}}</td>
     </tr>
 </tfoot>
 </table>
