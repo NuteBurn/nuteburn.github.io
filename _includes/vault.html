@@ -1,0 +1,40 @@
+{%- assign seeds = site.data.seeds | group_by: 'breeder' | sort: 'name' -%}
+{%- assign sum = 0 -%}
+<table>
+{% for breeder in seeds %}
+    {%- assign breederSum = 0 -%}
+        <thead>
+            <th colspan="3">{{ breeder.name}}</th>
+        </thead>
+        <tbody>
+        <th>Strain</th>
+        <th>Grows</th>
+        <th>Stock</th>
+        {% for seed in breeder.items %}
+            {% if seed.stock > 0 or seed.grows > 0 %}
+                {%- assign stock = seed.stock  -%}        
+                {%- assign sum = sum | plus: stock  -%}
+                {%- assign breederSum = breederSum | plus: stock  -%}
+                <tr>
+                {% if seed.link == nil %}
+                    <td>{{seed.name}}</td>
+                {% else %}
+                    <td><a href="{{seed.link}}" target="_blank">{{seed.name}}</a></td>
+                {% endif %}
+                    <td>{{seed.grows}}</td>
+                    <td>{{seed.stock}}</td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+        <tr>
+            <td colspan="2"></td>
+            <td>sum: {{breederSum}}</td>
+        </tr>
+        </tbody>
+{% endfor %}
+<tfoot>
+    <tr>
+        <td>Total: {{sum}}</td>
+    </tr>
+</tfoot>
+</table>

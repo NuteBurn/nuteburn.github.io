@@ -1,6 +1,6 @@
 - seedID: 1
-  name: Barney's Pineapple Express Auto
-  breeder: Barney's
+  name: Pineapple Express Auto
+  breeder: Barney's Farm
   type: auto
   strain: Pineapple Express
   link: https://www.barneysfarm.com/pineapple-express-auto-37
@@ -16,7 +16,7 @@
   grows: 0
 - seedID: 3
   name: Original AK Auto Freebie
-  breeder: Freebie
+  breeder: NASC Freebie
   type: auto
   strain: Original AK
   link:
@@ -32,11 +32,11 @@
   grows: 2
 - seedID: 5
   name: Bruce Banner Auto Freebie
-  breeder: Freebie
+  breeder: NASC Freebie
   type: Auto
   strain: Bruce Banner
   link: 
-  stock: 1
+  stock: 0
   grows: 0
 - seedID: 6
   name: Grape Walker Kush
@@ -48,7 +48,7 @@
   grows: 0
 - seedID: 7
   name: Lemon Potion CBD
-  breeder: Barney's
+  breeder: Barney's Farm
   type: [Auto, CBD]
   strain: Lemon Potion CBD
   link: https://www.barneysfarm.com/cbd-lemon-potion-auto-432
@@ -67,7 +67,7 @@
   breeder: Fast Buds
   type: Auto
   strain: Sour Diesel
-  link:
+  link: https://2fast4buds.com/seeds/original-auto-sour-diesel
   stock: 3
   grows: 0
 - seedID: 9
@@ -75,7 +75,7 @@
   breeder: Dutch Passion
   type: Auto
   strain: Brooklyn Sunrise
-  link:
+  link: https://dutch-passion.com/en/cannabis-seeds/auto-brooklyn-sunrise
   stock: 3
   grows: 0
 - seedID: 10
@@ -83,7 +83,7 @@
   breeder: Twenty20 Mendocino
   type: Auto
   strain: Trizzlers
-  link: 
+  link: https://twenty20mendocino.com/trizzlers
   stock: 0
   grows: 1
 - seedID: 11
@@ -99,15 +99,15 @@
   breeder: Mephisto Genetics
   type: Auto
   strain: Wookie Special 
-  link:
+  link: https://www.mephistogenetics.com/strains/wookie-special
   stock: 5
   grows: 0
 - seedID: 13
   name: Canna-Cheese
-  breeder: Mephisto
+  breeder: Mephisto Genetics
   type: [Auto, CBD]
   strain: Canna-Cheese
-  link:
+  link: https://www.mephistogenetics.com/strains/canna-cheese-1-1
   stock: 3
   grows: 0
 - seedID: 14
@@ -115,7 +115,7 @@
   breeder: Mephisto Genetics
   type: Auto
   strain: 3 Bears OG
-  link:
+  link: https://www.mephistogenetics.com/strains/3bog
   stock: 2
   grows: 0
 - seedID: 15
@@ -123,6 +123,6 @@
   breeder: Mephisto Genetics
   type: Auto
   strain: Creme De La Chem
-  link: 
+  link: https://www.mephistogenetics.com/strains/creme-de-la-chem
   stock: 2
   grows: 0
