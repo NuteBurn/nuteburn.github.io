@@ -28,3 +28,8 @@ socialmedia:
     link: https://github.com/NuteBurn/nuteburn.github.io
     user: nuteburn
     fa-icon: 'fab fa-github'
+
+  - title: Instagram
+    link: https://www.instagram.com/topbudsonly/
+    user: topbudsonly
+    fa-icon: 'fab fa-instagram'
