@@ -11,7 +11,8 @@
         <th>Strain</th>
         <th>Grows</th>
         <th>Stock</th>
-        {% for seed in breeder.items %}
+        {%- assign items = breeder.items | sort: 'stock' | reverse -%}
+        {% for seed in items %}
             {% if seed.stock > 0 or seed.grows > 0 %}
                 {%- assign stock = seed.stock  -%}        
                 {%- assign sum = sum | plus: stock  -%}

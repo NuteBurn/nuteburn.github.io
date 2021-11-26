@@ -1,6 +1,7 @@
+{%- assign plants = site.data.grows | sort: 'sowDate' -%}
 <h2>Current Grows</h2>
 <div id="growrow" class="flex-container">
-  {% for plant in site.data.grows %}
+  {% for plant in plants %}
       {%- if plant.harvestDate == nil -%}
         {% capture sowDate %}{{plant.sowDate | date: "%j"}}{% endcapture %}
           <div class="growbox">
