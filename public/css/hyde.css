@@ -18,7 +18,7 @@
  * Contents
  *
  * Global resets
- * Markdown cheets
+ * Markdown cheats
  * Sidebar
  * Container
  * Reverse layout
@@ -79,7 +79,7 @@ i.purple {
 /* Image Setting Tags */ 
 /* 2c for 2 Column    */ 
 /* 75 for 75%         */ 
-/* Ill need to figure out 3 columm stacking for mobile */
+/* Ill need to figure out 3 colum stacking for mobile */
 
 img[src *="#2c"] {
   float:left;
@@ -237,11 +237,30 @@ a.sidebar-nav-item:focus {
  padding-bottom: 5px;
  margin: 5px;
 }
-.currentDay {
+.daybox {
+  display: grid;
+}
+
+.currentDay { 
   font-size: 3rem;
   margin-top: -.75rem;
   margin-bottom: -.75rem;
 }
+
+.weekHover {
+  display: none;
+  font-size: .75rem;
+  border-radius: 3px;
+  border:1px;
+  margin-right: 5px;
+  background-color: lightgrey;
+  text-align: center;
+}
+.daybox:hover + .weekHover {
+  display: grid;
+  color:black;
+}
+
 .day {
   font-size: .75rem
 }
