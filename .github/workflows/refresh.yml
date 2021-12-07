@@ -3,7 +3,7 @@ name: Refresh
 
 on:
   schedule:
-    - cron:  '0 1 * * *' # Runs every day at 1am
+    - cron:  '30 6 * * *' # Runs every day at 6:30 am UTC or 12:30am CST
   workflow_dispatch:
     #Allows you to run manually 
 
