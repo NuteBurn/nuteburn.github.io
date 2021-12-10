@@ -11,7 +11,7 @@
               <i class="day">Day:</i><strong class="currentDay">{{currentDay}}</strong>
             </div>
             <div class="weekHover">week:{{ currentDay | divided_by: 7 }}</div>
-            <i class="sown">Sown: {{ plant.sowDate | date: "%m/%d/%y" }}</i>
+            <div class="sown">Sown: {{ plant.sowDate | date: "%m/%d/%y" }}</div>
           </div>
         {%- endif -%}
   {% endfor %}

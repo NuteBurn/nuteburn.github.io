@@ -36,7 +36,7 @@ html {
   font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Truculenta";
+  font-family: "Chicle";
 }
 .page-title,
 .post-title,
@@ -154,7 +154,7 @@ img[src *="#75"] {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Truculenta", sans-serif;
+  font-family: "Chicle", sans-serif;
   font-size: 4.5rem;
   text-align: center;
 }
@@ -246,7 +246,9 @@ a.sidebar-nav-item:focus {
   margin-top: -.75rem;
   margin-bottom: -.75rem;
 }
-
+.sown {
+  font-style: italic;
+}
 .weekHover {
   display: none;
   font-size: .75rem;
@@ -255,6 +257,9 @@ a.sidebar-nav-item:focus {
   margin-right: 5px;
   background-color: lightgrey;
   text-align: center;
+}
+.daybox:hover + div.sown {
+  display: contents;
 }
 .daybox:hover + .weekHover {
   display: grid;
