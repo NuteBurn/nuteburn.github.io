@@ -5,8 +5,9 @@ description:      "Just some asshole with a blog trying to grow some dank-ass we
 url:              https://nuteburn.com
 baseurl:          ""
 paginate:         5
-shareimage:       https://repository-images.githubusercontent.com/340120407/09e95580-7a93-11eb-965a-337880c1006e
+shareimage:       https://repository-images.githubusercontent.com/340120407/f9ffddfc-fa04-430c-bf5e-d97dc2002982
 markdown:         kramdown
+
 # Gems
 plugins:
   - jekyll-paginate
