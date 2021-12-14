@@ -18,7 +18,7 @@ title: Resources
   - American retailer of Blumat products
 - [Pulse VPD Information](https://pulsegrow.com/blogs/learn/vpd)
 
-## Youtubers/Channels
+## Youtube Channels
 
 - [Build a Soil](https://www.youtube.com/c/BuildASoil/)
   - The 10x10 series is a gold mine of knowledge
