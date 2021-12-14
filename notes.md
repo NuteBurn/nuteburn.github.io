@@ -13,14 +13,12 @@ The seeds sprouted on day 3 meaning 3 days after I planted them.
 
 ## Light Info
 
-The Timber 3vl, in the 2x4
+* The Timber 3vl, in the 2x4
+  * [Store Page](https://timbergrowlights.com/model-3vl/)
 
-* [Store Page](https://timbergrowlights.com/model-3vl/)
-
-The Spider Farmer SF-1000, in the 2x2  
-
-* [Hippy Geek Review](https://www.youtube.com/watch?v=EAQyAN4BaHI)
-* [Migro Par Test](https://www.youtube.com/watch?v=qbhvQelsYXg)
+* The Spider Farmer SF-1000, in the 2x2  
+  * [Hippy Geek Review](https://www.youtube.com/watch?v=EAQyAN4BaHI)
+  * [Migro Par Test](https://www.youtube.com/watch?v=qbhvQelsYXg)
 
 ## Grow Environment
 
@@ -54,6 +52,10 @@ Loosely following the "BuildaSoil Way"
 * Repeat LST weekly by tying down new branches and adjusting old ties.
 
 ### Trellis
+
+The trellis is made from 4 foot bamboo stakes cut down to 2 ft and lashed together with soft garden wire to create two 16 cell grids. One is about 6" above the pot and the second is another 6" above that.
+
+As the plants grow I tucked the tops under the bamboo to encourage side growth to grow to create an  even canopy about 8" under the light.
 
 ## Defoliation
 
