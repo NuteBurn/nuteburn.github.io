@@ -25,8 +25,8 @@ title: Resources
 - [Future Cannabis Project](https://www.youtube.com/c/FutureCannabisProject/)
   - I've really been enjoying 'Living Soil Conversations' and 'The Bryan & Marco Show'
 - [Mr.Canuck's Grow](https://www.youtube.com/c/MrCanucksGrowGuide)
+- [Garden Talk](https://www.youtube.com/channel/UC9GzxSYh-Ha3kkC0zfXb5oQ)
 - [Mr.Grow It](https://www.youtube.com/c/MrGrowIt)
-  - [Garden Talk](https://www.youtube.com/channel/UC9GzxSYh-Ha3kkC0zfXb5oQ)
 - [Apogee Instruments](https://www.youtube.com/c/Apogeeinstrumentsincorporated)
   - Science and biology focused on Cannabis
 - [Frenchy Cannoli](https://www.youtube.com/channel/UCgeIHacD5YcF8DISyGrDr6g)
