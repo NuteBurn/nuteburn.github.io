@@ -6,7 +6,7 @@ url:              https://nuteburn.com
 baseurl:          ""
 paginate:         5
 shareimage:       https://repository-images.githubusercontent.com/340120407/09e95580-7a93-11eb-965a-337880c1006e
-
+markdown:         kramdown
 # Gems
 plugins:
   - jekyll-paginate
