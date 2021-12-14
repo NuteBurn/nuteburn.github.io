@@ -5,12 +5,12 @@
     {%- assign breederSum = 0 -%}
     {%- assign breederName = breeder.name -%}
         <thead>
-            <th colspan="3">{{ breederName}}</th>
+            <th colspan="3"><h3>{{ breederName}}</h3></th>
         </thead>
         <tbody>
-        <th>Strain</th>
-        <th>Grows</th>
-        <th>Stock</th>
+        <th><h4>Strain</h4></th>
+        <th><h4>Grows</h4></th>
+        <th><h4>Stock</h4></th>
         {%- assign items = breeder.items | sort: 'stock' | reverse -%}
         {% for seed in items %}
             {% if seed.stock > 0 or seed.grows > 0 %}
