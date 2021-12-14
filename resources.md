@@ -3,15 +3,8 @@ layout: page
 title: Resources
 ---
 
-## Contents
-
-- [Contents](#contents)
-- [Sites](#sites)
-- [Youtube Channels](#youtubers)
-- [Subreddits](#subreddits)
-- [Seeds Banks](#seeds-banks)
-- [Direct Seeds](#direct-seeds)
-- [Chicago Hydro Stores](#chicago-hydro-stores)
+* Do not remove this line (it will not be displayed)
+{:toc}
 
 ## Sites
 

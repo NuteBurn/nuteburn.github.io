@@ -3,17 +3,8 @@ layout: page
 title: Notes
 ---
 
-## Contents
-
-* [Note On Days](#note-on-days)
-* [Light Info](#light-info)
-* [Grow Environment](#grow-environment)
-* [Water](#water)
-* [Feeding](#feeding)
-* [Low Stress Training](#low-stress-training)
-* [Defoliation](#defoliation)
-* [Drying](#drying)
-* [Curring](#curring)
+* Do not remove this line (it will not be displayed)
+{:toc}
 
 ## Note On Days
 
