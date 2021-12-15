@@ -219,56 +219,13 @@ a.sidebar-nav-item:focus {
 }
 
 
+
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
  * with a 25%-wide `.sidebar`.
  */
 
-#growrow {
-  display: flex;
-}
-.growbox {
- display: grid;
- border: darkgray;
- border-style: solid;
- border-radius: 5px;
- padding-left: 5px;
- padding-bottom: 5px;
- margin: 5px;
-}
-.daybox {
-  display: grid;
-}
-
-.currentDay { 
-  font-size: 3rem;
-  margin-top: -.75rem;
-  margin-bottom: -.75rem;
-}
-.sown {
-  font-style: italic;
-}
-.weekHover {
-  display: none;
-  font-size: .75rem;
-  border-radius: 3px;
-  border:1px;
-  margin-right: 5px;
-  background-color: lightgrey;
-  text-align: center;
-}
-.daybox:hover + div.sown {
-  display: contents;
-}
-.daybox:hover + .weekHover {
-  display: grid;
-  color:black;
-}
-
-.day {
-  font-size: .75rem
-}
 .content,
 .datatable {
   padding-top:    4rem;
@@ -292,6 +249,59 @@ a.sidebar-nav-item:focus {
     margin-left: 19rem;
     margin-right: 1rem;
   }
+}
+/* 
+ * Growbox
+ */
+
+ #growrow {
+  display: flex;
+}
+.growbox {
+ display: grid;
+ border: darkgray;
+ border-style: solid;
+ border-radius: 5px;
+ padding-left: 5px;
+ padding-right: 3px;
+ padding-bottom: 5px;
+ margin: 5px;
+}
+.daybox {
+  display: grid;
+}
+
+.currentDay { 
+  font-size: 3rem;
+  margin-top: -.75rem;
+  margin-bottom: -.75rem;
+  font-family: "Chicle";
+}
+.sown {
+  font-style: italic;
+}
+.weekHover {
+  visibility: hidden;
+  font-size: 1rem;
+  border-radius: 3px;
+  border:1px;
+  background-color: lightgrey;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  margin-top: 4rem;
+  width: 6rem;
+}
+.daybox:hover + div.sown {
+  display: contents;
+}
+.daybox:hover .weekHover {
+  visibility: visible;
+  color:black;
+}
+
+.day {
+  font-size: .75rem
 }
 
 /*
