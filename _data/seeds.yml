@@ -2,6 +2,7 @@
   name: Pineapple Express Auto
   breeder: Barney's Farm
   type: auto
+  lifeCycle:
   strain: Pineapple Express
   link: https://www.barneysfarm.com/pineapple-express-auto-37
   stock: 0
@@ -10,6 +11,7 @@
   name: Gorilla Glue Auto
   breeder: Barney's Farm
   type: auto
+  lifeCycle:
   strain: Gorilla Glue
   link: https://www.barneysfarm.com/gorilla-glue-auto-515
   stock: 0
@@ -18,6 +20,7 @@
   name: Original AK Auto Freebie
   breeder: NASC Freebie
   type: auto
+  lifeCycle:
   strain: Original AK
   link:
   stock: 0
@@ -26,6 +29,7 @@
   name: Red Poison Auto
   breeder: Sweet Seeds
   type: auto
+  lifeCycle:
   strain: Red Poison
   link: https://sweetseeds.es/en/red-poison/
   stock: 1
@@ -34,6 +38,7 @@
   name: Bruce Banner Auto Freebie
   breeder: NASC Freebie
   type: Auto
+  lifeCycle:
   strain: Bruce Banner
   link: 
   stock: 0
@@ -42,6 +47,7 @@
   name: Grape Walker Kush
   breeder: Mephisto Genetics
   type: Auto
+  lifeCycle:
   strain: Grape Walker Kush
   link: https://www.mephistogenetics.com/strains/grape-walker-kush
   stock: 0
@@ -50,6 +56,7 @@
   name: Lemon Potion CBD
   breeder: Barney's Farm
   type: [Auto, CBD]
+  lifeCycle:
   strain: Lemon Potion CBD
   link: https://www.barneysfarm.com/cbd-lemon-potion-auto-432
   stock: 0
@@ -58,6 +65,7 @@
   name: Orange Sherbert Auto
   breeder: Fast Buds
   type: Auto
+  lifeCycle:
   strain: Orange Sherbert
   link: https://2fast4buds.com/seeds/orange-sherbet-auto
   stock: 0
@@ -66,6 +74,7 @@
   name: Sour Diesel Auto
   breeder: Fast Buds
   type: Auto
+  lifeCycle:
   strain: Sour Diesel
   link: https://2fast4buds.com/seeds/original-auto-sour-diesel
   stock: 3
@@ -74,6 +83,7 @@
   name: Brooklyn Sunrise Auto
   breeder: Dutch Passion
   type: Auto
+  lifeCycle:
   strain: Brooklyn Sunrise
   link: https://dutch-passion.com/en/cannabis-seeds/auto-brooklyn-sunrise
   stock: 3
@@ -82,6 +92,7 @@
   name: Trizzlers Auto
   breeder: Twenty20 Mendocino
   type: Auto
+  lifeCycle:
   strain: Trizzlers
   link: https://twenty20mendocino.com/trizzlers
   stock: 0
@@ -90,6 +101,7 @@
   name: Hotz
   breeder: Twenty20 Mendocino
   type: Auto
+  lifeCycle:
   strain: Hotz
   link:
   stock: 2
@@ -98,6 +110,7 @@
   name: Wookie Special
   breeder: Mephisto Genetics
   type: Auto
+  lifeCycle:
   strain: Wookie Special 
   link: https://www.mephistogenetics.com/strains/wookie-special
   stock: 5
@@ -106,6 +119,7 @@
   name: Canna-Cheese
   breeder: Mephisto Genetics
   type: [Auto, CBD]
+  lifeCycle:
   strain: Canna-Cheese
   link: https://www.mephistogenetics.com/strains/canna-cheese-1-1
   stock: 3
@@ -114,6 +128,7 @@
   name: 3 Bears OG
   breeder: Mephisto Genetics
   type: Auto
+  lifeCycle:
   strain: 3 Bears OG
   link: https://www.mephistogenetics.com/strains/3bog
   stock: 2
@@ -122,6 +137,7 @@
   name: Creme De La Chem
   breeder: Mephisto Genetics
   type: Auto
+  lifeCycle:
   strain: Creme De La Chem
   link: https://www.mephistogenetics.com/strains/creme-de-la-chem
   stock: 2

@@ -42,7 +42,7 @@
   seed: Trizzlers
   seedID:
   sowDate: 2021-09-19
-  harvestDate:
+  harvestDate: 2021-12-27
   space: 2x2
   pot: 30G
   media: Living Soil Mix
@@ -50,7 +50,7 @@
   seed: Purple Haze
   seedID:
   sowDate: 2021-09-28
-  harvestDate:
+  harvestDate: 2021-12-27
   space: 2x2
   pot: 30G
   media: Living Soil Mix
@@ -58,7 +58,7 @@
   seed: Orange Sherbert
   seedID:
   sowDate: 2021-10-25
-  harvestDate:
+  harvestDate: nil
   space: 2x4
   pot: 7G
   media: BaS Light
@@ -74,7 +74,7 @@
   seed: Red Poison
   seedID:
   sowDate: 2021-11-02
-  harvestDate:
+  harvestDate: nil
   space: 2x4
   pot: 7g
   media: Bas Light
