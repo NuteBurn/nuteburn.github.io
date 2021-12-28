@@ -254,7 +254,7 @@ a.sidebar-nav-item:focus {
  * Growbox
  */
 
- #growrow {
+#growrow {
   display: flex;
 }
 .growbox {
@@ -307,6 +307,7 @@ a.sidebar-nav-item:focus {
 /*
  * Table of Contents
  */
+
  #markdown-toc::before {
   content: "Contents";
   font-weight: bold;
