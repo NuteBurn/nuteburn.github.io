@@ -4,12 +4,18 @@
   {% for plant in plants %}
       {%- if plant.harvestDate == nil -%}
         {% capture sowDate %}{{plant.sowDate | date: "%j"}}{% endcapture %}
-        {%- capture currentDay -%}{{ "now" | date: "%j" | minus: sowDate }}{%- endcapture -%}
+        {%- capture currentDay -%}{{ "now" | date: "%j"}}{%- endcapture -%} 
           <div class="growbox">
             <h4>{{ plant.seed }}</h4>
             <div class="daybox">
-              <i class="day">Day:</i><strong class="currentDay">{{currentDay}}</strong>
-              <span class="weekHover">week:{{ currentDay | divided_by: 7 }}</span>
+            {%- if currentDay < sowDate -%}
+            <i class="day">Day:</i><strong class="currentDay">{{currentDay | minus: sowDate | plus:365}}</strong>
+            <span class="weekHover">week:{{ currentDay | divided_by: 7 }}</span>
+            {%- else -%}
+            <i class="day">Day:</i><strong class="currentDay">{{currentDay | minus: sowDate}}</strong>
+            <span class="weekHover">week:{{ currentDay | divided_by: 7 }}</span>
+            {%- endif -%}
+
             </div>
             <div class="sown">Sown: {{ plant.sowDate | date: "%m/%d/%y" }}</div>
           </div>
