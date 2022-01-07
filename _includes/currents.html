@@ -3,9 +3,10 @@
 <div id="growrow" class="flex-container">
   {% for plant in plants %}
       {%- if plant.harvestDate == nil -%}
+        <!-- 86400 is the # of seconds in a day -->      
         {% capture sowDate %}{{plant.sowDate | date: "%s" | | divided_by: 86400}}{% endcapture %}
         {% capture today %}{{ "now" | date: "%s" | | divided_by: 86400}}{% endcapture %}
-        {%- capture currentDay -%}{{today | minus: sowDate}}{%- endcapture -%} 
+        {% capture currentDay -%}{{today | minus: sowDate}}{%- endcapture %} 
           <div class="growbox">
             <h4>{{ plant.seed }}</h4>
             <div class="daybox">
