@@ -76,5 +76,13 @@
   sowDate: 2021-11-02
   harvestDate: nil
   space: 2x4
-  pot: 7g
+  pot: 7G
   media: Bas Light
+- id: 11
+  seed: HOTZ
+  seedID:
+  sowDate: 2022-01-08
+  harvestDate: 
+  space: 2x2
+  pot: 30G
+  media: Living Soil Mix
