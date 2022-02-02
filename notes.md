@@ -24,8 +24,11 @@ Mid-Flower | 4-6 | 800-1000 | 12 | 35-43
 Late Flower | 1 | 600-800 | 12 | 26-35
 Ripening | 1 | 500-600 | 12 | 22-26
 
+> Source: [Cannabis Grower's Handbook](https://www.edrosenthal.com/edrosenthalstore/cannabisgrowershandbook)
+
+
 ### Photone
-PAR Meters are expensive, so I'm using the next best thing, an app. [Photone](https://growlightmeter.com/)
+PAR Meters are expensive($300-$500), so I'm using the next best thing, a $5 app. [Photone](https://growlightmeter.com/)
 
 While its not on <i class='purple'>par</i> with an actual quantum meter, Shane from Migro thinks its acceptable for the hobbyist. [Migro Review](https://www.youtube.com/watch?v=K3grFZs8spc)
 
@@ -34,7 +37,6 @@ While its not on <i class='purple'>par</i> with an actual quantum meter, Shane f
   * [Store Page](https://timbergrowlights.com/model-3vl/)
 
 * The Spider Farmer SF-1000, in the 2x2  
-  * [Hippy Geek Review](https://www.youtube.com/watch?v=EAQyAN4BaHI)
   * [Migro Par Test](https://www.youtube.com/watch?v=qbhvQelsYXg)
 
 ## Grow Environment
