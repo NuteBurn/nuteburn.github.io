@@ -11,8 +11,25 @@ title: Notes
 Im counting the day I put the seeds in the pot as day 0.  
 The seeds sprouted on day 3 meaning 3 days after I planted them.
 
-## Light Info
+## Lighting
+### DLI
+Grow Stage | # Of Weeks | PPFD | Photoperiod | Average DLI
+---------- | ---------- | ---- | ----------- | -----------
+Stem Cutting | 2 | 150-200 | 24 | 13-17
+Transition | 1 |  200-400 | 18 | 13-26
+Seedling & Veg | 2-3 | 400-600 | 18 | 26-39
+Early Flower | 1-2 | 600-800 | 12 | 26-35
+Mid-Flower | 4-6 | 800-1000 | 12 | 35-43
+Late Flower | 1 | 600-800 | 12 | 26-35
+Ripening | 1 | 500-600 | 12 | 22-26
 
+#### Photone
+PAR Meters are expensive, so I'm using the next best thing, an app. [Photone](https://growlightmeter.com/)
+
+While its not on <i class='purple'>par</i> with an actual quantum meter, Shane from Migro thinks its acceptable for the hobbyist.
+* [Migro Review](https://www.youtube.com/watch?v=K3grFZs8spc)
+
+### My Lights
 * The Timber 3vl, in the 2x4
   * [Store Page](https://timbergrowlights.com/model-3vl/)
 
