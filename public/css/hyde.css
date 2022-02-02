@@ -279,6 +279,7 @@ a.sidebar-nav-item:focus {
 }
 .sown {
   font-style: italic;
+  font-size: .8rem;
 }
 .weekHover {
   visibility: hidden;
@@ -303,6 +304,19 @@ a.sidebar-nav-item:focus {
 .day {
   font-size: .75rem
 }
+
+/*
+ * Note
+ */
+ .note {
+	font-size: 1rem;
+	padding: .5rem;
+	background-color: lightgray;
+	border-left: solid .25rem;
+	font-style: italic;
+	margin-left: 1rem;
+}
+
 
 /*
  * Table of Contents

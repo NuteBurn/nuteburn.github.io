@@ -6,11 +6,6 @@ title: Notes
 * Do not remove this line (it will not be displayed)
 {:toc}
 
-## Note On Days
-
-Im counting the day I put the seeds in the pot as day 0.  
-The seeds sprouted on day 3 meaning 3 days after I planted them.
-
 ## Lighting
 ### DLI
 
@@ -67,8 +62,6 @@ Loosely following the "BuildaSoil Way"
 ## Low Stress Training
 
 * Currently have a bamboo trellis set up in the 2x2, I've been enjoying it more than the clip and tie down method. Its made keeping the canopy even(ish) much easier
-* You can start LST when the plant has developed 4 nodes
-* Repeat LST weekly by tying down new branches and adjusting old ties.
 
 ### Trellis
 
