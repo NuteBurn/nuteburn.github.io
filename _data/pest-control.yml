@@ -12,3 +12,7 @@
   active-ingredient: Spinosad
   purpose: [gnats, caterpillars, thrips, loopers, leaf miners, spider mites]
   status: current
+- name: Neem Oil
+  link: https://www.homedepot.com/p/Bonide-32-oz-Neem-Oil-Fungicide-Miticide-and-Insecticide-Ready-To-Use-0226/203528194
+  purpose: [gnats, white flies, powdery mildew]
+  status: current
