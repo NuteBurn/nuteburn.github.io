@@ -104,8 +104,8 @@
   lifeCycle:
   strain: Hotz
   link:
-  stock: 2
-  grows: 0
+  stock: 1
+  grows: 1
 - seedID: 12
   name: Wookie Special
   breeder: Mephisto Genetics
@@ -141,4 +141,13 @@
   strain: Creme De La Chem
   link: https://www.mephistogenetics.com/strains/creme-de-la-chem
   stock: 2
+  grows: 0
+- seedID: 16
+  name: Grape Walker Kush
+  breeder: Mephisto Genetics
+  type: Auto
+  lifeCycle:
+  strain: Grape Walker Kush
+  link: https://www.mephistogenetics.com/strains/grape-walker-kush
+  stock: 4
   grows: 0

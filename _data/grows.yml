@@ -66,7 +66,7 @@
   seed: Lemon Potion
   seedID:
   sowDate: 2021-10-25
-  harvestDate:
+  harvestDate: nil
   space: 2x4
   pot: 7G
   media: BaS Light
