@@ -53,8 +53,8 @@ Trying to take VPD into consideration these days. Pulse has some great informati
 ## Water
 
 * I haven't been testing my water's pH recently and everything has been fine(I don't believe my issues were pH related)
-* In the 2x2 I have 2 Blumat carrots(1 per plant) with 3 drippers each in a 30 gallon Grassroots Living Soil Pot
-* In the 2x4 Im currently hand watering the little seedlings have 3 carrots (1 per pot/plant) with 3 drippers each in 10 gallon Grassroots Living Soil Pots  
+* In the 2x2 I have 2 Blumat carrots with their Blusoak tape connecting them in a 30 gallon Grassroots Living Soil Pot
+* In the 2x4 Im currently hand watering the little seedlings have 3 carrots (1 per pot/plant) with 4 drippers each in 10 gallon Grassroots Living Soil Pots  
 
 ## Feeding
 
@@ -82,14 +82,13 @@ As the plants grow I tucked the tops under the bamboo to encourage side growth t
 
 ## Drying
 
-* Dry period 7-14 days
-* Dry room environment 65-69 F
-* RH 50-58%
-* Buds should feel "crispy" and stems should snap when bent
-* BuildaSoil says 60/60/16
+* __60/60/16__
   * 60 Degrees
   * 60 % RH
   * 16 Days
+
+* Buds should feel "crispy" and stems should snap when bent
+* I've had success moving the plants to a yellow top bin for the last few days to help preserve the ideal drying conditions longer.
 
 ## Curring
 
