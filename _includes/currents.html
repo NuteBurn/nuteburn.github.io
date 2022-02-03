@@ -11,9 +11,9 @@
             <h4>{{ plant.seed }}</h4>
             <div class="daybox">
               <i class="day">Day:</i><strong class="currentDay">{{currentDay}}</strong>
-              <span class="weekHover">week:{{ currentDay | divided_by: 7 }}</span>
+              <div class="weekHover">week:{{ currentDay | divided_by: 7 }}</div>
+              <div class="sown">Sown: {{ plant.sowDate | date: "%m/%d/%y" }}</div>
             </div>
-            <div class="sown">Sown: {{ plant.sowDate | date: "%m/%d/%y" }}</div>
           </div>
         {%- endif -%}
   {% endfor %}

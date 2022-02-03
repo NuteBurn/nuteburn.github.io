@@ -269,6 +269,7 @@ a.sidebar-nav-item:focus {
 }
 .daybox {
   display: grid;
+  min-width: 6rem;
 }
 
 .currentDay { 
@@ -282,22 +283,21 @@ a.sidebar-nav-item:focus {
   font-size: .8rem;
 }
 .weekHover {
-  visibility: hidden;
+  display: none;
   font-size: 1rem;
   border-radius: 3px;
   border:1px;
   background-color: lightgrey;
   text-align: center;
   z-index: 1;
-  position: absolute;
-  margin-top: 4rem;
-  width: 6rem;
+  width: inherit;
 }
-.daybox:hover + div.sown {
-  display: contents;
+.daybox:hover .sown {
+  display: none; 
 }
 .daybox:hover .weekHover {
   visibility: visible;
+  display: unset;
   color:black;
 }
 
