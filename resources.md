@@ -6,6 +6,11 @@ title: Resources
 * Do not remove this line (it will not be displayed)
 {:toc}
 
+## Books
+
+- [Cannabis Grower's Handbook](https://www.edrosenthal.com/edrosenthalstore/cannabisgrowershandbook)
+  - I have this book, currently working my way through it, great all around resource. 
+
 ## Sites
 
 - [Grow Weed Easy](https://www.growweedeasy.com)
