@@ -1,7 +1,11 @@
 {% assign imageurls = include.links | split: ", " %}
+{% assign max = 100 |  divided_by: imageurls.size %}
+{% if max < 25 %}{% assign max = 25 %}{%- endif -%}
+{% assign maxwidth = max | | minus: 3 | append: '%' %}
 <div id="imagebox" class="flex-container">
 {% for imageurl in imageurls %}
 {% assign imgname = imageurl | split: '/' |  last %}
-<a href="{{imageurl}}" data-lightbox="{{imgname}}" data-title="{{imgname}}"><img class="example-image" src="{{imageurl}}" alt="{{imgname}}"/></a>
+{% assign lightBoxSet = imgname | split: '-' | first %}
+    <a style="max-width: {{ maxwidth }}" href="{{imageurl}}" data-lightbox="{{lightBoxSet}}" data-title="{{imgname}}"><img src="{{imageurl}}" alt="{{imgname}}"/></a>
 {% endfor %}
 </div>
