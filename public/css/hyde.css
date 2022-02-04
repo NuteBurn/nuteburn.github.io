@@ -85,13 +85,13 @@ i.purple {
 #imagebox {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
   box-decoration-break: border-box;
 }
 
 #imagebox img {
-  margin: 1rem;
-  max-width: 15rem
+  margin: .1rem;
 }
 
 
