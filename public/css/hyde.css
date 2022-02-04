@@ -81,6 +81,20 @@ i.purple {
 /* 75 for 75%         */ 
 /* Ill need to figure out 3 colum stacking for mobile */
 
+
+#imagebox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-decoration-break: border-box;
+}
+
+#imagebox img {
+  margin: 1rem;
+  max-width: 15rem
+}
+
+
 img[src *="#2c"] {
   float:left;
   max-width: 46%;       

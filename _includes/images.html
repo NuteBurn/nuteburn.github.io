@@ -1,7 +1,6 @@
-{% assign images = include.link %}
-{%- images | split: ", " %}
-<div id="imagebox" class="flex-container"></div>
-{% for imageurl in images %}
-    <img src="{{ imageurl }}" alt="{{ imageurl }}">
+{% assign imageurls = include.links | split: ", " %}
+<div id="imagebox" class="flex-container">
+{% for imageurl in imageurls %}
+    <img src="{{ imageurl }}" alt="{{imageurl}}">
 {% endfor %}
 </div>
