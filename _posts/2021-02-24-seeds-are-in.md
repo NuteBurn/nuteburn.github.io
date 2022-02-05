@@ -20,6 +20,5 @@ After the bags were filled I poked a little hole ~1 inch in the center, dropped 
 * 1/4 Cup of Dr Earth's Home Grown (4-6-3)
 * Topped with 3 quarts of Happy Frog (1/4 bag)
 
-<span class="pic-row">
-![lids](/public/images/first-run/day1-lids.jpg#2c) ![Day 1 Tent](/public/images/first-run/day1-wholetent.jpg#2c)
-</span>
+
+{% include images.html links="https://res.cloudinary.com/dszg8darx/image/upload/v1644088740/First%20Run/day1-lids.jpg, https://res.cloudinary.com/dszg8darx/image/upload/v1644088740/First%20Run/day1-wholetent.jpg" %}

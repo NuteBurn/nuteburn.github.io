@@ -7,7 +7,7 @@ tags: [ setup, first run, soil]
 ## Grow Tent Complete
 The rest of the grow tent supplies came yesterday and I spent the afternoon putting it all together. I'm very happy with my selections. The AC Infinity Fan is a bit more complex than I thought and it will likely take a little bit of time to get it dialed in for best performance.
 
-![placeholders](/public/images/placeholders.jpeg)
+{% include images.html links="https://res.cloudinary.com/dszg8darx/image/upload/v1644089024/placeholders.jpg" %}
 
 Catnip and basil acting as placeholder until I get the bag filled and seeds planted tomorrow.
 
