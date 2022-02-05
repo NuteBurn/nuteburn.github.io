@@ -60,7 +60,7 @@
   sowDate: 2021-10-25
   harvestDate: nil
   space: 2x4
-  pot: 7G
+  pot: 10G
   media: BaS Light
 - id: 9
   seed: Lemon Potion
@@ -68,7 +68,7 @@
   sowDate: 2021-10-25
   harvestDate: nil
   space: 2x4
-  pot: 7G
+  pot: 10G
   media: BaS Light
 - id: 10
   seed: Red Poison
@@ -76,7 +76,7 @@
   sowDate: 2021-11-02
   harvestDate: nil
   space: 2x4
-  pot: 7G
+  pot: 10G
   media: Bas Light
 - id: 11
   seed: HOTZ
@@ -86,3 +86,27 @@
   space: 2x2
   pot: 30G
   media: Living Soil Mix
+- id: 12
+  seed: Sour Diesel Auto
+  seedID: 8
+  sowDate: 2022-02-04
+  harvestDate: 
+  space: 2x4
+  pot: 10G
+  media: Bas Light
+- id: 13
+  seed: Sour Diesel Auto
+  seedID: 8
+  sowDate: 2022-02-04
+  harvestDate: 
+  space: 2x4
+  pot: 10G
+  media: Bas Light
+- id: 14
+  seed: Sour Diesel Auto
+  seedID: 8
+  sowDate: 2022-02-04
+  harvestDate: 
+  space: 2x4
+  pot: 10G
+  media: Bas Light
