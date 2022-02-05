@@ -77,8 +77,8 @@
   lifeCycle:
   strain: Sour Diesel
   link: https://2fast4buds.com/seeds/original-auto-sour-diesel
-  stock: 3
-  grows: 0
+  stock: 0
+  grows: 3
 - seedID: 9
   name: Brooklyn Sunrise Auto
   breeder: Dutch Passion
