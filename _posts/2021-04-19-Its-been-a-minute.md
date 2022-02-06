@@ -34,7 +34,7 @@ The PE isn't even going to come close to finishing around May 3rd, I feel like i
 
 The Bruce sprouted day 3, 4/13. It was tucked into the corner of the tent and not getting very much light so its a little stunted and leggy. It needed more light to grow so I had to get creative, on Thursday(4/15) I pulled the Bruce from the back of the tent, opened the tent up and put the BB on a box closer to the light.
 
-![Little Helper](public/images/first-run/little-helper.jpg#75)
+{%- include images.html links="https://res.cloudinary.com/dszg8darx/image/upload/v1644088753/First%20Run/little-helper_cgl0si.jpg" -%}
 
 The tent will stay open until I can get this little guy outside. I was hoping around the 2 week mark once it developed a few nodes and some nice leaves, but theres no telling how long now as the plant is already behind where it should be, sorry little lady... It's not ideal but it works. <i class="purple">I need more grow space.</i>
 
@@ -46,4 +46,4 @@ Sometime last week (I think it was Wednesday, 4/14) I chickened out and went bac
 
 ## The Ladies
 
-![Day 54 and a Seedling](public/images/first-run/day-54.jpg#75)
+{%- include images.html links="https://res.cloudinary.com/dszg8darx/image/upload/v1644088753/First%20Run/day-54_gq9esr.jpg" -%}

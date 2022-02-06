@@ -13,10 +13,7 @@ I was looking at the Barney's website last night and they have some pictures of 
 
 The Pineapple Express(left) looks just a little bit smaller than theirs but the AK (Right) looks to be the same size. Nice 👍
 
-<span class="pic-row">
-![My Pineapple Day 10](/public/images/first-run/day13-pineapple.jpeg#2c)
-![AK Day 10](/public/images/first-run/day13-AK.jpeg#2c)
-</span>
+{% include images.html links="https://res.cloudinary.com/dszg8darx/image/upload/v1644088742/First%20Run/day13-pineapple.jpg, https://res.cloudinary.com/dszg8darx/image/upload/v1644088742/First%20Run/day13-AK.jpg" %}
 
 ## Something To Look Forward To
 

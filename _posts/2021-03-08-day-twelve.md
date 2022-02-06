@@ -19,9 +19,10 @@ Backed the light off a few more inches too, from 24" to about 26.5".
 
 ### Pineapple Express
 
-![Day 12 Pineapple](/public/images/first-run/day12-pineapple.jpeg)
+{% include images.html links="https://res.cloudinary.com/dszg8darx/image/upload/v1644088741/First%20Run/day12-pineapple.jpg" %}
 
 ### AK Auto
 
 The AK's leaves look a little weird but I'm not too worried....
-![Day 12 AK](/public/images/first-run/day12-ak.jpeg)
+
+{% include images.html links="https://res.cloudinary.com/dszg8darx/image/upload/v1644088741/First%20Run/day12-ak.jpg" %}
