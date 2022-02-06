@@ -77,10 +77,6 @@ i.purple {
 }
 
 /* Image Setting Tags */ 
-/* 2c for 2 Column    */ 
-/* 75 for 75%         */ 
-/* Ill need to figure out 3 colum stacking for mobile */
-
 
 #imagebox {
   display: flex;
@@ -92,33 +88,6 @@ i.purple {
 
 #imagebox img {
   margin: .1rem;
-}
-
-
-img[src *="#2c"] {
-  float:left;
-  max-width: 46%;       
-  min-width: 45%;
-  margin-left: .5rem ;
-  display: block
-}
-
-img[src *="#3c"] {
-  float:left;
-  max-width: 32%;       
-  min-width: 30%;
-  margin-left: .25rem ;
-  display: block
-}
-
-img[src *="#75"] {
-  max-width: 75%;
-  min-width: 75%;
-  display: block;
-  margin: 1rem auto;
-}
-.pic-row {
-  display: inline-block;
 }
 
 /*

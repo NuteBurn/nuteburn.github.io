@@ -394,9 +394,10 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Chicle","PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
+  font-weight: bolder;
 }
 
 /* Pagination items can be `span`s or `a`s */
