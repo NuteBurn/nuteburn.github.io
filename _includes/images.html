@@ -1,11 +1,7 @@
 {% assign imageurls = include.links | split: ", " %}
 {% assign max = 100 |  divided_by: imageurls.size %}
-{% if max == 100 %}
-    {% assign max = 78 %}
-{% endif %}
-{% if max < 25 %}
-    {% assign max = 25 %}
-{% endif %}
+{% if max == 100 %}{% assign max = 78 %}{% endif %}
+{% if max < 25 %}{% assign max = 25 %}{% endif %}
 {% assign maxwidth = max | | minus: 3 | append: '%' %}
 <div id="imagebox" class="flex-container">
 {% for imageurl in imageurls %}
