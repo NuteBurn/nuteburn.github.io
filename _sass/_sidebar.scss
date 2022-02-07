@@ -15,14 +15,24 @@
       top: 0;
       left: 0;
       bottom: 0;
-      width: 18rem;
+      width: var(--sidebar-width);
       text-align: left;
     }
     .sidebar a {
       padding: 0px !important;
     }
   }
-  
+  @media (min-width: 58em) {
+    html {
+      font-size: 15px;
+    }
+    .sidebar-nav-item {
+      display: block !important;
+    }
+    .sidebar-nav-item::before { 
+      content: none
+    }
+  }
   /* Sidebar links */
   .sidebar a {
     color: #fff;

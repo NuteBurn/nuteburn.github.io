@@ -48,6 +48,8 @@
   --spacer-1: 1rem;
   --spacer-2: calc(var(--spacer) * 1.5);
   --spacer-3: calc(var(--spacer) * 3);
+
+  --sidebar-width: 18rem;
 }
 
 @media (prefers-color-scheme: dark) {
