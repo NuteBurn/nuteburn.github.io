@@ -1,0 +1,10 @@
+ #imagebox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    box-decoration-break: border-box;
+  }
+  #imagebox img {
+    margin: .1rem;
+  }

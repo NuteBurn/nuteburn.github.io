@@ -1,0 +1,104 @@
+#copyright {
+    text-align: center;
+  }
+  .sidebar {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: rgba(255,255,255,.75);
+    background-image: linear-gradient(orange,darkgreen);
+    background-color: darkgreen;
+  }
+  
+  @media (min-width: 48em) {
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 18rem;
+      text-align: left;
+    }
+    .sidebar a {
+      padding: 0px !important;
+    }
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    color: #fff;
+    padding: .25rem;
+  }
+  
+  /* About section */
+  .fas.fa-cannabis {
+      font-size: 6rem;
+    color: darkgreen;
+    text-align: center;
+  }
+  .sidebar-about h1 {
+    color: #fff;
+    margin-top: 0;
+    font-family: "Chicle", sans-serif;
+    font-size: 4.5rem;
+    text-align: center;
+  }
+  /* Changes the italic font in the description */
+  .lead > i {
+      font-size: 0.75rem;
+  }
+  
+  /* Sidebar nav */
+  .sidebar-nav {
+    margin-bottom: .25rem;
+  }
+  .sidebar-nav-item {
+    display: inline;
+    line-height: 1.75;
+  }
+  .sidebar-nav-item::before{
+    content: '\0020  '
+  }
+  a.sidebar-nav-item:hover,
+  a.sidebar-nav-item:focus {
+    color: purple;
+    text-decoration: none;
+  }
+  .sidebar-nav-item.active {
+    font-weight: bold;
+    color: orange;
+  }
+  .sidebar-nav-item.active::after {
+    content: ' \f4d8 ';
+    font-family: FontAwesome;
+    color: orange;
+  }
+  
+  /* Sidebar Social Icons */
+  #social-media {
+    text-align: center;
+    margin-bottom: .25rem;
+  }
+  #social-media .fab,
+  #social-media .fas {
+      padding:  10px;
+      font-size: 2rem;
+    }
+  #social-media .fab:hover,
+  #social-media .fas:hover {
+    color: orange;
+  }
+  
+  /* Sticky sidebar
+   *
+   * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+   * contents to the bottom of the sidebar in tablets and up.
+   */
+  
+  @media (min-width: 48em) {
+    .sidebar-sticky {
+      position: absolute;
+      right:  var(--spacer-1);
+      bottom: var(--spacer-1);
+      left:   var(--spacer-1);
+    }
+  }
