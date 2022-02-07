@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sour Threesel
-tags: Sour Diesel, Fastbuds
+tags: ['Sour Diesel', Fastbuds]
 ---
 
 ## Three Sour D
