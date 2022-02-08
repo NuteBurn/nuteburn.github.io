@@ -1,5 +1,4 @@
-
- #markdown-toc::before {
+#markdown-toc::before {
   content: "Contents";
   font-weight: bold;
   font-family: "Chicle";
@@ -20,16 +19,16 @@
       position: fixed;
       top: 0;
       right: 2rem;
-      color: rgb(49, 49, 49);
-      font-family: "Chicle";
+      color: var(--gray-800);
+      font-family: var(--heading-font);
       background-color: rgba(255,255,255,.75);
   }
 
   #markdown-toc > li > a {
-    color: darkgreen;
+    color: var(--title-color);
   }
   #markdown-toc > li > ul > li > a {
-    color: darkgreen;
+    color: var(--title-color);
   }
   #markdown-toc > li > ul > li {
     list-style: disc;
