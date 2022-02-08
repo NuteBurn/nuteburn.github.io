@@ -20,6 +20,12 @@ author:
   name: "Nute Burn"
   email: nute@nuteburn.com
 
+# SASS
+sass:
+  sass_dir: _sass
+  style: :compressed
+  implementation: sass-embedded
+
 # Social Media Profiles
 socialmedia:
   - title: Reddit

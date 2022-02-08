@@ -1,0 +1,36 @@
+#markdown-toc::before {
+  content: "Contents";
+  font-weight: bold;
+  font-family: "Chicle";
+  font-size: 30px;
+}
+#markdown-toc > li {
+  margin-left: 1.5rem;
+}
+/* TOC Styling for Desktop Only */
+ @media (min-width: 48em) {
+  #markdown-toc ul {
+      list-style: decimal;
+  }
+
+  #markdown-toc {
+      padding: 1.5em;
+      list-style: decimal;
+      position: fixed;
+      top: 0;
+      right: 2rem;
+      color: var(--gray-800);
+      font-family: var(--heading-font);
+      background-color: rgba(255,255,255,.75);
+  }
+
+  #markdown-toc > li > a {
+    color: var(--title-color);
+  }
+  #markdown-toc > li > ul > li > a {
+    color: var(--title-color);
+  }
+  #markdown-toc > li > ul > li {
+    list-style: disc;
+  }
+}

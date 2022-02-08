@@ -1,0 +1,12 @@
+#imagebox {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	box-decoration-break: border-box;
+	img {
+		margin: .1rem;
+		max-height: 400px;
+		object-fit: cover;
+	}
+}
