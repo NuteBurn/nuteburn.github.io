@@ -18,6 +18,9 @@
       width: var(--sidebar-width);
       text-align: left;
     }
+    .sidebar-nav-item {
+      display: block !important;
+    }
     .sidebar a {
       padding: 0px !important;
     }
@@ -41,14 +44,14 @@
   
   /* About section */
   .fas.fa-cannabis {
-      font-size: 6rem;
-    color: darkgreen;
+    font-size: 6rem;
+    color: var(--title-color);
     text-align: center;
   }
   .sidebar-about h1 {
-    color: #fff;
+    color: var(--grey-100);
     margin-top: 0;
-    font-family: "Chicle", sans-serif;
+    font-family: var(--heading-font);
     font-size: 4.5rem;
     text-align: center;
   }
