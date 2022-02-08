@@ -1,14 +1,14 @@
 #markdown-toc::before {
   content: "Contents";
   font-weight: bold;
-  font-family: "Chicle";
+  font-family: var(--heading-font);
   font-size: 30px;
 }
 #markdown-toc > li {
   margin-left: 1.5rem;
 }
 /* TOC Styling for Desktop Only */
- @media (min-width: 48em) {
+ @media (min-width: 64em) {
   #markdown-toc ul {
       list-style: decimal;
   }
