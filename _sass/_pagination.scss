@@ -18,6 +18,8 @@
   text-decoration: none;
   border: solid var(--border-color);
   border-width: 1px 0;
+  width: 50%;
+  float: left;
 
   &:first-child {
     margin-bottom: -1px;
@@ -33,10 +35,7 @@ a.pagination-item:hover {
   .pagination {
     margin: var(--spacer-3) 0;
   }
-
   .pagination-item {
-    float: left;
-    width: 50%;
     border-width: 1px;
 
     &:first-child {
