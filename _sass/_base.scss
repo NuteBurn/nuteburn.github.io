@@ -50,9 +50,10 @@ img {
 
 table {
   margin-bottom: var(--spacer-1);
-  width: 100%;
+  max-width: 100%;
   border: 1 solid var(--border-color);
   border-collapse: collapse;
+  overflow-y: scroll;
 }
 
 td,
@@ -63,7 +64,7 @@ th {
 
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+  background-color: var(--zebra);
 }
 mark {
   padding: .15rem;
