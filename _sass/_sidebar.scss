@@ -4,9 +4,9 @@
   .sidebar {
     text-align: center;
     padding: 2rem 1rem;
-    color: rgba(255,255,255,.75);
-    background-image: linear-gradient(orange,darkgreen);
-    background-color: darkgreen;
+    color: var(--sidebar-color);
+    background-image: var(--sidebar-bg);
+    background-color: var(--sidebar-fb);
   }
   
   @media (min-width: 48em) {
@@ -38,7 +38,7 @@
   }
   /* Sidebar links */
   .sidebar a {
-    color: #fff;
+    color: var(--sidebar-color);
     padding: .25rem;
   }
   
@@ -73,17 +73,21 @@
   }
   a.sidebar-nav-item:hover,
   a.sidebar-nav-item:focus {
-    color: purple;
+    color: var(--link-hover-color);
     text-decoration: none;
+  }
+  a.sidebar-nav-item:hover::before,
+  a.sidebar-nav-item:focus::before {
+    content: "• "
   }
   .sidebar-nav-item.active {
     font-weight: bold;
-    color: orange;
+    color: var(--active-color);
   }
   .sidebar-nav-item.active::after {
     content: ' \f4d8 ';
     font-family: FontAwesome;
-    color: orange;
+    color: var(--active-color);
   }
   
   /* Sidebar Social Icons */
