@@ -41,8 +41,9 @@
 	font-size: 1rem;
 	border-radius: var(--border-radius);
 	border: 0px;
-	background-color: var(--gray-100);
+	background-color: var(--gray-300);
 	text-align: center;
 	z-index: 1;
 	width: inherit;
-}
+	line-height: calc(var(--body-line-height) - .5);
+	}
