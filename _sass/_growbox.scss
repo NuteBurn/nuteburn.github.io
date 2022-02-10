@@ -1,9 +1,10 @@
 #growrow {
 	display: flex;
+	flex-wrap: wrap;
 }
 .growbox {
 	display: grid;
-	border: darkgray;
+	border: var(--border-color);
 	border-style: solid;
 	border-radius: var(--border-radius);
 	padding-left: 5px;
