@@ -5,6 +5,7 @@
   size: 2x4
   price: 420
   status: current
+  category: growing
   quantity:
 - name: Mars Hydro TS 600W
   brand: Mars Hydro
@@ -13,6 +14,7 @@
   size: [veg: 2x2, bloom: 1.5x1.5]
   price: 79.99
   status: returned
+  category: growing
 - name: Spider Farmer SF-1000
   brand: Spider Farmer
   type: Light
@@ -20,6 +22,7 @@
   size: [veg: 3x3, bloom: 2x2]
   price: 151.99
   status: current
+  category: growing
 - name: CoolGrows 24"x24"x48"
   brand: CoolGrows
   type: Tent
@@ -27,6 +30,7 @@
   link: https://www.amazon.com/gp/product/B01GCHXUVU
   price: 119
   status: current
+  category: growing
 - name: Quictent 48"x24"x72"
   brand: Quictent
   type: Tent
@@ -34,6 +38,7 @@
   size: 4'x2'x6'
   price: 115
   status: current
+  category: growing
   quantity: 1
 - name: AC Infinity Cloudline T4
   brand: AC Infinity
@@ -42,6 +47,7 @@
   link: https://www.amazon.com/gp/product/B07VL8FZS1
   price:
   status: current
+  category: growing
   quantity: 2
 - name: Wemo Smart Plug Mini
   brand: Wemo
@@ -49,6 +55,7 @@
   link: https://www.amazon.com/gp/product/B08CJGZZZ1
   price:
   status: current
+  category: growing
   quantity: 2
 - name: Honeywell Cool Mist
   brand: Honeywell
@@ -57,6 +64,7 @@
   link: https://www.honeywellstore.com/store/products/germ-free-cool-mist-humidifier-hcm-350.htm
   price: free
   status: current
+  category: growing
 - name: Ming Wei Grow Bags
   brand: Ming Wei
   type: Grow Bags
@@ -64,11 +72,13 @@
   link: https://www.amazon.com/gp/product/B0746KXXYR
   price:
   status: retired
+  category: growing
 - name: Blumat Drip Irrigation System
   brand: Blumat
   type: Irrigation
   link: https://www.blumat.com/tropf/das-tropf-blumat-system/vorteile
   status: current
+  category: growing
   price:
   quantity: 5 
 - name: Tetra Whisper 10 Gallon
@@ -77,6 +87,7 @@
   link: https://www.chewy.com/tetra-whisper-non-ul-air-pump/dp/133138
   size: 10 Gallon
   status: retired
+  category: growing
   price:
 - name: TeaLabs Brew Bag
   brand: TeaLabs
@@ -85,6 +96,7 @@
   size: 5 Gallon
   price: 24
   status: current
+  category: growing
   quantity: 2
 - name: TeaLabs BubbleSnake Teabrewer
   brand: TeaLabs
@@ -93,6 +105,7 @@
   size: 5 Gallon
   price: 28
   status: current
+  category: growing
   quantity: 1
 - name: GrassRoots Living Soil 30 Gallon
   brand: Grassroots Organics
@@ -101,6 +114,7 @@
   size: 30 gallon
   price: 14.67
   status: current
+  category: growing
   quantity: 1
 - name: GrassRoots Living Soil 10 Gallon
   brand: Grassroots Organics
@@ -109,4 +123,23 @@
   size: 10 gallon
   price: 8.80
   status: current
+  category: growing
   quantity: 3
+- name: Dabpress 4 Ton Rosin Press
+  brand: Dabpress
+  type: Rosin Press
+  link: https://www.dabpress.com/collections/hydraulic-rosin-heat-presses/products/small-rosin-heat-press-machine-starter-kits?variant=19756456968265
+  size: 4 Ton
+  price: 311.20
+  status: current
+  category: post processing
+  quantity: 1
+- name: Dry Sift Screens
+  brand: ILAHUI
+  type: Dry Sift Screens
+  link: https://smile.amazon.com/gp/product/B09M8RZVZX/
+  size: [60lPI, 90LPI, 110LPI, 200LPI]
+  price: 109.90
+  status: current
+  category: post processing
+  quantity: 4
