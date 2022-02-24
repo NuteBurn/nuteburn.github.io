@@ -1,21 +1,22 @@
 {%- assign plants = site.data.grows | sort: 'sowDate' -%}
-<h2>Current Grows</h2>
-<div id="growrow" class="flex-container">
-  {% for plant in plants %}
-      {%- if plant.harvestDate == nil -%}
-        {%- comment -%}86400 is the # of seconds in a day{%- endcomment -%}      
-        {% capture sowDate %}{{plant.sowDate | date: "%s" | divided_by: 86400}}{% endcapture %}
-        {% capture today %}{{ "now" | date: "%s" | divided_by: 86400}}{% endcapture %}
-        {% capture currentDay -%}{{today | minus: sowDate}}{%- endcapture %} 
-          <div class="growbox">
-            <h4>{{ plant.seed }}</h4>
-            <div class="daybox">
-              <i class="day">Day:</i><strong class="currentDay">{{currentDay}}</strong>
-              <div class="weekHover">week:{{ currentDay | divided_by: 7 }}</div>
-              <div class="sown">Sown: {{ plant.sowDate | date: "%m/%d/%y" }}</div>
+<div id="growbox">
+  <h2>Current Grows</h2>
+  <div id="growrow" class="flex-container">
+    {% for plant in plants %}
+        {%- if plant.harvestDate == nil -%}
+          {%- comment -%}86400 is the # of seconds in a day{%- endcomment -%}      
+          {% capture sowDate %}{{plant.sowDate | date: "%s" | divided_by: 86400}}{% endcapture %}
+          {% capture today %}{{ "now" | date: "%s" | divided_by: 86400}}{% endcapture %}
+          {% capture currentDay -%}{{today | minus: sowDate}}{%- endcapture %} 
+            <div class="plantbox">
+              <h4>{{ plant.seed }}</h4>
+              <div class="daybox">
+                <i class="day">Day:</i><strong class="currentDay">{{currentDay}}</strong>
+                <div class="weekHover">week:{{ currentDay | divided_by: 7 }}</div>
+                <div class="sown">Sown: {{ plant.sowDate | date: "%m/%d/%y" }}</div>
+              </div>
             </div>
-          </div>
-        {%- endif -%}
-  {% endfor %}
+          {%- endif -%}
+    {% endfor %}
+  </div>
 </div>
-
