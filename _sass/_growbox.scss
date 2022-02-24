@@ -1,8 +1,14 @@
+#growbox {
+	margin-bottom: 1rem;
+	h1 {
+		color: var(--title-color);
+	}
+}
 #growrow {
 	display: flex;
 	flex-wrap: wrap;
 }
-.growbox {
+.plantbox {
 	display: grid;
 	border: var(--border-color);
 	border-style: solid;
