@@ -1,4 +1,5 @@
-- name: Timber 3vl
+- id: 0 
+  name: Timber 3vl
   brand: Timber Grow Lights
   type: Light
   link: https://timbergrowlights.com/model-3vl/
@@ -7,7 +8,8 @@
   status: current
   category: growing
   quantity:
-- name: Mars Hydro TS 600W
+- id: 1
+  name: Mars Hydro TS 600W
   brand: Mars Hydro
   type: Light
   link: https://www.amazon.com/gp/product/B07VL8FZS1
@@ -15,7 +17,8 @@
   price: 79.99
   status: returned
   category: growing
-- name: Spider Farmer SF-1000
+- id: 2
+  name: Spider Farmer SF-1000
   brand: Spider Farmer
   type: Light
   link: https://www.amazon.com/gp/product/B07TS82HWB
@@ -23,7 +26,8 @@
   price: 151.99
   status: current
   category: growing
-- name: CoolGrows 24"x24"x48"
+- id: 3
+  name: CoolGrows 24"x24"x48"
   brand: CoolGrows
   type: Tent
   size: 2'x2'x4'
@@ -31,7 +35,8 @@
   price: 119
   status: current
   category: growing
-- name: Quictent 48"x24"x72"
+- id: 4
+  name: Quictent 48"x24"x72"
   brand: Quictent
   type: Tent
   link: https://smile.amazon.com/dp/B00WM9KASY
@@ -40,7 +45,8 @@
   status: current
   category: growing
   quantity: 1
-- name: AC Infinity Cloudline T4
+- id: 5
+  name: AC Infinity Cloudline T4
   brand: AC Infinity
   type: Exhaust Fan
   size: 4"
@@ -49,7 +55,8 @@
   status: current
   category: growing
   quantity: 2
-- name: Wemo Smart Plug Mini
+- id: 6
+  name: Wemo Smart Plug Mini
   brand: Wemo
   type: Smart Plug
   link: https://www.amazon.com/gp/product/B08CJGZZZ1
@@ -57,7 +64,8 @@
   status: current
   category: growing
   quantity: 2
-- name: Honeywell Cool Mist
+- id: 7
+  name: Honeywell Cool Mist
   brand: Honeywell
   type: Humidifier
   size: 1 Gallon
@@ -65,7 +73,8 @@
   price: free
   status: current
   category: growing
-- name: Ming Wei Grow Bags
+- id: 8
+  name: Ming Wei Grow Bags
   brand: Ming Wei
   type: Grow Bags
   size: 5 Gallon
@@ -73,7 +82,8 @@
   price:
   status: retired
   category: growing
-- name: Blumat Drip Irrigation System
+- id: 9
+  name: Blumat Drip Irrigation System
   brand: Blumat
   type: Irrigation
   link: https://www.blumat.com/tropf/das-tropf-blumat-system/vorteile
@@ -81,7 +91,8 @@
   category: growing
   price:
   quantity: 5 
-- name: Tetra Whisper 10 Gallon
+- id: 10
+  name: Tetra Whisper 10 Gallon
   brand: Tetra
   type: Air Pump
   link: https://www.chewy.com/tetra-whisper-non-ul-air-pump/dp/133138
@@ -89,7 +100,8 @@
   status: retired
   category: growing
   price:
-- name: TeaLabs Brew Bag
+- id: 11
+  name: TeaLabs Brew Bag
   brand: TeaLabs
   type: Brew Bag
   link: https://buildasoil.com/collections/compost-tea/products/bubblesnake-brew-bag-by-tealab
@@ -98,7 +110,8 @@
   status: current
   category: growing
   quantity: 2
-- name: TeaLabs BubbleSnake Teabrewer
+- id: 12
+  name: TeaLabs BubbleSnake Teabrewer
   brand: TeaLabs
   type: Aerator
   link: https://buildasoil.com/collections/compost-tea/products/bubblesnake-compost-tea-aerator
@@ -107,7 +120,8 @@
   status: current
   category: growing
   quantity: 1
-- name: GrassRoots Living Soil 30 Gallon
+- id: 13
+  name: GrassRoots Living Soil 30 Gallon
   brand: Grassroots Organics
   type: Grow Pot
   link: https://buildasoil.com/collections/containers/products/grassroots-living-soil-pots
@@ -116,7 +130,8 @@
   status: current
   category: growing
   quantity: 1
-- name: GrassRoots Living Soil 10 Gallon
+- id: 14
+  name: GrassRoots Living Soil 10 Gallon
   brand: Grassroots Organics
   type: Grow Pot
   link: https://buildasoil.com/collections/containers/products/grassroots-living-soil-pots
@@ -125,7 +140,8 @@
   status: current
   category: growing
   quantity: 3
-- name: Dabpress 4 Ton Rosin Press
+- id: 15
+  name: Dabpress 4 Ton Rosin Press
   brand: Dabpress
   type: Rosin Press
   link: https://www.dabpress.com/collections/hydraulic-rosin-heat-presses/products/small-rosin-heat-press-machine-starter-kits?variant=19756456968265
@@ -134,12 +150,17 @@
   status: current
   category: post processing
   quantity: 1
-- name: Dry Sift Screens
+- id: 16
+  name: Dry Sift Screens
   brand: ILAHUI
   type: Dry Sift Screens
   link: https://smile.amazon.com/gp/product/B09M8RZVZX/
-  size: [60lPI, 90LPI, 110LPI, 200LPI]
+  size:
+    - 60 LPI
+    - 90 LPI
+    - 110 LPI
+    - 200 LPI
   price: 109.90
   status: current
-  category: post processing
+  category: postprocessing
   quantity: 4

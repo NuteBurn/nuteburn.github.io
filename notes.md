@@ -9,7 +9,7 @@ title: Notes
 ## Lighting
 ### DLI
 
-Grow Stage | # Of Weeks | PPFD | Photoperiod | Average DLI
+Grow Stage | # Of Weeks | PPFD | # Light Hours | Average DLI
 ---|---|---|---|---
 Stem Cutting | 2 | 150-200 | 24 | 13-17
 Transition | 1 |  200-400 | 18 | 13-26
@@ -87,3 +87,23 @@ As the plants grow I tucked the tops under the bamboo to encourage side growth t
 
 * Burp jars a few times daily during the first week
 * Once environment settles you only need to burp every few days
+
+
+## Post Processing
+
+### Sift Screens
+
+__Current set:__ {{ site.data.equipment[16].size | join: ", " | remove: "LPI" }}  
+  
+LPI | Microns
+---|---
+80 | 177
+100 | 149
+120 | 125
+140 | 105
+170 | 88
+200 | 74
+230 | 63
+270 | 53
+
+Most glands are 75-125 microns in diameter.
