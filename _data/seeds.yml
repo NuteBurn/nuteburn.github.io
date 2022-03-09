@@ -50,7 +50,7 @@
   lifeCycle:
   strain: Grape Walker Kush
   link: https://www.mephistogenetics.com/strains/grape-walker-kush
-  stock: 0
+  stock: 3
   grows: 0
 - seedID: 7
   name: Lemon Potion CBD
@@ -60,7 +60,7 @@
   strain: Lemon Potion CBD
   link: https://www.barneysfarm.com/cbd-lemon-potion-auto-432
   stock: 0
-  grows: 1
+  grows: 0
 - seedID: 8
   name: Orange Sherbert Auto
   breeder: Fast Buds
@@ -69,7 +69,7 @@
   strain: Orange Sherbert
   link: https://2fast4buds.com/seeds/orange-sherbet-auto
   stock: 0
-  grows: 1
+  grows: 0
 - seedID: 8
   name: Sour Diesel Auto
   breeder: Fast Buds
