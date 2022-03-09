@@ -28,8 +28,11 @@ title: Resources
 - [Build a Soil](https://www.youtube.com/c/BuildASoil/)
   - The 10x10 series is a gold mine of knowledge
 - [Future Cannabis Project](https://www.youtube.com/c/FutureCannabisProject/)
-  - I've really been enjoying 'Living Soil Conversations' and 'The Bryan & Marco Show'
+  - I've really been enjoying 'Living Soil Conversations', 'The Bryan & Marco Show', and 'The Perfectly Imperfect Grow Show '
+- [Chad Westport](https://www.youtube.com/c/ChadWestport)
+  - Of the FCP family, has content focused on helping beginner. 
 - [Mr.Canuck's Grow](https://www.youtube.com/c/MrCanucksGrowGuide)
+  - The one that started it all for me.
 - [Garden Talk](https://www.youtube.com/channel/UC9GzxSYh-Ha3kkC0zfXb5oQ)
 - [Mr.Grow It](https://www.youtube.com/c/MrGrowIt)
 - [Apogee Instruments](https://www.youtube.com/c/Apogeeinstrumentsincorporated)
@@ -41,11 +44,12 @@ title: Resources
 
 ## Subreddits
 
-- [r/Autoflowers](https://www.reddit.com/r/autoflowers)
 - [r/Microgrowery](https://www.reddit.com/r/microgrowery)
-- [r/MephHeads](https://www.reddit.com/r/MephHeads)
-- [r/OutdoorGrowing](https://www.reddit.com/r/OutdoorGrowing)
 - [r/NoTillGrowery](https://www.reddit.com/r/NoTillGrowery)
+- [r/OutdoorGrowing](https://www.reddit.com/r/OutdoorGrowing)
+- [r/Autoflowers](https://www.reddit.com/r/autoflowers)
+- [r/MephHeads](https://www.reddit.com/r/MephHeads)
+- [r/Rosin](https://www.reddit.com/r/Rosin)
 
 ## Seeds Banks
 
@@ -56,6 +60,7 @@ title: Resources
   - Free seeds with every order
   - Accepts Venmo
   - Will order more
+  - Carries Meph and NightOwl
 
 - [Multiverse Beans](https://multiversebeans.com/)
   - Carries Meph and NightOwl
