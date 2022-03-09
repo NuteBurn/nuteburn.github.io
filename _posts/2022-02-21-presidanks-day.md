@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Presidank's Day
-tags: ['Sour Diesel', Fastbuds, Hotz, Twenty20 ]
+tags: ['Sour Diesel', Hotz ]
+categories: [Fastbuds, Twenty20]
 ---
 
 ## Hotz Day 44
