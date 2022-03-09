@@ -93,8 +93,8 @@ As the plants grow I tucked the tops under the bamboo to encourage side growth t
 
 ### Dry Sift
 
-Dry sifting is best done in cool temps, 60f or lower
-Most glands are 75-125 microns in diameter.
+* Dry sifting is best done in cool temps, 60f or lower
+* Most glands are 75-125 microns in diameter.
 
 __Current set:__ {{ site.data.equipment[16].size | join: ", " | remove: "LPI" }}  
   
