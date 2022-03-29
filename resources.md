@@ -41,6 +41,8 @@ title: Resources
   - The Hash Legend, RIP
 - [From The Stash](https://www.youtube.com/channel/UCc1epQtHrWccCztMK5DDNmA/)
   - Great cannabis podcast with a focus on growing
+- [Grow From Your Heart](https://www.youtube.com/c/TheGrowFromYourHeartPodcast/)
+  - Rasta Jeff of Erie Genetics
 
 ## Subreddits
 
@@ -56,7 +58,6 @@ title: Resources
 - [North Atlantic Seed Company](https://northatlanticseed.com/)
   - Maine ❤️
   - Women owned
-  - Carries Meph
   - Free seeds with every order
   - Accepts Venmo
   - Will order more
@@ -80,3 +81,4 @@ title: Resources
 - [Brew & Grow Chicago](https://www.brewandgrow.com)
 - [Chicago Roots](https://www.chicagoroots.com)
   - Carries Build a Soil products
+  - Has two locations
