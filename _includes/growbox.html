@@ -15,8 +15,8 @@
           {% capture today %}{{ "now" | date: "%s" | divided_by: 86400}}{% endcapture %}
           {% capture currentDay -%}{{today | minus: sowDate}}{%- endcapture %} 
             <div class="plantbox">
-              {% if seed.url != null %}
-              <a href="{{seed.url}}" target="_blank"><h4>{{ plantName }}</h4></a>
+              {% if seed.link != nil %}
+              <a href="{{seed.link}}" target="_blank"><h4>{{ plantName }}</h4></a>
               {% else %}
               <h4>{{ plantName }}</h4>
               {% endif %}
