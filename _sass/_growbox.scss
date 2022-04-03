@@ -8,6 +8,9 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+.titlebox {
+	width: 100%;
+}
 .plantbox {
 	display: grid;
 	border: var(--border-color);
