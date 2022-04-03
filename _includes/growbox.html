@@ -1,15 +1,25 @@
 {%- assign plants = site.data.grows | sort: 'sowDate' -%}
+{% assign seeds = site.data.seeds | sort: 'seedID' %}
 <div id="growbox">
-  <h2>Current Grows</h2>
   <div id="growrow" class="flex-container">
+    <div class="titlebox">
+      <h2>Current Grows</h2>
+    </div>
     {% for plant in plants %}
         {%- if plant.harvestDate == nil -%}
+        {% assign seedNum = plant.seedID %}
+        {% assign plantName = plant.seed %}
+        {% assign seed = seeds.[seedNum] %}
           {%- comment -%}86400 is the # of seconds in a day{%- endcomment -%}      
           {% capture sowDate %}{{plant.sowDate | date: "%s" | divided_by: 86400}}{% endcapture %}
           {% capture today %}{{ "now" | date: "%s" | divided_by: 86400}}{% endcapture %}
           {% capture currentDay -%}{{today | minus: sowDate}}{%- endcapture %} 
             <div class="plantbox">
-              <h4>{{ plant.seed }}</h4>
+              {% if seed.url != null %}
+              <a href="{{seed.url}}" target="_blank"><h4>{{ plantName }}</h4></a>
+              {% else %}
+              <h4>{{ plantName }}</h4>
+              {% endif %}
               <div class="daybox">
                 <i class="day">Day:</i><strong class="currentDay">{{currentDay}}</strong>
                 <div class="weekHover">week:{{ currentDay | divided_by: 7 }}</div>
