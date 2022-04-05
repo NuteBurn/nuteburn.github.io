@@ -1,53 +1,34 @@
-homegrown:
-  name: Dr. Earth's Home Grown
+- name: Dr. Earth's Home Grown
   brand: Dr Earth
   uses: [tomato,vegetable,herb]
   npk: 4-6-3
   link: https://drearth.com/product/home-grown/
-  status: storage
-
-DEAP:
-  name: Dr. Earth's Pure Gold
+  status: current
+- name: Dr. Earth's Pure Gold
   brand: Dr Earth
   uses: All Purpose
   npk: 2-2-2
   link: https://drearth.com/product/pure-gold/
-  status: current
-
-DEFG:
-  name: Dr. Earth's Flower Girl
+  status: out
+- name: Dr. Earth's Flower Girl
   brand: Dr Earth
   uses: Bud and Bloom Booster
   npk: 3-9-4
   link: https://drearth.com/product/flower-girl/
-  status: current
-
-ECU:
-  name: Karma Earthworm Castings
+  status: out
+- name: Karma Earthworm Castings
   brand: Karma Casting
   uses: Soil Enricher
   npk:
   link:
   status: current
-
-BSM:
-  name: Organic Blackstrap Molasses 
-  brand: Wholesome Sweeteners
-  uses: Microbe food
-  npk: 
-  link: https://www.amazon.com/Wholesome-Sweeteners-Blackstrap-Molasses-16/dp/B000QUZXHO
-  status: 
-
-GL:
-  name: Garden Lime
+- name: Garden Lime
   brand: Espoma
   uses: Soil buffer
   npk: 0-0-0
   link: https://www.espoma.com/product/garden-lime-3/
-  status: 
-
-CB:
-  name: Build a Soil Craft Blend
+  status: storage
+- name: Build a Soil Craft Blend
   brand: Build a Soil
   uses: top dress
   npk: 3-5-2

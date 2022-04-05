@@ -151,3 +151,12 @@
   link: https://www.mephistogenetics.com/strains/grape-walker-kush
   stock: 4
   grows: 0
+- seedID: 17
+  name: El Chemi Kiwi
+  breeder: Mephisto Genetics
+  type: Auto
+  lifeCycle:
+  strain: El Chemi Kiwi
+  link: https://www.mephistogenetics.com/strains/53chemikiwi
+  stock: 6
+  grows: 0

@@ -2,16 +2,20 @@
   name: Timber 3vl
   brand: Timber Grow Lights
   type: Light
+  fa-icon: fa-solid fa-lightbulb
+  location: Quictent 2x4
   link: https://timbergrowlights.com/model-3vl/
   size: 2x4
   price: 420
   status: current
   category: growing
   quantity:
+  dop:
 - id: 1
   name: Mars Hydro TS 600W
   brand: Mars Hydro
   type: Light
+  location: 
   link: https://www.amazon.com/gp/product/B07VL8FZS1
   size: [veg: 2x2, bloom: 1.5x1.5]
   price: 79.99
@@ -21,62 +25,79 @@
   name: Spider Farmer SF-1000
   brand: Spider Farmer
   type: Light
+  fa-icon: fa-solid fa-lightbulb
+  location: CoolGrows 2x2
   link: https://www.amazon.com/gp/product/B07TS82HWB
   size: [veg: 3x3, bloom: 2x2]
   price: 151.99
   status: current
   category: growing
+  dop: March 17, 2021 
 - id: 3
-  name: CoolGrows 24"x24"x48"
+  name: CoolGrows 2x2
   brand: CoolGrows
-  type: Tent
+  type: tent
+  fa-icon: fa-solid fa-tent
+  location:
   size: 2'x2'x4'
   link: https://www.amazon.com/gp/product/B01GCHXUVU
   price: 119
   status: current
   category: growing
+  dop: February 12, 2021 
 - id: 4
-  name: Quictent 48"x24"x72"
+  name: Quictent 2x4
   brand: Quictent
-  type: Tent
+  type: tent
+  fa-icon: fa-solid fa-tent
+  location:
   link: https://smile.amazon.com/dp/B00WM9KASY
   size: 4'x2'x6'
   price: 115
   status: current
   category: growing
   quantity: 1
+  dop: Oct 10 2021
 - id: 5
   name: AC Infinity Cloudline T4
   brand: AC Infinity
   type: Exhaust Fan
+  fa-icon: fa-solid fa-fan
+  location: [Quictent 2x4, CoolGrows 2x2] 
   size: 4"
   link: https://www.amazon.com/gp/product/B07VL8FZS1
   price:
   status: current
-  category: growing
+  category: environment
   quantity: 2
+  dop:
 - id: 6
   name: Wemo Smart Plug Mini
   brand: Wemo
   type: Smart Plug
+  fa-icon: fa-solid fa-plug
+  location: [Quictent 2x4, CoolGrows 2x2] 
   link: https://www.amazon.com/gp/product/B08CJGZZZ1
   price:
   status: current
   category: growing
   quantity: 2
+  dop:
 - id: 7
   name: Honeywell Cool Mist
   brand: Honeywell
   type: Humidifier
+  location:
   size: 1 Gallon
   link: https://www.honeywellstore.com/store/products/germ-free-cool-mist-humidifier-hcm-350.htm
   price: free
-  status: current
+  status: environment
   category: growing
 - id: 8
   name: Ming Wei Grow Bags
   brand: Ming Wei
   type: Grow Bags
+  location:
   size: 5 Gallon
   link: https://www.amazon.com/gp/product/B0746KXXYR
   price:
@@ -86,15 +107,19 @@
   name: Blumat Drip Irrigation System
   brand: Blumat
   type: Irrigation
+  fa-icon: fa-solid fa-faucet-drip
+  location: [Quictent 2x4, CoolGrows 2x2] 
   link: https://www.blumat.com/tropf/das-tropf-blumat-system/vorteile
   status: current
   category: growing
   price:
   quantity: 5 
+  dop:
 - id: 10
   name: Tetra Whisper 10 Gallon
   brand: Tetra
   type: Air Pump
+  location:
   link: https://www.chewy.com/tetra-whisper-non-ul-air-pump/dp/133138
   size: 10 Gallon
   status: retired
@@ -104,56 +129,69 @@
   name: TeaLabs Brew Bag
   brand: TeaLabs
   type: Brew Bag
+  location:
   link: https://buildasoil.com/collections/compost-tea/products/bubblesnake-brew-bag-by-tealab
   size: 5 Gallon
   price: 24
   status: current
-  category: growing
+  category: tea
   quantity: 2
+  dop: March 10 2021
 - id: 12
   name: TeaLabs BubbleSnake Teabrewer
   brand: TeaLabs
   type: Aerator
+  location:
   link: https://buildasoil.com/collections/compost-tea/products/bubblesnake-compost-tea-aerator
   size: 5 Gallon
   price: 28
   status: current
-  category: growing
+  category: tea
   quantity: 1
+  dop:
 - id: 13
   name: GrassRoots Living Soil 30 Gallon
   brand: Grassroots Organics
   type: Grow Pot
+  fa-icon: fa-solid fa-seedling
+  location: CoolGrows 2x2
   link: https://buildasoil.com/collections/containers/products/grassroots-living-soil-pots
   size: 30 gallon
   price: 14.67
   status: current
   category: growing
   quantity: 1
+  dop:
 - id: 14
   name: GrassRoots Living Soil 10 Gallon
   brand: Grassroots Organics
   type: Grow Pot
+  fa-icon: fa-solid fa-seedling
+  location: Quictent 2x4
   link: https://buildasoil.com/collections/containers/products/grassroots-living-soil-pots
   size: 10 gallon
   price: 8.80
   status: current
   category: growing
   quantity: 3
+  dop:
 - id: 15
   name: Dabpress 4 Ton Rosin Press
   brand: Dabpress
   type: Rosin Press
+  location:
   link: https://www.dabpress.com/collections/hydraulic-rosin-heat-presses/products/small-rosin-heat-press-machine-starter-kits?variant=19756456968265
   size: 4 Ton
   price: 311.20
   status: current
-  category: post processing
+  category: post-processing
   quantity: 1
+  dop:
 - id: 16
   name: Dry Sift Screens
   brand: ILAHUI
   type: Dry Sift Screens
+  location:
   link: https://smile.amazon.com/gp/product/B09M8RZVZX/
   size:
     - 60 LPI
@@ -162,5 +200,82 @@
     - 200 LPI
   price: 109.90
   status: current
-  category: postprocessing
+  category: post-processing
   quantity: 4
+  dop: February 15, 2022
+- id: 17
+  name: Vivosun 4 Inch Air Carbon Filter
+  brand: Vivosun
+  type: air filter
+  fa-icon: fa-solid fa-industry
+  location: Quictent 2x4
+  link: https://smile.amazon.com/gp/product/B01DXYMBU6/
+  size:
+  price:
+  status: current
+  category: growing
+  quantity: 1
+  dop: Oct 10 2021
+- id: 18
+  name: Vivosun 4 Inch Air Carbon Filter
+  brand: Vivosun
+  type: air filter
+  fa-icon: fa-solid fa-industry
+  location: CoolGrows 2x2
+  link: https://smile.amazon.com/gp/product/B01DXYMBU6/
+  size:
+  price:
+  status: current
+  category: growing
+  quantity: 1
+  dop: February 12 2021
+- id: 19
+  name: EcoPlus ECOair Air Pump 793 GPH
+  brand: EcoPlus
+  type: Airpump
+  location:
+  link: https://smile.amazon.com/gp/product/B002JLJC0W/
+  size: 793 GPH
+  price:
+  status: current
+  category: tea
+  quantity: 1
+  dop: Jul 20 2021
+- id: 20
+  name: Trim Bin
+  brand: Harvest More
+  type: Trim Bin
+  location: 
+  link: https://smile.amazon.com/gp/product/B00L4NJSBE/
+  size: 
+  price: 
+  status: current
+  category: post-processing
+  quantity: 1
+  dop: May 9 2021
+- id: 21
+  name: Holmes Clip Fan
+  brand: Holmes
+  type: fan
+  fa-icon: fa-solid fa-wind
+  location: CoolGrows 2x2
+  link: https://smile.amazon.com/gp/product/B007N4VGZO/
+  size: 6"
+  price:
+  status: current
+  category: growing
+  quantity: 1
+  dop: Feb 12, 2021 
+- id: 22
+  name: Honeywell HT-904
+  brand: Honeywell
+  type: fan
+  fa-icon: fa-solid fa-wind
+  location: Quictent 2x4
+  link: https://smile.amazon.com/gp/product/B001R1Q2C6/
+  size: 
+  price:
+  status: current
+  category: growing
+  quantity: 1
+  dop:  Jul 7, 2021
