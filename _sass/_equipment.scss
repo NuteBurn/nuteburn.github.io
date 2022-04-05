@@ -1,0 +1,27 @@
+#equipmentBox {
+	flex-wrap: wrap;
+	display: flex;
+	margin-bottom: 1rem;
+	h1 {
+		color: var(--title-color);
+	}
+}
+.titlebox {
+	width: 100%;
+}
+.tentBox  {
+	max-width: 48%;
+	display: flex;
+	flex-wrap: wrap;
+	border: var(--border-color);
+	border-style: solid;
+	border-radius: var(--border-radius);
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	margin: 5px;
+}
+.techBox {
+	display: flex;
+	width: 100%;
+}
