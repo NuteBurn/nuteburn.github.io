@@ -12,6 +12,6 @@ The rest of the grow tent supplies came yesterday and I spent the afternoon putt
 Catnip and basil acting as placeholder until I get the bag filled and seeds planted tomorrow.
 
 ## Soil Update
-Stopped by the local hydro store today. Shout out to [Brew & Grow Chicago](https://www.brewandgrow.com/). I picked up {{ site.data.media['DNC'].mdlink }} mix and {{ site.date.media['FFHF'].mdlink}}.
+Stopped by the local hydro store today. Shout out to [Brew & Grow Chicago](https://www.brewandgrow.com/). I picked up {{ site.data.media[0].mdlink }} mix and {{ site.date.media[1].mdlink}}.
 
 I'm going to start the seeds in a small amount of Happy Frog surrounded by the DNC. The idea is that the Happy Frog is mild enough to prevent <i class="orange">nuteburn</i> and let it grow into the hotter DNC soil.
