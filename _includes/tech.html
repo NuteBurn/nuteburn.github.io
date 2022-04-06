@@ -22,25 +22,23 @@
   {%- endfor -%}
   <div class="tentBox">
     <h3><i class="fa-solid fa-flask"></i>&nbsp;Tea Equipment</h3>
-    <ul>
     {% assign TE = hardware | where: "category" , "tea" %}
     {%- for item in TE -%}
-      {%- if item.status == "current" -%}
-      <li>
-        <a href="{{item.link}}">{{ item.name }}</a>
-      </li>
+    <div class="techBox">
+    {%- if item.status == "current" -%}
+      &#9679;&nbsp;<strong>{{ item.type }}:&nbsp;</strong><a href="{{item.link}}">{{ item.name }}</a>
+    </div>
       {%- endif -%}
     {%- endfor -%}
     </ul>
   </div>
   <div class="tentBox">
     <h3><i class="fa-solid fa-bug-slash"></i>&nbsp;Integrated Pest Management</h3>
-    <ul>
      {%- for item in ipm -%}
         {%- if item.status == "current" -%}
-        <li>
-          <a href="{{item.link}}">{{ item.name }}</a>
-        </li>
+        <div class="techBox">
+          &#9679;&nbsp;<a href="{{item.link}}">{{ item.name }}</a>
+        </div>
         {%- endif -%}
      {%- endfor -%}
     </ul>
