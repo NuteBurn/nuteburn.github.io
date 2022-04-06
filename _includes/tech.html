@@ -1,21 +1,48 @@
+{%- assign ipm = site.data.pest-control -%}
+{%- assign hardware = site.data.equipment -%}
+{%- assign tents = hardware | where: "type", "tent" -%}
 <h2 id="current-setup">Current Setup</h2>
-<h3> Hardware </h3>
-<ul>
-  {% for equipment in site.data.equipment %}
-      {%- if equipment.status == "current" -%}
+<div id="equipmentBox" class="flex-container">
+  {%- for tent in tents  -%}
+  {% assign inTent =  hardware | where: "location", tent.name %}
+    <div class="tentBox flex-container">
+      <div class="titlebox">
+        <h2>{% if tent.fa-icon != nil %}<i class="{{tent.fa-icon}}" title="{{tent.type}}">&nbsp;</i>{% endif %}<a href="{{tent.link}}">{{ tent.name }}</a></h2>
+      </div>
+        {% for hw in inTent  %}
+        {%- if hw.status == "current" -%}
+        <div class="techBox">
+            {% if hw.fa-icon != nil %}<i class="{{hw.fa-icon}}" title="{{hw.type}}">&nbsp</i><a href="{{hw.link}}">{{ hw.name }}</a>
+            {% else %}<strong>{{ hw.type }}:</strong><a href="{{hw.link}}">{{ hw.name }}</a>
+            {% endif %}
+        </div>
+        {%- endif -%}
+        {%- endfor -%}
+    </div>
+  {%- endfor -%}
+  <div class="tentBox">
+    <h3><i class="fa-solid fa-flask"></i>&nbsp;Tea Equipment</h3>
+    <ul>
+    {% assign TE = hardware | where: "category" , "tea" %}
+    {%- for item in TE -%}
+      {%- if item.status == "current" -%}
       <li>
-        <strong>{{ equipment.type }}: </strong><a href="{{equipment.link}}">{{ equipment.name }}</a>
+        <a href="{{item.link}}">{{ item.name }}</a>
       </li>
       {%- endif -%}
-  {% endfor %}
-</ul>
-
-<h3>Integrated Pest Management</h3>
-<ul>
- {%- for ipm in site.data.pest-control -%}
-    {%- if ipm.status == "current" -%}
-    <li>
-      <a href="{{ipm.link}}">{{ ipm.name }}</a>
-    </li>
-    {%- endif -%}
- {%- endfor -%}
+    {%- endfor -%}
+    </ul>
+  </div>
+  <div class="tentBox">
+    <h3><i class="fa-solid fa-bug-slash"></i>&nbsp;Integrated Pest Management</h3>
+    <ul>
+     {%- for item in ipm -%}
+        {%- if item.status == "current" -%}
+        <li>
+          <a href="{{item.link}}">{{ item.name }}</a>
+        </li>
+        {%- endif -%}
+     {%- endfor -%}
+    </ul>
+  </div>
+</div>
