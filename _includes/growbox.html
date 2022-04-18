@@ -1,4 +1,5 @@
 {%- assign plants = site.data.grows | sort: 'sowDate' -%}
+{%- assign plantCount = plants | size -%}
 {% assign seeds = site.data.seeds | sort: 'seedID' %}
 <div id="growbox">
   <div id="growrow" class="flex-container">
@@ -6,27 +7,31 @@
       <h2>Current Grows</h2>
     </div>
     {% for plant in plants %}
-        {%- if plant.harvestDate == nil -%}
-        {% assign seedNum = plant.seedID %}
-        {% assign plantName = plant.seed %}
-        {% assign seed = seeds.[seedNum] %}
+      {%- if plant.harvestDate == nil -%}
+      {% assign plantCount = plantCount | minus: 1 %}
+      {% assign seedNum = plant.seedID %}
+      {% assign plantName = plant.seed %}
+      {% assign seed = seeds.[seedNum] %}
           {%- comment -%}86400 is the # of seconds in a day{%- endcomment -%}      
           {% capture sowDate %}{{plant.sowDate | date: "%s" | divided_by: 86400}}{% endcapture %}
           {% capture today %}{{ "now" | date: "%s" | divided_by: 86400}}{% endcapture %}
           {% capture currentDay -%}{{today | minus: sowDate}}{%- endcapture %} 
             <div class="plantbox">
               {% if seed.link != nil %}
-              <a href="{{seed.link}}" target="_blank"><h4>{{ plantName }}</h4></a>
-              {% else %}
-              <h4>{{ plantName }}</h4>
-              {% endif %}
-              <div class="daybox">
-                <i class="day">Day:</i><strong class="currentDay">{{currentDay}}</strong>
-                <div class="weekHover">week:{{ currentDay | divided_by: 7 }}</div>
-                <div class="sown">Sown: {{ plant.sowDate | date: "%m/%d/%y" }}</div>
+                <a href="{{seed.link}}" target="_blank"><h4>{{ plantName }}</h4></a>
+                {% else %}
+                <h4>{{ plantName }}</h4>
+                {% endif %}
+                <div class="daybox">
+                  <i class="day">Day:</i><strong class="currentDay">{{currentDay}}</strong>
+                  <div class="weekHover">week:{{ currentDay | divided_by: 7 }}</div>
+                  <div class="sown">Sown: {{ plant.sowDate | date: "%m/%d/%y" }}</div>
+                </div>
               </div>
-            </div>
-          {%- endif -%}
+              {%- endif -%}         
     {% endfor %}
+    {%- if plants | size == plantCount -%}
+      <p> Nothing currently growing, check back soon. </p>
+    {%- endif -%}
   </div>
 </div>
