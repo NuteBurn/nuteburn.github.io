@@ -77,7 +77,7 @@
   harvestDate: nil
   space: 2x4
   pot: 10G
-  media: Bas Light
+  media: BaS Light
 - id: 11
   seed: HOTZ
   seedID: 11
@@ -93,7 +93,7 @@
   harvestDate: 2022-04-16
   space: 2x4
   pot: 10G
-  media: Bas Light
+  media: BaS Light
 - id: 13
   seed: Sour Diesel Auto
   seedID: 8
@@ -101,7 +101,7 @@
   harvestDate: 2022-04-16
   space: 2x4
   pot: 10G
-  media: Bas Light
+  media: BaS Light
 - id: 14
   seed: Sour Diesel Auto
   seedID: 8
@@ -109,4 +109,36 @@
   harvestDate: 2022-04-16
   space: 2x4
   pot: 10G
-  media: Bas Light
+  media: BaS Light
+- id: 15
+  seed: Canna-Cheese
+  seedID: 13
+  sowDate: 2022-04-30
+  harvestDate:
+  space: 2x2
+  pot: 30G
+  media: Living Soil Mix
+- id: 16
+  seed: Brooklyn Sunrise Auto
+  seedID: 9
+  sowDate: 2022-04-30
+  harvestDate:
+  space:
+  pot:
+  media: BaS Light
+- id: 17
+  seed: Brooklyn Sunrise Auto
+  seedID: 9
+  sowDate: 2022-04-30
+  harvestDate:
+  space:
+  pot:
+  media: BaS Light
+- id: 18
+  seed: Brooklyn Sunrise Auto
+  seedID: 9
+  sowDate: 2022-04-30
+  harvestDate:
+  space:
+  pot:
+  media: BaS Light

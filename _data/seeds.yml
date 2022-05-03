@@ -86,8 +86,8 @@
   lifeCycle:
   strain: Brooklyn Sunrise
   link: https://dutch-passion.com/en/cannabis-seeds/auto-brooklyn-sunrise
-  stock: 3
-  grows: 0
+  stock: 0
+  grows: 3
 - seedID: 10
   name: Trizzlers Auto
   breeder: Twenty20 Mendocino
@@ -122,8 +122,8 @@
   lifeCycle:
   strain: Canna-Cheese
   link: https://www.mephistogenetics.com/strains/canna-cheese-1-1
-  stock: 3
-  grows: 0
+  stock: 2
+  grows: 1
 - seedID: 14
   name: 3 Bears OG
   breeder: Mephisto Genetics
