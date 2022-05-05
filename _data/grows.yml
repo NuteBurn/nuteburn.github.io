@@ -114,7 +114,7 @@
   seed: Canna-Cheese
   seedID: 13
   sowDate: 2022-04-30
-  harvestDate:
+  harvestDate: 2022-04-30
   space: 2x2
   pot: 30G
   media: Living Soil Mix
@@ -122,23 +122,23 @@
   seed: Brooklyn Sunrise Auto
   seedID: 9
   sowDate: 2022-04-30
-  harvestDate:
-  space:
-  pot:
+  harvestDate: 
+  space: 2x4
+  pot: 10G
   media: BaS Light
 - id: 17
   seed: Brooklyn Sunrise Auto
   seedID: 9
-  sowDate: 2022-04-30
-  harvestDate:
-  space:
-  pot:
+  sowDate: 
+  harvestDate: 
+  space: 2x4
+  pot: 10G
   media: BaS Light
 - id: 18
   seed: Brooklyn Sunrise Auto
   seedID: 9
   sowDate: 2022-04-30
-  harvestDate:
-  space:
-  pot:
+  harvestDate: 
+  space: 2x4
+  pot: 10G
   media: BaS Light

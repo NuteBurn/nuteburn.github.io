@@ -8,7 +8,7 @@
     </div>
     {% for plant in plants %}
       {%- if plant.harvestDate == nil -%}
-      {% assign plantCount = plantCount | minus: 1 %}
+      {% assign count = plantCount | minus: 1 %}
       {% assign seedNum = plant.seedID %}
       {% assign plantName = plant.seed %}
       {% assign seed = seeds.[seedNum] %}
@@ -30,8 +30,8 @@
               </div>
               {%- endif -%}         
     {% endfor %}
-    {%- if plants | size == plantCount -%}
-      <p> Nothing currently growing, check back soon. </p>
+    {%- if plantCount == count -%}
+      <p> Nothing is currently growing, check back soon. </p>
     {%- endif -%}
   </div>
 </div>
