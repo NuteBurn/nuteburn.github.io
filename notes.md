@@ -47,9 +47,19 @@ Trying to take VPD into consideration these days. Pulse has some great informati
 
 ## Water
 
-* I haven't been testing my water's pH recently and everything has been fine(I don't believe my issues were pH related)
+* I don't check regularly, but its usually around 6.4 out of the tap.
 * In the 2x2 I have 2 Blumat carrots with their Blusoak tape connecting them in a 30 gallon Grassroots Living Soil Pot
-* In the 2x4 Im currently hand watering the little seedlings have 3 carrots (1 per pot/plant) with 4 drippers each in 10 gallon Grassroots Living Soil Pots  
+* In the 2x4 I have 3 carrots (1 per pot/plant) with 4 drippers each in 10 gallon Grassroots Living Soil Pots
+
+### Moisture Meter
+Recently picked up the Blumat digital moisture meter for the 30gal so I can dial in my irrigation. I plan to eventually get a cheaper reotemp meter and calibrate it to the 30gal and use that for the 10gals and house plants.
+
+Condition | Measure (Mbar)
+---|---
+Saturated, very moist to moist | 10-40
+Moist to moderately moist | 50-120 (target zone)
+Dry to severely desiccated, irrigate range | 120-190
+Dry - Irrigation Urgently Necessary | 200-300
 
 ## Feeding
 
@@ -70,8 +80,11 @@ The trellis is made from 4 foot bamboo stakes cut down to 2 ft and lashed togeth
 As the plants grow I tucked the tops under the bamboo to encourage side growth to grow to create an  even canopy about 8" under the light.
 
 ## Defoliation
-
-* You can start to defoliate after the first week of flower. No sooner tho as to prevent stressing and stunting the plant.
+I've been terrified to defoliate more than a few leaves at a time in flower. I know I need to be better about it, especially in the 2x2 where space is limited. These are some videos I've seen that have helped me.
+* Rasta Jeff suggests taking off any leaves that have a purple petioles(stems). He thinks if the petioles has gone purple its been around long enough and is safe to remove.
+  * [Grow From The Heart #732: Defoliation](https://www.youtube.com/watch?v=4lXASFVDu0A)
+* Guru mentions that older leaves are less efficient at photosynthesis than newer/younger growth.
+  * [Dude Grows: Leaf Stripping](https://www.youtube.com/watch?v=iq_AgBGJ4AU)
 
 ## Drying
 
@@ -108,3 +121,4 @@ LPI | Microns
 200 | 74
 230 | 63
 270 | 53
+
