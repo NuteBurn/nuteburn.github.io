@@ -22,7 +22,7 @@ author:
 # SASS
 sass:
   sass_dir: _sass
-  style: :compressed
+  style: compressed
   implementation: sass-embedded
 
 # Social Media Profiles
@@ -41,3 +41,8 @@ socialmedia:
     link: https://www.instagram.com/topbudsonly/
     user: topbudsonly
     fa-icon: 'fab fa-instagram'
+
+  - title: Email
+    link: "mailto:nute@nuteburn.com"
+    user: NuteBurn
+    fa-icon: 'fa-solid fa-envelope'

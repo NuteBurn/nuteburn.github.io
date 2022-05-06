@@ -96,12 +96,14 @@
     margin-bottom: .25rem;
   }
   #social-media .fab,
-  #social-media .fas {
+  #social-media .fas,
+  #social-media .fa-solid {
       padding:  10px;
       font-size: 2rem;
     }
   #social-media .fab:hover,
-  #social-media .fas:hover {
+  #social-media .fas:hover,
+  #social-media .fa-solid:hover {
     color: orange;
   }
   
