@@ -32,7 +32,7 @@
   lifeCycle:
   strain: Red Poison
   link: https://sweetseeds.es/en/red-poison/
-  stock: 1
+  stock: 0
   grows: 2
 - seedID: 5
   name: Bruce Banner Auto Freebie
@@ -104,7 +104,7 @@
   lifeCycle:
   strain: Hotz
   link:
-  stock: 1
+  stock: 0
   grows: 1
 - seedID: 12
   name: Wookie Special
