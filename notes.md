@@ -38,12 +38,10 @@ While its not on <i class='purple'>par</i> with an actual quantum meter, Shane f
 
 Trying to take VPD into consideration these days. Pulse has some great information on [VPD here](https://pulsegrow.com/blogs/learn/vpd)
 
-* Temp:
-  *  <i class="green">Veg</i> : 70-85F
-  *  <i class="purple">Flower</i> : 65-80F  
-* Humidity
-  * <i class="green">Veg</i> : 40-60%
-  * <i class="purple">Flower</i> : 40-50%
+Stage | RH | Temp 
+---|---|---
+<i class="green">Veg</i> | 40-60% | 70-85F
+<i class="purple">Flower</i> | 40-50% | 65-80F 
 
 ## Water
 
