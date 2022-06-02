@@ -1,7 +1,9 @@
 ## Contents
 
+- [Contents](#contents)
 - [About](#about)
 - [Actions](#actions)
+  - [Tokens](#tokens)
 - [SASS](#sass)
 - [Dark Mode](#dark-mode)
 
