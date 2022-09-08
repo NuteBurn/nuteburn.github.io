@@ -50,7 +50,7 @@
   lifeCycle:
   strain: Grape Walker Kush
   link: https://www.mephistogenetics.com/strains/grape-walker-kush
-  stock: 3
+  stock: 5
   grows: 0
 - seedID: 7
   name: Lemon Potion CBD
@@ -143,15 +143,6 @@
   stock: 2
   grows: 0
 - seedID: 16
-  name: Grape Walker Kush
-  breeder: Mephisto Genetics
-  type: Auto
-  lifeCycle:
-  strain: Grape Walker Kush
-  link: https://www.mephistogenetics.com/strains/grape-walker-kush
-  stock: 4
-  grows: 0
-- seedID: 17
   name: El Chemi Kiwi
   breeder: Mephisto Genetics
   type: Auto
