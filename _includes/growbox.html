@@ -7,7 +7,7 @@
       <h2>Current Grows</h2>
     </div>
     {% for plant in plants %}
-      {%- if plant.harvestDate == nil and plant.harvestDate != nil -%}
+      {%- if plant.harvestDate == nil and plant.sowDate != nil -%}
       {% assign count = plantCount | minus: 1 %}
       {% assign seedNum = plant.seedID %}
       {% assign plantName = plant.seed %}
