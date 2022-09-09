@@ -13,7 +13,7 @@ This site costs me the price of the domain, $12/year, reach out if you're intere
 
 ## Actions
 Theres a github action setup to rebuild the site at 06:30am UTC(12:30am CST) The yml file is in the .github directory.  
-This keeps is mainly to keep the day counter in the currents.html updated everyday.
+This is mainly to keep the day counter in the currents.html updated everyday.
 
 ### Tokens
  * Settings > dev settings > repo token 
