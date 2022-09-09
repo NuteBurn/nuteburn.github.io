@@ -1,5 +1,6 @@
 {%- assign plants = site.data.grows | sort: 'sowDate' -%}
 {%- assign plantCount = plants | size -%}
+{% assign count = plantCount %}
 {% assign seeds = site.data.seeds | sort: 'seedID' %}
 <div id="growbox">
   <div id="growrow" class="flex-container">
@@ -8,7 +9,7 @@
     </div>
     {% for plant in plants %}
       {%- if plant.harvestDate == nil and plant.sowDate != nil -%}
-      {% assign count = plantCount | minus: 1 %}
+      {% increment count %}
       {% assign seedNum = plant.seedID %}
       {% assign plantName = plant.seed %}
       {% assign seed = seeds.[seedNum] %}
