@@ -9,7 +9,7 @@
     </div>
     {% for plant in plants %}
       {%- if plant.harvestDate == nil and plant.sowDate != nil -%}
-      {% increment count %}
+      {%- capture count -%}{% increment count %}{%- endcapture -%}
       {% assign seedNum = plant.seedID %}
       {% assign plantName = plant.seed %}
       {% assign seed = seeds.[seedNum] %}
