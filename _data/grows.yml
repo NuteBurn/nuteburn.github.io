@@ -145,7 +145,7 @@
 - id: 19
   seed: El Chemi Kiwi
   seedID: 16
-  sowDate:
+  sowDate: 2022-09-10
   harvestDate:
   space: 2x2
   pot: 30G
@@ -153,7 +153,7 @@
 - id: 20
   seed: Grape Walker Kush
   seedID: 6
-  sowDate:
+  sowDate: 2022-09-10
   harvestDate:
   space: 2x4
   pot: 10G
@@ -161,7 +161,7 @@
 - id: 21
   seed: Grape Walker Kush
   seedID: 6
-  sowDate:
+  sowDate: 2022-09-10
   harvestDate:
   space: 2x4
   pot: 10G
@@ -169,7 +169,7 @@
 - id: 22
   seed: Grape Walker Kush
   seedID: 6
-  sowDate:
+  sowDate: 2022-09-10
   harvestDate:
   space: 2x4
   pot: 10G
