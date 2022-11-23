@@ -37,6 +37,11 @@ socialmedia:
     user: nuteburn
     fa-icon: 'fab fa-github'
 
+  - title: Mastodon
+    link: https://cannabiscats.cafe/@NuteBurn
+    user: NuteBurn
+    fa-icon: 'fab fa-mastodon'
+
   - title: Instagram
     link: https://www.instagram.com/topbudsonly/
     user: topbudsonly

@@ -30,9 +30,11 @@
     </nav>
     <nav class="sidebar-social sidebar-nav-item" id="social-media">
       {%- for profile in site.socialmedia %}
-        <a target="_blank" rel="noopener noreferrer" href="{{ profile.link }}" title="{{ profile.title }}"><i class="{{ profile.fa-icon }} social-icon"></i></a>
+        <a target="_blank" rel="noopener noreferrer me" href="{{ profile.link }}" title="{{ profile.title }}"><i class="{{ profile.fa-icon }} social-icon"></i></a>
       {% endfor %} 
     </nav>
     <p id="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
+
+<a rel="me" href="https://cannabiscats.cafe/@NuteBurn">Mastodon</a>
