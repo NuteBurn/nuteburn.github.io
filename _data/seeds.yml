@@ -50,8 +50,8 @@
   lifeCycle:
   strain: Grape Walker Kush
   link: https://www.mephistogenetics.com/strains/grape-walker-kush
-  stock: 5
-  grows: 0
+  stock: 2
+  grows: 3
 - seedID: 7
   name: Lemon Potion CBD
   breeder: Barney's Farm
@@ -149,5 +149,5 @@
   lifeCycle:
   strain: El Chemi Kiwi
   link: https://www.mephistogenetics.com/strains/53chemikiwi
-  stock: 6
-  grows: 0
+  stock: 5
+  grows: 1
