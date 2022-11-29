@@ -5,10 +5,14 @@ description:      "Just some asshole with a blog trying to grow some dank-ass we
 url:              https://nuteburn.com
 baseurl:          '/'
 permalink:        /:title
-paginate:         5
 shareimage:       https://repository-images.githubusercontent.com/340120407/f9ffddfc-fa04-430c-bf5e-d97dc2002982
+
 # Kramdown is used to generate the TOC on pages
 markdown:         kramdown
+
+# Pagination
+paginate:         5
+paginate_path: "/blog/page:num/"
 
 # Gems
 plugins:
