@@ -38,4 +38,4 @@ __Software:__ Vanilla Mastodon 4
  * Nothing fancy, I was thinking about using hometown but I wanted those v4 features.
  * There were a few gotcha's following mastodon's official documentation but nothing a few DDG searchs couldn't fix  
 
-__Domain:__ [cannbiscats.cafe](https://cannabiscats.cafe) less than $10/year
+__Domain:__ [cannabiscats.cafe](https://cannabiscats.cafe) less than $10/year
