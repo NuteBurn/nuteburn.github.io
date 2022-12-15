@@ -11,7 +11,7 @@ title: Mastodon
 
 With the #TwitterMigration happening I've seen a lot of interest in Mastodon grow over the last few weeks, so I've decided to take another go at hosting an instance. 
 
-__It's important that the cannabis community move off of the profit driven platforms that have long ostracized them.__
+__I believe it's important that the cannabis community move off of the profit driven platforms that have long ostracized them.__
 
 In that spirit I have stacked out some space in the fediverse on the cheap (as is tradition around here) and setup camp.
 
