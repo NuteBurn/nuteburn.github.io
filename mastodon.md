@@ -2,10 +2,10 @@
 layout: page
 title: Mastodon
 ---
-# cannbisCatsCafe  
+# cannabisCatsCafe  
 
 > I'm just here for the link, dude  
->[cannbiscats.cafe](https://cannabiscats.cafe)
+>[cannabiscats.cafe](https://cannabiscats.cafe)
 
 ## Context 
 
