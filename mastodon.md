@@ -2,7 +2,7 @@
 layout: page
 title: Mastodon
 ---
-# cannabisCatsCafe  
+# CannabisCatsCafe  
 
 > I'm just here for the link, dude  
 >[cannabiscats.cafe](https://cannabiscats.cafe)
