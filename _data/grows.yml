@@ -174,3 +174,27 @@
   space: 2x4
   pot: 10G
   media: BaS Light
+- id: 23
+  seed: Wookie Special
+  seedID: 12
+  sowDate: 2023-01-04
+  harvestDate: 
+  space: 2x4
+  pot: 10G
+  media: BaS Light
+- id: 24
+  seed: Wookie Special
+  seedID: 12
+  sowDate: 2023-01-04
+  harvestDate: 
+  space: 2x4
+  pot: 10G
+  media: BaS Light
+- id: 25
+  seed: Wookie Special
+  seedID: 12
+  sowDate: 2023-01-04
+  harvestDate: 
+  space: 2x4
+  pot: 10G
+  media: BaS Light
