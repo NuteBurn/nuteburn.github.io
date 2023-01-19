@@ -175,26 +175,34 @@
   pot: 10G
   media: BaS Light
 - id: 23
-  seed: Wookie Special
-  seedID: 12
-  sowDate: 2023-01-04
+  seed: Meph Freebie SN x SW
+  seedID:
+  sowDate: 2023-01-17
   harvestDate: 
   space: 2x4
   pot: 10G
   media: BaS Light
 - id: 24
-  seed: Wookie Special
-  seedID: 12
-  sowDate: 2023-01-04
+  seed: Meph Freebie SN x SW
+  seedID:
+  sowDate: 2023-01-17
   harvestDate: 
   space: 2x4
   pot: 10G
   media: BaS Light
 - id: 25
-  seed: Wookie Special
-  seedID: 12
-  sowDate: 2023-01-04
+  seed: Meph Freebie SN x SW
+  seedID:
+  sowDate: 2023-01-17
   harvestDate: 
   space: 2x4
   pot: 10G
   media: BaS Light
+- id: 26
+  seed: Meph Freebie CQ x MS
+  seedID:
+  sowDate: 2023-01-17
+  harvestDate: 
+  space: 2x2
+  pot: 30G
+  media: Living Soil Mix
