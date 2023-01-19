@@ -151,3 +151,21 @@
   link: https://www.mephistogenetics.com/strains/53chemikiwi
   stock: 5
   grows: 1
+- seedID: 17
+  name: Meph Freebie SN x SW
+  breeder: Mephisto Genetics
+  type: Auto
+  lifeCycle:
+  strain: Strawberry Nuggets x Skywalker
+  link: https://www.mephistogenetics.com
+  stock: 2
+  grows: 1
+- seedID: 18
+  name: Meph Freebie CQ x MS
+  breeder: Mephisto Genetics
+  type: Auto
+  lifeCycle:
+  strain: Cosmic Queen x Mango Smile
+  link: https://www.mephistogenetics.com
+  stock: 1
+  grows: 1
