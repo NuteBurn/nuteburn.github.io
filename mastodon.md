@@ -31,12 +31,13 @@ What I ended up settling on breaks down to less than $10 a month. Not too shabby
 
 ## Setup
 
-__Server:__ Renting a VPS from a host in Chicago(spend local) for $7+tax a month. 
+### __Server:__ Renting a VPS from a host in Chicago(spend local) for $7+tax a month. 
 * Getting me a single core cpu with 6gb of ram and 50gb of storage on an SSD, running ubuntu 22.04(I'm scared of change, whatever)
 
-__Software:__ Vanilla Mastodon 4.1.2 (as of 5.2.23)
+### __Software:__ Vanilla Mastodon 4.1.2 (as of 5.2.23)
  * Nothing fancy, I was thinking about using hometown but I wanted those v4 features
    * At the time Hometown was still using v3 but now that Hometown has been updated I may actually look into switching
  * There were a few gotcha's following mastodon's official documentation but nothing a few DDG searches couldn't fix  
-* Updating from 4.0.2 to 4.1.2 was pretty easy following the official docs
-__Domain:__ [cannabiscats.cafe](https://cannabiscats.cafe) less than $10/year
+* Updating from 4.0.2 to 4.1.2 was pretty easy following the official docs  
+
+### __Domain:__ [cannabiscats.cafe](https://cannabiscats.cafe) less than $10/year
