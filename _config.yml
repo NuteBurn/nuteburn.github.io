@@ -31,10 +31,6 @@ sass:
 
 # Social Media Profiles
 socialmedia:
-  - title: Reddit
-    link: https://www.reddit.com/user/Nute-burn
-    user: Nute-Burn
-    fa-icon: 'fab fa-reddit'
 
   - title: GitHub
     link: https://github.com/NuteBurn/nuteburn.github.io
@@ -45,11 +41,6 @@ socialmedia:
     link: https://cannabiscats.cafe/@NuteBurn
     user: NuteBurn
     fa-icon: 'fab fa-mastodon'
-
-  - title: Instagram
-    link: https://www.instagram.com/topbudsonly/
-    user: topbudsonly
-    fa-icon: 'fab fa-instagram'
 
   - title: Email
     link: "mailto:nute@nuteburn.com"
