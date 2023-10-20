@@ -52,6 +52,9 @@ Stage | RH | Temp
 ### Moisture Meter
 Recently picked up the Blumat digital moisture meter for the 30gal so I can dial in my irrigation. I plan to eventually get a cheaper reotemp meter and calibrate it to the 30gal and use that for the 10gals and house plants.
 
+> BuildASoil recently started selling Blumats and recommend aiming for 50-80 in living Soil
+> https://www.youtube.com/watch?v=uS5wSIlSaB8t=942
+
 Condition | Measure (Mbar)
 ---|---
 Saturated, very moist to moist | 10-40
