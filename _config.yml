@@ -37,10 +37,10 @@ socialmedia:
     user: nuteburn
     fa-icon: 'fab fa-github'
 
-#  - title: Mastodon
-#    link: https://cannabiscats.cafe/@NuteBurn
-#    user: NuteBurn
-#    fa-icon: 'fab fa-mastodon'
+  - title: Mastodon
+    link: https://masto.nuteburn.com/@Nute
+    user: NuteBurn
+    fa-icon: 'fab fa-mastodon'
 
   - title: Email
     link: "mailto:nute@nuteburn.com"
