@@ -169,3 +169,21 @@
   link: https://www.mephistogenetics.com
   stock: 1
   grows: 1
+- seedID: 19
+  name: Blue Dream
+  breeder: NASC Freebie
+  type: Photo
+  lifeCycle:
+  strain: Blue Dream
+  link:
+  stock: 0
+  grows: 2
+- seedID: 20
+  name: Santa Muerte
+  breeder: NASC Freebie
+  type: Photo
+  lifeCycle:
+  strain: Santa Muerte
+  link:
+  stock: 0
+  grows: 2

@@ -154,13 +154,13 @@
   brand: Grassroots Organics
   type: Grow Pot
   fa-icon: fa-solid fa-seedling
-  location: CoolGrows 2x2
+  location: Quictent 2x4
   link: https://buildasoil.com/collections/containers/products/grassroots-living-soil-pots
   size: 30 gallon
   price: 14.67
   status: current
   category: growing
-  quantity: 1
+  quantity: 2
   dop:
 - id: 14
   name: GrassRoots Living Soil 10 Gallon
@@ -171,7 +171,7 @@
   link: https://buildasoil.com/collections/containers/products/grassroots-living-soil-pots
   size: 10 gallon
   price: 8.80
-  status: current
+  status: retired
   category: growing
   quantity: 3
   dop:
@@ -258,11 +258,11 @@
   brand: Holmes
   type: fan
   fa-icon: fa-solid fa-wind
-  location: CoolGrows 2x2
+  location:
   link: https://smile.amazon.com/gp/product/B007N4VGZO/
   size: 6"
   price:
-  status: current
+  status: retired
   category: growing
   quantity: 1
   dop: Feb 12, 2021 
@@ -271,11 +271,11 @@
   brand: Honeywell
   type: fan
   fa-icon: fa-solid fa-wind
-  location: Quictent 2x4
+  location:
   link: https://smile.amazon.com/gp/product/B001R1Q2C6/
   size: 
   price:
-  status: current
+  status: retired
   category: growing
   quantity: 1
   dop:  Jul 7, 2021

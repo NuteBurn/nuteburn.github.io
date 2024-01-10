@@ -206,3 +206,35 @@
   space: 2x2
   pot: 30G
   media: Living Soil Mix
+- id: 27
+  seed: Santa Muerte
+  seedID: 20
+  sowDate: 2024-01-10
+  harvestDate:
+  space: 2x2
+  pot: Solo Cup
+  media: Seed starting mix
+- id: 28
+  seed: Santa Muerte
+  seedID: 20
+  sowDate: 2024-01-10
+  harvestDate:
+  space: 2x2
+  pot: Solo Cup
+  media: Seed starting mix
+- id: 29
+  seed: Blue Dream
+  seedID: 19
+  sowDate: 2024-01-10
+  harvestDate:
+  space: 2x2
+  pot: Solo Cup
+  media: Seed starting mix
+- id: 30
+  seed: Blue Dream
+  seedID: 19
+  sowDate: 2024-01-10
+  harvestDate:
+  space: 2x2
+  pot: Solo Cup
+  media: Seed starting mix
