@@ -1,5 +1,6 @@
 #copyright {
     text-align: center;
+    display: none;
   }
   .sidebar {
     text-align: center;
@@ -9,7 +10,7 @@
     background-color: var(--sidebar-fb);
   }
   
-  @media (min-width: 48em) {
+  @media (min-width: 48em) {  
     .sidebar {
       position: fixed;
       top: 0;
@@ -23,6 +24,9 @@
     }
     .sidebar a {
       padding: 0px !important;
+    }
+    #copyright {
+      display: block;
     }
   }
   @media (min-width: 58em) {

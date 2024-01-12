@@ -4,13 +4,13 @@
 	margin-bottom: 1rem;
 	h1 {
 		color: var(--title-color);
+		text-shadow: 2px 2px var(--accent-shadow);
 	}
 }
-.titlebox {
+.techTitlebox {
 	width: 100%;
 }
 .tentBox  {
-	max-width: 48%;
 	display: flex;
 	flex-wrap: wrap;
 	border: var(--border-color);
@@ -20,6 +20,7 @@
 	padding-right: 5px;
 	padding-bottom: 5px;
 	margin: 5px;
+	box-shadow: 2px 2px 2px var(--accent-shadow);
 }
 .techBox {
 	display: flex;

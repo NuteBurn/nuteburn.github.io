@@ -2,13 +2,14 @@
 	margin-bottom: 1rem;
 	h1 {
 		color: var(--title-color);
+		text-shadow: 2px 2px var(--accent-shadow);
 	}
 }
 #growrow {
 	display: flex;
 	flex-wrap: wrap;
 }
-.titlebox {
+.growTitlebox {
 	width: 100%;
 }
 .plantbox {
@@ -20,6 +21,8 @@
 	padding-right: 5px;
 	padding-bottom: 5px;
 	margin: 5px;
+	box-shadow:
+	 2px 2px 2px var(--accent-shadow);
 }
 .daybox {
 	display: grid;

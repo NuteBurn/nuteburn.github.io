@@ -3,7 +3,7 @@
   brand: Timber Grow Lights
   type: Light
   fa-icon: fa-solid fa-lightbulb
-  location: Quictent 2x4
+  location: The 2x4
   link: https://timbergrowlights.com/model-3vl/
   size: 2x4
   price: 420
@@ -17,7 +17,7 @@
   type: Light
   location: 
   link: https://www.amazon.com/gp/product/B07VL8FZS1
-  size: [veg: 2x2, bloom: 1.5x1.5]
+  size:
   price: 79.99
   status: returned
   category: growing
@@ -26,7 +26,7 @@
   brand: Spider Farmer
   type: Light
   fa-icon: fa-solid fa-lightbulb
-  location: CoolGrows 2x2
+  location: The 2x2
   link: https://www.amazon.com/gp/product/B07TS82HWB
   size: [veg: 3x3, bloom: 2x2]
   price: 151.99
@@ -34,7 +34,7 @@
   category: growing
   dop: March 17, 2021 
 - id: 3
-  name: CoolGrows 2x2
+  name: The 2x2
   brand: CoolGrows
   type: tent
   fa-icon: fa-solid fa-tent
@@ -46,7 +46,7 @@
   category: growing
   dop: February 12, 2021 
 - id: 4
-  name: Quictent 2x4
+  name: The 2x4
   brand: Quictent
   type: tent
   fa-icon: fa-solid fa-tent
@@ -63,7 +63,7 @@
   brand: AC Infinity
   type: Exhaust Fan
   fa-icon: fa-solid fa-fan
-  location: [Quictent 2x4, CoolGrows 2x2] 
+  location: [The 2x4, The 2x2] 
   size: 4"
   link: https://www.amazon.com/gp/product/B07VL8FZS1
   price:
@@ -76,7 +76,7 @@
   brand: Wemo
   type: Smart Plug
   fa-icon: fa-solid fa-plug
-  location: [Quictent 2x4, CoolGrows 2x2] 
+  location: [The 2x4, The 2x2] 
   link: https://www.amazon.com/gp/product/B08CJGZZZ1
   price:
   status: current
@@ -108,7 +108,7 @@
   brand: Blumat
   type: Irrigation
   fa-icon: fa-solid fa-faucet-drip
-  location: [Quictent 2x4, CoolGrows 2x2] 
+  location: The 2x4 
   link: https://www.blumat.com/tropf/das-tropf-blumat-system/vorteile
   status: current
   category: growing
@@ -154,7 +154,7 @@
   brand: Grassroots Organics
   type: Grow Pot
   fa-icon: fa-solid fa-seedling
-  location: Quictent 2x4
+  location: The 2x4
   link: https://buildasoil.com/collections/containers/products/grassroots-living-soil-pots
   size: 30 gallon
   price: 14.67
@@ -167,7 +167,7 @@
   brand: Grassroots Organics
   type: Grow Pot
   fa-icon: fa-solid fa-seedling
-  location: Quictent 2x4
+  location:
   link: https://buildasoil.com/collections/containers/products/grassroots-living-soil-pots
   size: 10 gallon
   price: 8.80
@@ -208,7 +208,7 @@
   brand: Vivosun
   type: air filter
   fa-icon: fa-solid fa-industry
-  location: Quictent 2x4
+  location: The 2x4
   link: https://smile.amazon.com/gp/product/B01DXYMBU6/
   size:
   price:
@@ -221,7 +221,7 @@
   brand: Vivosun
   type: air filter
   fa-icon: fa-solid fa-industry
-  location: CoolGrows 2x2
+  location: The 2x2
   link: https://smile.amazon.com/gp/product/B01DXYMBU6/
   size:
   price:

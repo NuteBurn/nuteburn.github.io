@@ -44,10 +44,12 @@
   --title-color: var(--dark-green);
   --heading-color: var(--gray-900);
   --heading-font: "Chicle","Segoe script",var(--body-font);
+
+  --accent-shadow: var(--orange);
   
   --tag-color: var(--orange);
   
-  --border-color: var(--gray-800);
+  --border-color: black;
   --border-radius: .25rem;
   
   --spacer-1: 1rem;
@@ -69,14 +71,16 @@
     --link-color: var(--blue);
     --link-hover-color: var(--yellow-100);
 
-    --border-color: rgba(255,255,255,.15);
+    --border-color: var(--blue-300);
     --zebra:var(--gray-900);
-    --heading-color: var(--blue-300);
-    --title-color: var(--grape);
+    --heading-color: var(--grape);
+    --title-color: var(--blue-300);
     --tag-color: var(--yellow-100);
     
     --sidebar-bg: linear-gradient(var(--blue-300),var(--grape));
     --sidebar-color: var(--gray-800);
     --active-color: var(--gray-100);
+
+    --accent-shadow:var(--grape);
   }
 }
