@@ -58,13 +58,11 @@ title: Resources
 - [North Atlantic Seed Company](https://northatlanticseed.com/)
   - Maine ❤️
   - Women owned
-  - Free seeds with every order
-  - Accepts Venmo
+  - Carries great breeders
+  - Freebies with every order
   - Will order more
-  - Carries Meph and NightOwl
 
 - [Multiverse Beans](https://multiversebeans.com/)
-  - Carries Meph and NightOwl
   - Good reputation on reddit
   - Haven't ordered, but likely will
  
@@ -76,9 +74,11 @@ title: Resources
   - Mephisto Freebies!
   - Accepts credit cards 
 
-## Chicago Hydro Stores
+## Chicago Grow Stores
 
 - [Brew & Grow Chicago](https://www.brewandgrow.com)
 - [Chicago Roots](https://www.chicagoroots.com)
   - Carries Build a Soil products
   - Has two locations
+- [Christy Webber Farm and Garden](https://www.cwfng.com/)
+  - Not "Grow" focused but sells plenty of organic gardening supplies
