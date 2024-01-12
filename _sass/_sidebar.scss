@@ -40,6 +40,7 @@
   .sidebar a {
     color: var(--sidebar-color);
     padding: .25rem;
+    font-weight: bold;
   }
   
   /* About section */
@@ -74,11 +75,7 @@
   a.sidebar-nav-item:hover,
   a.sidebar-nav-item:focus {
     color: var(--link-hover-color);
-    text-decoration: none;
-  }
-  a.sidebar-nav-item:hover::before,
-  a.sidebar-nav-item:focus::before {
-    content: "• "
+    font-weight: bolder;
   }
   .sidebar-nav-item.active {
     font-weight: bold;
@@ -99,7 +96,7 @@
   #social-media .fas,
   #social-media .fa-solid {
       padding:  10px;
-      font-size: 1.3rem;
+      font-size: 2rem;
     }
   #social-media .fab:hover,
   #social-media .fas:hover,
