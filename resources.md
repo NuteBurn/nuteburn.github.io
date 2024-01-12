@@ -64,15 +64,15 @@ title: Resources
 
 - [Multiverse Beans](https://multiversebeans.com/)
   - Good reputation on reddit
-  - Haven't ordered, but likely will
+  - Haven't ordered, but I might
  
-## Direct Seeds
+## Breeders
 
 - [Mephisto Genetics](https://www.mephistogenetics.com/)
-  - 'Best of the best'
-  - American grower
-  - Mephisto Freebies!
-  - Accepts credit cards 
+  - 'Best of the best' for autos
+- [https://robinhoodseeds.com/](https://robinhoodseeds.com/)
+  - Bargain brand for Square One Genetics
+  - NASC carries them
 
 ## Chicago Grow Stores
 
