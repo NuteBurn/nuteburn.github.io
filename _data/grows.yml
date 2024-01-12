@@ -210,6 +210,7 @@
   seed: Santa Muerte
   seedID: 20
   sowDate: 2024-01-10
+  flipDate:
   harvestDate:
   space: 2x2
   pot: Solo Cup
@@ -218,6 +219,7 @@
   seed: Santa Muerte
   seedID: 20
   sowDate: 2024-01-10
+  flipDate:
   harvestDate:
   space: 2x2
   pot: Solo Cup
@@ -226,6 +228,7 @@
   seed: Blue Dream
   seedID: 19
   sowDate: 2024-01-10
+  flipDate:
   harvestDate:
   space: 2x2
   pot: Solo Cup
@@ -234,6 +237,7 @@
   seed: Blue Dream
   seedID: 19
   sowDate: 2024-01-10
+  flipDate:
   harvestDate:
   space: 2x2
   pot: Solo Cup
