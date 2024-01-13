@@ -39,7 +39,7 @@
   --body-bg: var(--white);
 
   --link-color: var(--blue);
-  --link-hover-color: var(--dark-purple);
+  --link-hover-color: var(--gray-600);
   
   --title-color: var(--dark-green);
   --heading-color: var(--gray-900);
@@ -52,9 +52,11 @@
   --border-color: black;
   --border-radius: .25rem;
   
+  --spacer: 1rem;
   --spacer-1: 1rem;
   --spacer-2: calc(var(--spacer) * 1.5);
   --spacer-3: calc(var(--spacer) * 3);
+  --half-spacer: calc(var(--spacer) / 2);
   
   --sidebar-width: 18rem;
   --sidebar-bg: linear-gradient(orange,var(--dark-green));
