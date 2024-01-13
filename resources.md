@@ -53,24 +53,26 @@ title: Resources
 - [r/MephHeads](https://www.reddit.com/r/MephHeads)
 - [r/Rosin](https://www.reddit.com/r/Rosin)
 
+## Lemmy Communities
+
+- [!Trees@lemmy.world](https://lemmy.world/c/trees)
+
 ## Seeds Banks
 
 - [North Atlantic Seed Company](https://northatlanticseed.com/)
   - Maine ❤️
   - Women owned
-  - Carries great breeders
+  - Great selection
   - Freebies with every order
-  - Will order more
 
 - [Multiverse Beans](https://multiversebeans.com/)
   - Good reputation on reddit
-  - Haven't ordered, but I might
  
 ## Breeders
 
 - [Mephisto Genetics](https://www.mephistogenetics.com/)
   - 'Best of the best' for autos
-- [https://robinhoodseeds.com/](https://robinhoodseeds.com/)
+- [Robinhood Seeds](https://robinhoodseeds.com/)
   - Bargain brand for Square One Genetics
   - NASC carries them
 
