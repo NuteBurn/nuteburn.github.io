@@ -10,6 +10,9 @@
     <div class="tentBox flex-container">
       <div class="titlebox">
         <h2><i class="{{tent.fa-icon}}" title="{{tent.type}}">&nbsp;</i>{{ tent.name }}</h2>
+        {%- if tent.description != nil -%}
+          <p>{{ tent.description }}</p>
+        {%- endif -%}
       </div>
         {% for hw in inTent  %}
         {%- if hw.status == "current" -%}
@@ -28,7 +31,7 @@
     {%- for item in TE -%}
     <div class="techBox">
     {%- if item.status == "current" -%}
-      &#9679;&nbsp;<strong>{{ item.type }}:&nbsp;</strong><a href="{{item.link}}">{{ item.name }}</a>
+      &#9687;&nbsp;<strong>{{ item.type }}:&nbsp;</strong><a href="{{item.link}}">{{ item.name }}</a>
     </div>
       {%- endif -%}
     {%- endfor -%}
@@ -39,7 +42,7 @@
      {%- for item in ipm -%}
         {%- if item.status == "current" -%}
         <div class="techBox">
-          &#9679;&nbsp;<a href="{{item.link}}">{{ item.name }}</a>
+          &#9687;&nbsp;<a href="{{item.link}}">{{ item.name }}</a>
         </div>
         {%- endif -%}
      {%- endfor -%}

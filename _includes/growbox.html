@@ -2,6 +2,8 @@
 {%- assign plantCount = plants | size -%}
 {% assign count = plantCount %}
 {% assign seeds = site.data.seeds | sort: 'seedID' %}
+{% capture today %}{{ "now" | date: "%s" | divided_by: 86400}}{% endcapture %}
+{%- comment -%}86400 is the # of seconds in a day{%- endcomment -%}      
 <div id="growbox">
   <div id="growrow" class="flex-container">
     <div class="growTitlebox">
@@ -14,9 +16,7 @@
       {% assign plantName = plant.seed %}
       {% assign seed = seeds.[seedNum] %}
       {% assign seedType = seeds.type %}
-          {%- comment -%}86400 is the # of seconds in a day{%- endcomment -%}      
           {% capture sowDate %}{{plant.sowDate | date: "%s" | divided_by: 86400}}{% endcapture %}
-          {% capture today %}{{ "now" | date: "%s" | divided_by: 86400}}{% endcapture %}
           {% capture currentDay -%}{{today | minus: sowDate}}{%- endcapture %} 
             <div class="plantbox">
               {% if seed.link != nil %}

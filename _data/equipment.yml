@@ -36,6 +36,7 @@
 - id: 3
   name: The 2x2
   brand: CoolGrows
+  description: "Seed starting and cloning tent"
   type: tent
   fa-icon: fa-solid fa-tent
   location:
@@ -47,6 +48,7 @@
   dop: February 12, 2021 
 - id: 4
   name: The 2x4
+  description: "Two 30 Gallon GrassRoots Living Soil Pots, one with BuildaSoil Light and the other with a living soil mix. This is the veg and flower tent"
   brand: Quictent
   type: tent
   fa-icon: fa-solid fa-tent
@@ -279,3 +281,42 @@
   category: growing
   quantity: 1
   dop:  Jul 7, 2021
+- id: 23
+  name: AC Infinity 6" Clip-on 
+  brand: AC Infinity
+  type: fan
+  fa-icon: fa-solid fa-wind
+  location: [ The 2x2 , The 2x4 ]
+  link: https://acinfinity.com/hydroponics-growers/circulation/circulator-clip-fans/cloudray-a6-grow-tent-clip-fan-6-with-10-speeds-ec-motor-manual-swivel/
+  size: 6"
+  price:
+  status: current
+  category: growing
+  quantity: 2
+  dop:
+- id: 26
+  name: 2x4 Trellis Net
+  brand: AC Infinity
+  type: Trellis
+  fa-icon: fa-solid fa-table-cells
+  location: The 2x4
+  link:
+  size: 2x4
+  price:
+  status: current
+  category: growing
+  quantity: 1
+  dop:
+- id: 27
+  name: FloraFlex Humidity Dome 
+  brand: FloraFlex
+  type: 
+  fa-icon: fa-solid fa-leaf
+  location: The 2x2
+  link: https://floraflex.com/default/shop/plant-propagation/kits/incubator-kit-incubator-kit-22-99-usd
+  size: 
+  price:
+  status: current
+  category: cloning
+  quantity: 
+  dop: January 8, 2024
