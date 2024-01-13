@@ -47,7 +47,7 @@ Stage | RH | Temp
 
 * I don't check regularly, but its usually around 6.4 out of the tap.
 * In the 2x4 I have 2 carrots and 3 feet of drip tape in one 30 gal and in the other I have 3 carrots with 4 drippers each.
-  * I'll likely be replacing the dripper with drip tape eventually
+  * I'll likely be replacing the drippers with drip tape, eventually.
 
 ### Moisture Meter
 
