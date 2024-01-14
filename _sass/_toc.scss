@@ -4,33 +4,31 @@
   font-family: var(--heading-font);
   font-size: 30px;
 }
+#markdown-toc {
+  font-family: var(--heading-font);
+  list-style: decimal;
+}
 #markdown-toc > li {
   margin-left: 1.5rem;
 }
+#markdown-toc > li > a {
+  color: var(--title-color);
+}
+#markdown-toc > li > ul > li > a {
+  color: var(--title-color);
+}
+#markdown-toc > li > ul > li {
+  list-style: disc;
+}
+
 /* TOC Styling for Desktop Only */
  @media (min-width: 64em) {
-  #markdown-toc ul {
-      list-style: decimal;
-  }
-
   #markdown-toc {
       padding: 1.5em;
-      list-style: decimal;
       position: fixed;
       top: 0;
       right: 2rem;
       color: var(--gray-800);
-      font-family: var(--heading-font);
       background-color: rgba(255,255,255,.75);
-  }
-
-  #markdown-toc > li > a {
-    color: var(--title-color);
-  }
-  #markdown-toc > li > ul > li > a {
-    color: var(--title-color);
-  }
-  #markdown-toc > li > ul > li {
-    list-style: disc;
   }
 }
