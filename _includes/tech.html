@@ -1,51 +1,58 @@
-{%- assign ipm = site.data.pest-control -%}
-{%- assign hardware = site.data.equipment -%}
-{%- assign tents = hardware | where: "type", "tent" -%}
+{%- assign ipm = site.data.pest-control -%} {%- assign hardware =
+site.data.equipment -%} {%- assign tents = hardware | where: "type", "tent" -%}
+{%- assign postProcess = hardware | where: "category", "post-processing" -%}
 <div id="equipmentBox" class="flex-container">
   <div class="techTitlebox">
     <h1 id="current-setup">Current Setup</h1>
   </div>
-  {%- for tent in tents  -%}
-  {% assign inTent =  hardware | where: "location", tent.name %}
-    <div class="tentBox flex-container">
-      <div class="titlebox">
-        <h2><i class="{{tent.fa-icon}}" title="{{tent.type}}">&nbsp;</i>{{ tent.name }}</h2>
-        {%- if tent.description != nil -%}
-          <p>{{ tent.description }}</p>
-        {%- endif -%}
-      </div>
-        {% for hw in inTent  %}
-        {%- if hw.status == "current" -%}
-        <div class="techBox">
-            {% if hw.fa-icon != nil %}<i class="{{hw.fa-icon}}" title="{{hw.type}}">&nbsp</i><a href="{{hw.link}}">{{ hw.name }}</a>
-            {% else %}<strong>{{ hw.type }}:</strong><a href="{{hw.link}}">{{ hw.name }}</a>
-            {% endif %}
-        </div>
-        {%- endif -%}
-        {%- endfor -%}
+  {%- for tent in tents -%} {% assign inTent = hardware | where: "location",
+  tent.name %}
+  <div class="tentBox flex-container">
+    <div class="titlebox">
+      <h2>
+        <i class="{{tent.fa-icon}}" title="{{tent.type}}">&nbsp;</i>{{ tent.name
+        }}
+      </h2>
+      {%- if tent.description != nil -%}
+      <p>{{ tent.description }}</p>
+      {%- endif -%}
     </div>
-  {%- endfor -%}
-  <div class="tentBox">
-    <h3><i class="fa-solid fa-flask"></i>&nbsp;Tea Equipment</h3>
-    {% assign TE = hardware | where: "category" , "tea" %}
-    {%- for item in TE -%}
+    {% for hw in inTent %} {%- if hw.status == "current" -%}
     <div class="techBox">
-    {%- if item.status == "current" -%}
+      {% if hw.fa-icon != nil %}<i class="{{hw.fa-icon}}" title="{{hw.type}}">&nbsp</i><a href="{{hw.link}}">{{ hw.name
+        }}</a> {% else %}<strong>{{ hw.type }}:</strong><a href="{{hw.link}}">{{ hw.name }}</a>
+      {% endif %}
+    </div>
+    {%- endif -%} {%- endfor -%}
+  </div>
+  {%- endfor -%}
+  <div id="tea" class="tentBox">
+    <h3><i class="fa-solid fa-flask"></i>&nbsp;Tea Equipment</h3>
+    {% assign TE = hardware | where: "category" , "tea" %} {%- for item in TE
+    -%} {%- if item.status == "current" -%}
+    <div class="techBox">
       &#9687;&nbsp;<strong>{{ item.type }}:&nbsp;</strong><a href="{{item.link}}">{{ item.name }}</a>
     </div>
-      {%- endif -%}
-    {%- endfor -%}
-    </ul>
+    {%- endif -%} {%- endfor -%}
   </div>
-  <div class="tentBox">
-    <h3><i class="fa-solid fa-bug-slash"></i>&nbsp;Integrated Pest Management</h3>
-     {%- for item in ipm -%}
-        {%- if item.status == "current" -%}
-        <div class="techBox">
-          &#9687;&nbsp;<a href="{{item.link}}">{{ item.name }}</a>
-        </div>
-        {%- endif -%}
-     {%- endfor -%}
-    </ul>
+  <div id="ipm" class="tentBox">
+    <h3>
+      <i class="fa-solid fa-bug-slash"></i>&nbsp;Integrated Pest Management
+    </h3>
+    {%- for item in ipm -%} {%- if item.status == "current" -%}
+    <div class="techBox">
+      &#9687;&nbsp;<a href="{{item.link}}">{{ item.name }}</a>
+    </div>
+    {%- endif -%} {%- endfor -%}
+  </div>
+  <div id="postProcess" class="tentBox">
+    <h3><i class="fa-solid fa-mortar-pestle"></i>&nbsp;Post Processing</h3>
+    {%- for item in postProcess -%} {%- if item.status =="current" -%}
+    <div class="techBox">
+      {% if item.fa-icon != nil %}<i class="{{item.fa-icon}}" title="{{item.type}}">&nbsp</i><a href="{{item.link}}">{{
+        item.name }}</a> {% else %}<strong>{{ item.type }}:</strong><a href="{{item.link}}">{{ item.name }}</a>
+      {% endif %}
+    </div>
+    {%- endif -%} {%- endfor -%}
   </div>
 </div>

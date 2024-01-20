@@ -1,4 +1,4 @@
-- id: 0 
+- id: 0
   name: Timber 3vl
   brand: Timber Grow Lights
   type: Light
@@ -15,7 +15,7 @@
   name: Mars Hydro TS 600W
   brand: Mars Hydro
   type: Light
-  location: 
+  location:
   link: https://www.amazon.com/gp/product/B07VL8FZS1
   size:
   price: 79.99
@@ -32,7 +32,7 @@
   price: 151.99
   status: current
   category: growing
-  dop: March 17, 2021 
+  dop: March 17, 2021
 - id: 3
   name: The 2x2
   brand: CoolGrows
@@ -45,7 +45,7 @@
   price: 119
   status: current
   category: growing
-  dop: February 12, 2021 
+  dop: February 12, 2021
 - id: 4
   name: The 2x4
   description: "Two 30 Gallon GrassRoots Living Soil Pots, one with BuildaSoil Light and the other with a living soil mix. This is the veg and flower tent"
@@ -65,7 +65,7 @@
   brand: AC Infinity
   type: Exhaust Fan
   fa-icon: fa-solid fa-fan
-  location: [The 2x4, The 2x2] 
+  location: [The 2x4, The 2x2]
   size: 4"
   link: https://www.amazon.com/gp/product/B07VL8FZS1
   price:
@@ -78,7 +78,7 @@
   brand: Wemo
   type: Smart Plug
   fa-icon: fa-solid fa-plug
-  location: [The 2x4, The 2x2] 
+  location: [The 2x4, The 2x2]
   link: https://www.amazon.com/gp/product/B08CJGZZZ1
   price:
   status: current
@@ -110,12 +110,12 @@
   brand: Blumat
   type: Irrigation
   fa-icon: fa-solid fa-faucet-drip
-  location: The 2x4 
+  location: The 2x4
   link: https://www.blumat.com/tropf/das-tropf-blumat-system/vorteile
   status: current
   category: growing
   price:
-  quantity: 5 
+  quantity: 5
   dop:
 - id: 10
   name: Tetra Whisper 10 Gallon
@@ -181,6 +181,7 @@
   name: Dabpress 4 Ton Rosin Press
   brand: Dabpress
   type: Rosin Press
+  fa-icon: fa-solid fa-droplet
   location:
   link: https://www.dabpress.com/collections/hydraulic-rosin-heat-presses/products/small-rosin-heat-press-machine-starter-kits?variant=19756456968265
   size: 4 Ton
@@ -190,7 +191,8 @@
   quantity: 1
   dop:
 - id: 16
-  name: Dry Sift Screens
+  name: Generic Dry Sift Screens
+  fa-icon: fa-solid fa-border-none
   brand: ILAHUI
   type: Dry Sift Screens
   location:
@@ -244,13 +246,14 @@
   quantity: 1
   dop: Jul 20 2021
 - id: 20
-  name: Trim Bin
+  name: The Trim Bin
   brand: Harvest More
   type: Trim Bin
-  location: 
+  fa-icon: fa-solid fa-basket-shopping
+  location:
   link: https://smile.amazon.com/gp/product/B00L4NJSBE/
-  size: 
-  price: 
+  size:
+  price:
   status: current
   category: post-processing
   quantity: 1
@@ -267,7 +270,7 @@
   status: retired
   category: growing
   quantity: 1
-  dop: Feb 12, 2021 
+  dop: Feb 12, 2021
 - id: 22
   name: Honeywell HT-904
   brand: Honeywell
@@ -275,18 +278,18 @@
   fa-icon: fa-solid fa-wind
   location:
   link: https://smile.amazon.com/gp/product/B001R1Q2C6/
-  size: 
+  size:
   price:
   status: retired
   category: growing
   quantity: 1
-  dop:  Jul 7, 2021
+  dop: Jul 7, 2021
 - id: 23
-  name: AC Infinity 6" Clip-on 
+  name: AC Infinity 6" Clip-on
   brand: AC Infinity
   type: fan
   fa-icon: fa-solid fa-wind
-  location: [ The 2x2 , The 2x4 ]
+  location: [The 2x2, The 2x4]
   link: https://acinfinity.com/hydroponics-growers/circulation/circulator-clip-fans/cloudray-a6-grow-tent-clip-fan-6-with-10-speeds-ec-motor-manual-swivel/
   size: 6"
   price:
@@ -308,15 +311,28 @@
   quantity: 1
   dop:
 - id: 27
-  name: FloraFlex Humidity Dome 
+  name: FloraFlex Humidity Dome
   brand: FloraFlex
-  type: 
+  type:
   fa-icon: fa-solid fa-leaf
   location: The 2x2
   link: https://floraflex.com/default/shop/plant-propagation/kits/incubator-kit-incubator-kit-22-99-usd
-  size: 
+  size:
   price:
   status: current
   category: cloning
-  quantity: 
+  quantity:
   dop: January 8, 2024
+- id: 28
+  name: Levo C
+  brand: Levo
+  type: infuser
+  fa-icon: fa-solid fa-bottle-droplet
+  location:
+  link: https://levooil.com/products/levo-c
+  size: 1.5 Liter
+  price:
+  status: current
+  category: post-processing
+  quantity: 1
+  dop:
