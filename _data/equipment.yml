@@ -178,7 +178,7 @@
   quantity: 3
   dop:
 - id: 15
-  name: Dabpress 4 Ton Rosin Press
+  name: Dabpress 4 Ton Press
   brand: Dabpress
   type: Rosin Press
   fa-icon: fa-solid fa-droplet
@@ -248,7 +248,7 @@
 - id: 20
   name: The Trim Bin
   brand: Harvest More
-  type: Trim Bin
+  type: Trim Tray
   fa-icon: fa-solid fa-basket-shopping
   location:
   link: https://smile.amazon.com/gp/product/B00L4NJSBE/
@@ -326,7 +326,7 @@
 - id: 28
   name: Levo C
   brand: Levo
-  type: infuser
+  type: Oil Infuser
   fa-icon: fa-solid fa-bottle-droplet
   location:
   link: https://levooil.com/products/levo-c

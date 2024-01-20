@@ -27,7 +27,9 @@ site.data.equipment -%} {%- assign tents = hardware | where: "type", "tent" -%}
   </div>
   {%- endfor -%}
   <div id="tea" class="tentBox">
-    <h3><i class="fa-solid fa-flask"></i>&nbsp;Tea Equipment</h3>
+    <div class="techTitlebox">
+      <h2><i class="fa-solid fa-flask"></i>&nbsp;Tea Equipment</h2>
+    </div>
     {% assign TE = hardware | where: "category" , "tea" %} {%- for item in TE
     -%} {%- if item.status == "current" -%}
     <div class="techBox">
@@ -36,9 +38,11 @@ site.data.equipment -%} {%- assign tents = hardware | where: "type", "tent" -%}
     {%- endif -%} {%- endfor -%}
   </div>
   <div id="ipm" class="tentBox">
-    <h3>
-      <i class="fa-solid fa-bug-slash"></i>&nbsp;Integrated Pest Management
-    </h3>
+    <div class="techTitlebox">
+      <h2>
+        <i class="fa-solid fa-bug-slash"></i>&nbsp;Integrated Pest Management
+      </h2>
+    </div>
     {%- for item in ipm -%} {%- if item.status == "current" -%}
     <div class="techBox">
       &#9687;&nbsp;<a href="{{item.link}}">{{ item.name }}</a>
@@ -46,12 +50,12 @@ site.data.equipment -%} {%- assign tents = hardware | where: "type", "tent" -%}
     {%- endif -%} {%- endfor -%}
   </div>
   <div id="postProcess" class="tentBox">
-    <h3><i class="fa-solid fa-mortar-pestle"></i>&nbsp;Post Processing</h3>
+    <div class="techTitlebox">
+      <h2><i class="fa-solid fa-mortar-pestle"></i>&nbsp;Post Processing</h2>
+    </div>
     {%- for item in postProcess -%} {%- if item.status =="current" -%}
     <div class="techBox">
-      {% if item.fa-icon != nil %}<i class="{{item.fa-icon}}" title="{{item.type}}">&nbsp</i><a href="{{item.link}}">{{
-        item.name }}</a> {% else %}<strong>{{ item.type }}:</strong><a href="{{item.link}}">{{ item.name }}</a>
-      {% endif %}
+      &#9687;<strong>{{ item.type }}:&nbsp</strong><a href="{{item.link}}">{{ item.name }}</a>
     </div>
     {%- endif -%} {%- endfor -%}
   </div>
