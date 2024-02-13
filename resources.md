@@ -79,6 +79,7 @@ title: Resources
 ## Chicago Grow Stores
 
 - [Brew & Grow Chicago](https://www.brewandgrow.com)
+  - Chicago location seems to have closed. Suburbs Only 
 - [Chicago Roots](https://www.chicagoroots.com)
   - Carries Build a Soil products
   - Has two locations
