@@ -11,6 +11,9 @@ title: Resources
 - [Cannabis Grower's Handbook](https://www.edrosenthal.com/edrosenthalstore/cannabisgrowershandbook)
   - I have this book, currently working my way through it, great all around resource. 
 
+- [Feminist Weed Farmer](https://microcosmpublishing.com/catalog/books/8526)
+  - Recent pick up. There's not enough female/fem voices in the the cannabis growing space, I'm looking forward to reading through it and getting that perspective.  
+
 ## Sites
 
 - [Grow Weed Easy](https://www.growweedeasy.com)
@@ -43,6 +46,8 @@ title: Resources
   - Great cannabis podcast with a focus on growing
 - [Grow From Your Heart](https://www.youtube.com/c/TheGrowFromYourHeartPodcast/)
   - Rasta Jeff of Erie Genetics
+- [KIS Organics](https://www.youtube.com/@kisorganics)
+  - Recent find for me, has a lot of good organic growing information.
 
 ## Subreddits
 
