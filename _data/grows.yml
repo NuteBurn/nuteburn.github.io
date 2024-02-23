@@ -210,35 +210,39 @@
   seed: Santa Muerte
   seedID: 20
   sowDate: 2024-01-10
-  flipDate:
+  transplantDate: 2024-02-02
+  flipDate: 2024-02-22
   harvestDate:
-  space: 2x2
-  pot: Solo Cup
-  media: Seed starting mix
+  space: 2x4
+  pot: 30G
+  media: Living Soil Mix
 - id: 28
   seed: Santa Muerte
   seedID: 20
   sowDate: 2024-01-10
-  flipDate:
+  transplantDate: 2024-02-02
+  flipDate: 2024-02-22
   harvestDate:
-  space: 2x2
-  pot: Solo Cup
-  media: Seed starting mix
+  space: 2x4
+  pot: 30G
+  media: Living Soil Mix
 - id: 29
   seed: Blue Dream
   seedID: 19
   sowDate: 2024-01-10
-  flipDate:
+  transplantDate: 2024-02-02
+  flipDate: 2024-02-22
   harvestDate:
-  space: 2x2
-  pot: Solo Cup
-  media: Seed starting mix
+  space: 2x4
+  pot: 30G
+  media: BaS Light
 - id: 30
   seed: Blue Dream
   seedID: 19
   sowDate: 2024-01-10
-  flipDate:
+  transplantDate: 2024-02-02
+  flipDate: 2024-02-22
   harvestDate:
-  space: 2x2
-  pot: Solo Cup
-  media: Seed starting mix
+  space: 2x4
+  pot: 30G
+  media: BaS Light
