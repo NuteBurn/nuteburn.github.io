@@ -1,8 +1,7 @@
 // Layout
 //
 // Styles for managing the structural hierarchy of the site.
-.content,
-.datatable {
+.content {
   padding-top:    4rem;
   padding-bottom: 4rem;
 }
@@ -26,10 +25,6 @@ iframe {
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
-  }
-  .datatable {
-    margin-left: 19rem;
-    margin-right: 1rem;
   }
 }
 .container {
