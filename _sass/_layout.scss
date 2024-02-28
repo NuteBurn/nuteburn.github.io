@@ -2,12 +2,26 @@
 //
 // Styles for managing the structural hierarchy of the site.
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
+  padding-top:var(--spacer-1);
+  padding-bottom:var(--spacer-1);
 }
 iframe {
   max-width: 100%;
   overflow-y: scroll;
+}
+.container {
+  max-width: 38rem;
+  padding-left: var(--spacer-1);
+  padding-right: var(--spacer-1);
+}
+
+footer {
+  max-width: 38rem;
+  margin-top: var(--spacer-2);
+  margin-bottom: var(--spacer-2);
+}
+#copyright {
+  text-align: center;
 }
 
 @media (min-width: 48em) {
@@ -19,6 +33,9 @@ iframe {
   html {
     font-size: 16px;
   }
+  footer {
+    margin-left: calc(2rem + var(--sidebar-width))
+  }
 }
 
 @media (min-width: 64em) {
@@ -26,14 +43,7 @@ iframe {
     margin-left: 22rem;
     margin-right: 4rem;
   }
-}
-.container {
-  max-width: 38rem;
-  padding-left: var(--spacer-1);
-  padding-right: var(--spacer-1);
-}
-
-footer {
-  margin-top: var(--spacer-3);
-  margin-bottom: var(--spacer-3);
+  footer {
+    margin-left: 22rem;
+  }
 }
