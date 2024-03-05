@@ -59,14 +59,12 @@ Moist to moderately moist | 50-120
 Dry to severely desiccated, irrigate range | 120-190
 Dry - Irrigation Urgently Necessary | 200-300
 
-Recently picked up the Blumat digital moisture meter for the 30gal so I can dial in my irrigation.
-
 BuildASoil recently started selling Blumats and recommend aiming for 50-80 in living Soil
 [video link](https://www.youtube.com/watch?v=uS5wSIlSaB8t=942)
 
 ## Feeding
 
-Loosely following the "BuildaSoil Way"
+Loosely following the "BuildaSoil Way" with some BIO-AG products mixed in.
 
 * [The write up is here](https://buildasoil.com/pages/the-complete-system)
 * [Their youtube channel](https://www.youtube.com/user/BuildASoil/)
@@ -77,12 +75,14 @@ Loosely following the "BuildaSoil Way"
 
 ### Trellis
 
-I have a re-usable AC Infinity trellis on the way for the 2x4, more details to follow.
+I have a re-usable AC Infinity trellis in the 2x4.
 
-As the plants grow I tucked the tops under the bamboo to encourage side growth to grow to create an  even canopy about 8" under the light.
+As the plants grow I tucked the tops under the net to encourage side growth to grow to create an  even canopy about 12" under the light.
 
 ## Defoliation
+
 I've been terrified to defoliate more than a few leaves at a time in flower. I know I need to be better about it, especially in these smaller tents where space is limited. These are some videos I've seen that have helped me.
+
 * Rasta Jeff suggests taking off any leaves that have a purple petioles(stems). He thinks if the petioles has gone purple its been around long enough and is safe to remove.
   * [Grow From The Heart #732: Defoliation](https://www.youtube.com/watch?v=4lXASFVDu0A)
 * Guru mentions that older leaves are less efficient at photosynthesis than newer/younger growth.
@@ -96,7 +96,6 @@ I've been terrified to defoliate more than a few leaves at a time in flower. I k
   * 16 Days
 
 * Buds should feel "crispy" and stems should snap when bent
-* I've had success moving the plants to a yellow top bin for the last few days to help preserve the ideal drying conditions longer.
 
 ## Curring
 
@@ -124,4 +123,3 @@ LPI | Microns
 200 | 74
 230 | 63
 270 | 53
-
