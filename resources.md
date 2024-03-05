@@ -12,7 +12,7 @@ title: Resources
   - I have this book, currently working my way through it, great all around resource. 
 
 - [Feminist Weed Farmer](https://microcosmpublishing.com/catalog/books/8526)
-  - Recent pick up. There's not enough female/fem voices in the the cannabis growing space, I'm looking forward to reading through it and getting that perspective.  
+  - Recent pick up. There's not enough female/fem voices in the the cannabis growing space. Good overview for folks looking to do a backyard grow.  
 
 ## Sites
 
@@ -35,8 +35,10 @@ title: Resources
 - [Chad Westport](https://www.youtube.com/c/ChadWestport)
   - Of the FCP family, has content focused on helping beginner. 
 - [Mr.Canuck's Grow](https://www.youtube.com/c/MrCanucksGrowGuide)
-  - The one that started it all for me.
+  - The one that started it all for me, great production value, fun to watch
+  - Primarily a organic dry amendment grower 
 - [Garden Talk](https://www.youtube.com/channel/UC9GzxSYh-Ha3kkC0zfXb5oQ)
+  - Mr.Grow It's interview channel, he does a good job of getting a wide variety of guests
 - [Mr.Grow It](https://www.youtube.com/c/MrGrowIt)
 - [Apogee Instruments](https://www.youtube.com/c/Apogeeinstrumentsincorporated)
   - Science and biology focused on Cannabis
@@ -48,6 +50,8 @@ title: Resources
   - Rasta Jeff of Erie Genetics
 - [KIS Organics](https://www.youtube.com/@kisorganics)
   - Recent find for me, has a lot of good organic growing information.
+- [James Loud Podcast](https://www.youtube.com/@JamesLoudGenetics)
+  - Not "Grow" focused but its a good show about the culture/history
 
 ## Subreddits
 
@@ -65,7 +69,6 @@ title: Resources
 ## Seeds Banks
 
 - [North Atlantic Seed Company](https://northatlanticseed.com/)
-  - Maine ❤️
   - Women owned
   - Great selection
   - Freebies with every order
