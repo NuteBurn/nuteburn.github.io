@@ -28,7 +28,7 @@
 	display: grid;
 	min-width: 6rem;
 	&:hover {
-		.sown {
+		.sown, .flipped {
 			display: none;
 		}
 		.weekHover {
@@ -44,7 +44,7 @@
 	margin-bottom: -.75rem;
 	font-family: var(--heading-font);
 }
-.sown {
+.sown, .flipped, .stage {
 	font-style: italic;
 	font-size: .8rem;
 }
