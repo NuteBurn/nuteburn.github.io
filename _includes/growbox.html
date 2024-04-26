@@ -15,9 +15,8 @@
       {% assign seedNum = plant.seedID %}
       {% assign plantName = plant.seed %}
       {% assign seed = seeds.[seedNum] %}
-      {% assign seedType = seeds.type %}
+      {% assign seedType = seed.type %}
           {% capture sowDate %}{{plant.sowDate | date: "%s" | divided_by: 86400}}{% endcapture %}
-          {% capture flipDate %}{{plant.flipDate | date: "%s" | divided_by: 86400}}{% endcapture %}
           {% capture currentDay -%}{{today | minus: sowDate}}{%- endcapture %} 
             <div class="plantbox">
               {% if seed.link != nil %}
@@ -25,17 +24,18 @@
                 {% else %}
                 <h4>{{ plantName }}</h4>
                 {% endif %}
-                {%- if flipDate == nil -%}
+                {%- if plant.flipDate == nil -%}
                 {% capture currentDay -%}{{today | minus: sowDate}}{%- endcapture %} 
                 <div class="daybox">
                   <i class="day">Day:</i><strong class="currentDay">{{currentDay}}</strong>
-                  {%- if seedType == "photo" -%}
+                  {%- if seedType == "Fem Photo" -%}
                     <div class="stage"> of Veg </div>
                   {%- endif -%}
                   <div class="weekHover">week:{{ currentDay | divided_by: 7 }}</div>
                   <div class="sown">Sown: {{ plant.sowDate | date: "%m/%d/%y" }}</div>
                 </div>
                 {%- else -%}
+                {% capture flipDate %}{{plant.flipDate | date: "%s" | divided_by: 86400}}{% endcapture %}
                 {% capture currentDay -%}{{today | minus: flipDate}}{%- endcapture %} 
                   <div class="daybox">
                   <i class="day">Day:</i><strong class="currentDay">{{currentDay}}</strong>
