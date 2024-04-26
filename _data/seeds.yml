@@ -172,8 +172,8 @@
 - seedID: 19
   name: Blue Dream
   breeder: NASC Freebie
-  type: Photo
-  lifeCycle:
+  type: Fem Photo
+  lifeCycle: 56-70
   strain: Blue Dream
   link:
   stock: 0
@@ -181,9 +181,18 @@
 - seedID: 20
   name: Santa Muerte
   breeder: NASC Freebie
-  type: Photo
+  type: Fem Photo
   lifeCycle:
   strain: Santa Muerte
-  link:
+  link: 60-70
   stock: 0
   grows: 2
+- seedID: 21
+  name: Red Hot Wedding
+  breeder: Robinhood
+  type: Fem Photo
+  lifeCycle: 63-65
+  strain: Red Hot Wedding
+  link: https://robinhoodseeds.com/cultivar-lineage
+  stock: 2
+  grows: 4

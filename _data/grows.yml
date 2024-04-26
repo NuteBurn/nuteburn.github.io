@@ -246,3 +246,43 @@
   space: 2x4
   pot: 30G
   media: BaS Light
+- id: 31
+  seed: Red Hot Wedding
+  seedID: 21
+  sowDate: 2024-04-26
+  transplantDate:
+  flipDate:
+  harvestDate:
+  space: 2x2
+  pot: solo cup
+  media: starter mix
+- id: 32
+  seed: Red Hot Wedding
+  seedID: 21
+  sowDate: 2024-04-26
+  transplantDate:
+  flipDate:
+  harvestDate:
+  space: 2x2
+  pot: solo cup
+  media: starter mix
+- id: 33
+  seed: Red Hot Wedding
+  seedID: 21
+  sowDate: 2024-04-26
+  transplantDate:
+  flipDate:
+  harvestDate:
+  space: 2x2
+  pot: solo cup
+  media: starter mix
+- id: 34 
+  seed: Red Hot Wedding
+  seedID: 21
+  sowDate: 2024-04-26
+  transplantDate:
+  flipDate:
+  harvestDate:
+  space: 2x2
+  pot: solo cup
+  media: starter mix
