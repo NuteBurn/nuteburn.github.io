@@ -182,9 +182,9 @@
   name: Santa Muerte
   breeder: NASC Freebie
   type: Fem Photo
-  lifeCycle:
+  lifeCycle: 60-70
   strain: Santa Muerte
-  link: 60-70
+  link:
   stock: 0
   grows: 2
 - seedID: 21
