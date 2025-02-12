@@ -286,3 +286,23 @@
   space: 2x2
   pot: 30G
   media: BaS mix
+- id: 35 
+  seed: Three Bears OG
+  seedID: 14
+  sowDate: 2025-02-12
+  transplantDate:
+  flipDate:
+  harvestDate:
+  space: 2x4
+  pot: 30G
+  media: BaS mix
+- id: 35
+  seed: Three Bears OG
+  seedID: 14
+  sowDate: 2025-02-12
+  transplantDate:
+  flipDate:
+  harvestDate:
+  space: 2x4
+  pot: 30G
+  media: BaS mix
