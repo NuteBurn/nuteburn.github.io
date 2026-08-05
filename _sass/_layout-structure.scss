@@ -31,7 +31,7 @@ footer {
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
-    margin-left: calc(2rem + var(--sidebar-width));
+    margin-left: calc(3rem + var(--sidebar-width));
     margin-right: 2rem;
   }
 
@@ -45,7 +45,7 @@ footer {
   }
 
   footer {
-    margin-left: calc(2rem + var(--sidebar-width));
+    margin-left: calc(3rem + var(--sidebar-width));
   }
 }
 

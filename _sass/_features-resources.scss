@@ -1,20 +1,7 @@
-/* ---------- RESOURCES CONTAINER ---------- */
-
-#resourcesContainer {
-  margin-bottom: var(--spacer-3);
-}
-
 /* ---------- RESOURCE SECTIONS ---------- */
 
 .resourceSection {
   margin-bottom: var(--spacer-3);
-
-  h2 {
-    i {
-      color: var(--icon-color);
-      margin-right: var(--half-spacer);
-    }
-  }
 }
 
 /* ---------- RESOURCE GRID ---------- */
@@ -109,7 +96,7 @@
     font-size: 0.9rem;
   }
 
-  .fa-regular {
+  .resourceRating-empty {
     color: var(--gray-400);
   }
 }
@@ -266,7 +253,7 @@
 /* ---------- DARK MODE ADJUSTMENTS ---------- */
 
 @media (prefers-color-scheme: dark) {
-  .resourceRating .fa-regular {
+  .resourceRating .resourceRating-empty {
     color: var(--gray-600);
   }
 

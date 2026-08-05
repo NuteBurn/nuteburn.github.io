@@ -1,11 +1,21 @@
 /* ---------- SIDEBAR ---------- */
 
 .sidebar {
+  margin: var(--spacer);
   text-align: center;
-  padding: var(--spacer-2) var(--spacer);
+  padding: var(--spacer) var(--spacer);
   color: var(--sidebar-color);
   background-image: var(--sidebar-bg);
   background-color: var(--sidebar-fb);
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+}
+
+/* A little more horizontal than vertical padding suits the mobile rail. */
+@media (max-width: 47.9em) {
+  .sidebar {
+    padding: .75rem 1.25rem;
+  }
 }
 
 /* ---------- SIDEBAR TITLE & BRANDING ---------- */
@@ -129,12 +139,16 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar {
+    margin: 0;
     position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
+    top: var(--spacer);
+    left: var(--spacer);
+    bottom: var(--spacer);
     width: var(--sidebar-width);
     text-align: left;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    overflow-y: auto;
   }
 
   .sidebar a {
