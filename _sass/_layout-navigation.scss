@@ -91,6 +91,7 @@ a.pagination-item:hover {
   font-size: .9rem;
   line-height: 1.4;
   list-style: none;
+  z-index: 20;
 
   &::before {
     display: block;
