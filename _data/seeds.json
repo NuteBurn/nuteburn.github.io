@@ -88,7 +88,7 @@
     "grows": 0
   },
   {
-    "seedID": 8,
+    "seedID": 9,
     "name": "Sour Diesel Auto",
     "breeder": "Fast Buds",
     "type": "Auto",
@@ -99,7 +99,7 @@
     "grows": 3
   },
   {
-    "seedID": 9,
+    "seedID": 10,
     "name": "Brooklyn Sunrise Auto",
     "breeder": "Dutch Passion",
     "type": "Auto",
@@ -110,7 +110,7 @@
     "grows": 3
   },
   {
-    "seedID": 10,
+    "seedID": 11,
     "name": "Trizzlers Auto",
     "breeder": "Twenty20 Mendocino",
     "type": "Auto",
@@ -121,7 +121,7 @@
     "grows": 1
   },
   {
-    "seedID": 11,
+    "seedID": 12,
     "name": "Hotz",
     "breeder": "Twenty20 Mendocino",
     "type": "Auto",
@@ -132,7 +132,7 @@
     "grows": 1
   },
   {
-    "seedID": 12,
+    "seedID": 13,
     "name": "Wookie Special",
     "breeder": "Mephisto Genetics",
     "type": "Auto",
@@ -143,7 +143,7 @@
     "grows": 0
   },
   {
-    "seedID": 13,
+    "seedID": 14,
     "name": "Canna-Cheese",
     "breeder": "Mephisto Genetics",
     "type": ["Auto", "CBD"],
@@ -154,7 +154,7 @@
     "grows": 1
   },
   {
-    "seedID": 14,
+    "seedID": 15,
     "name": "3 Bears OG",
     "breeder": "Mephisto Genetics",
     "type": "Auto",
@@ -165,7 +165,7 @@
     "grows": 0
   },
   {
-    "seedID": 15,
+    "seedID": 16,
     "name": "Creme De La Chem",
     "breeder": "Mephisto Genetics",
     "type": "Auto",
@@ -176,7 +176,7 @@
     "grows": 0
   },
   {
-    "seedID": 16,
+    "seedID": 17,
     "name": "El Chemi Kiwi",
     "breeder": "Mephisto Genetics",
     "type": "Auto",
@@ -187,7 +187,7 @@
     "grows": 1
   },
   {
-    "seedID": 17,
+    "seedID": 18,
     "name": "Meph Freebie SN x SW",
     "breeder": "Mephisto Genetics",
     "type": "Auto",
@@ -198,7 +198,7 @@
     "grows": 1
   },
   {
-    "seedID": 18,
+    "seedID": 19,
     "name": "Meph Freebie CQ x MS",
     "breeder": "Mephisto Genetics",
     "type": "Auto",
@@ -209,7 +209,7 @@
     "grows": 1
   },
   {
-    "seedID": 19,
+    "seedID": 20,
     "name": "Blue Dream",
     "breeder": "NASC Freebie",
     "type": "Fem Photo",
@@ -220,7 +220,7 @@
     "grows": 2
   },
   {
-    "seedID": 20,
+    "seedID": 21,
     "name": "Santa Muerte",
     "breeder": "NASC Freebie",
     "type": "Fem Photo",
@@ -231,7 +231,7 @@
     "grows": 2
   },
   {
-    "seedID": 21,
+    "seedID": 22,
     "name": "Red Hot Wedding",
     "breeder": "Robinhood",
     "type": "Fem Photo",

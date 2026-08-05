@@ -1,94 +1,365 @@
 ---
 layout: page
 title: Resources
+custom_class: wide-layout
 ---
 
 * Do not remove this line (it will not be displayed)
 {:toc}
 
-## Books
+{% assign resources = site.data.resources %}
+{% assign rating-icon = "fa-solid fa-fire" %}
+{% assign rating-icon-sub = "fa-solid fa-fire" %}
 
-- [Cannabis Grower's Handbook](https://www.edrosenthal.com/edrosenthalstore/cannabisgrowershandbook)
-  - I have this book, currently working my way through it, great all around resource. 
+## <i class="fa-solid fa-book" aria-hidden="true"></i> Books
+{: #books}
 
-- [Feminist Weed Farmer](https://microcosmpublishing.com/catalog/books/8526)
-  - Recent pick up. There's not enough female/fem voices in the the cannabis growing space. Good overview for folks looking to do a backyard grow.  
+  <section class="resourceSection">
+    <div class="resourceGrid">
+      {% assign books = resources | where: "type", "book" %}
+      {% for resource in books %}
+        <article class="resourceCard {% if resource.rating == 5 %}card-featured{% endif %} {% if resource.notes.size > 100 %}card-wide{% endif %}">
+          <div class="resourceHeader">
+            <h3 class="resourceName">
+              {% if resource.url != "" %}
+                <a href="{{ resource.url }}">{{ resource.name }}</a>
+              {% else %}
+                {{ resource.name }}
+              {% endif %}
+            </h3>
+            {% if resource.rating > 0 %}
+              <div class="resourceRating" aria-label="Rating: {{ resource.rating }} out of 5">
+                {% for i in (1..5) %}
+                  {% if i <= resource.rating %}
+                    <i class="{{ rating-icon }}"></i>
+                  {% else %}
+                    <i style="color: var(--gray-600) " class="{{ rating-icon-sub }}"></i>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+          {% if resource.status %}
+            <span class="resourceStatus status-{{ resource.status }}">{{ resource.status }}</span>
+          {% endif %}
+          {% if resource.notes != "" %}
+            <p class="resourceNotes">{{ resource.notes }}</p>
+          {% endif %}
+          {% if resource.tags %}
+            <div class="resourceTags">
+              {% for tag in resource.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
-## Sites
+## <i class="fa-solid fa-globe" aria-hidden="true"></i> Websites
+{: #websites}
 
-- [Grow Weed Easy](https://www.growweedeasy.com)
-  - Good general guide.
-- [Coco For Cannabis](https://www.cocoforcannabis.com)
-  - Aimed more at growing in coco but useful.
-- [Build a Soil](https://buildasoil.com/)
-  - Great source for organic growing products and knowledge
-- [Sustainable Village](https://www.sustainablevillage.com/)
-  - American retailer of Blumat products
-- [Pulse VPD Information](https://pulsegrow.com/blogs/learn/vpd)
+  <section class="resourceSection">
+    <div class="resourceGrid">
+      {% assign websites = resources | where: "type", "website" %}
+      {% for resource in websites %}
+        <article class="resourceCard {% if resource.rating == 5 %}card-featured{% endif %}">
+          <div class="resourceHeader">
+            <h3 class="resourceName">
+              <a href="{{ resource.url }}">{{ resource.name }}</a>
+            </h3>
+            {% if resource.rating > 0 %}
+              <div class="resourceRating" aria-label="Rating: {{ resource.rating }} out of 5">
+                {% for i in (1..5) %}
+                  {% if i <= resource.rating %}
+                    <i class="{{ rating-icon }}"></i>
+                  {% else %}
+                    <i style="color: var(--gray-600) " class="{{ rating-icon-sub }}"></i>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+          {% if resource.status %}
+            <span class="resourceStatus status-{{ resource.status }}">{{ resource.status }}</span>
+          {% endif %}
+          {% if resource.notes != "" %}
+            <p class="resourceNotes">{{ resource.notes }}</p>
+          {% endif %}
+          {% if resource.tags %}
+            <div class="resourceTags">
+              {% for tag in resource.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
-## Youtube Channels
+## <i class="fa-brands fa-youtube" aria-hidden="true"></i> YouTube Channels
+{: #youtube}
 
-- [Build a Soil](https://www.youtube.com/c/BuildASoil/)
-  - The 10x10 series is a gold mine of knowledge
-- [Future Cannabis Project](https://www.youtube.com/c/FutureCannabisProject/)
-  - I've really been enjoying 'Living Soil Conversations', 'The Bryan & Marco Show', and 'The Perfectly Imperfect Grow Show '
-- [Chad Westport](https://www.youtube.com/c/ChadWestport)
-  - Of the FCP family, has content focused on helping beginner. 
-- [Mr.Canuck's Grow](https://www.youtube.com/c/MrCanucksGrowGuide)
-  - The one that started it all for me, great production value, fun to watch
-  - Primarily a organic dry amendment grower 
-- [Garden Talk](https://www.youtube.com/channel/UC9GzxSYh-Ha3kkC0zfXb5oQ)
-  - Mr.Grow It's interview channel, he does a good job of getting a wide variety of guests
-- [Mr.Grow It](https://www.youtube.com/c/MrGrowIt)
-- [Apogee Instruments](https://www.youtube.com/c/Apogeeinstrumentsincorporated)
-  - Science and biology focused on Cannabis
-- [Frenchy Cannoli](https://www.youtube.com/channel/UCgeIHacD5YcF8DISyGrDr6g)
-  - The Hash Legend, RIP
-- [From The Stash](https://www.youtube.com/channel/UCc1epQtHrWccCztMK5DDNmA/)
-  - Great cannabis podcast with a focus on growing
-- [Grow From Your Heart](https://www.youtube.com/c/TheGrowFromYourHeartPodcast/)
-  - Rasta Jeff of Erie Genetics
-- [KIS Organics](https://www.youtube.com/@kisorganics)
-  - Recent find for me, has a lot of good organic growing information.
-- [James Loud Podcast](https://www.youtube.com/@JamesLoudGenetics)
-  - Not "Grow" focused but its a good show about the culture/history
+  <section class="resourceSection">
+    <div class="resourceGrid">
+      {% assign youtube = resources | where: "type", "youtube" %}
+      {% for resource in youtube %}
+        <article class="resourceCard {% if resource.rating == 5 %}card-featured{% endif %} {% if resource.favoriteContent %}card-wide{% endif %}">
+          <div class="resourceHeader">
+            <h3 class="resourceName">
+              <a href="{{ resource.url }}">{{ resource.name }}</a>
+            </h3>
+            {% if resource.rating > 0 %}
+              <div class="resourceRating" aria-label="Rating: {{ resource.rating }} out of 5">
+                {% for i in (1..5) %}
+                  {% if i <= resource.rating %}
+                    <i class="{{ rating-icon }}"></i>
+                  {% else %}
+                    <i style="color: --var(gray-600_" class="{{ rating-icon-sub }}"></i>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+          {% if resource.status %}
+            <span class="resourceStatus status-{{ resource.status }}">{{ resource.status }}</span>
+          {% endif %}
+          {% if resource.notes != "" %}
+            <p class="resourceNotes">{{ resource.notes }}</p>
+          {% endif %}
+          {% if resource.favoriteContent %}
+            <p class="resourceFavorite"><strong>Favorites:</strong> {{ resource.favoriteContent }}</p>
+          {% endif %}
+          {% if resource.tags %}
+            <div class="resourceTags">
+              {% for tag in resource.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
-## Subreddits
+## <i class="fa-brands fa-reddit" aria-hidden="true"></i> Subreddits
+{: #reddit}
 
-- [r/Microgrowery](https://www.reddit.com/r/microgrowery)
-- [r/NoTillGrowery](https://www.reddit.com/r/NoTillGrowery)
-- [r/OutdoorGrowing](https://www.reddit.com/r/OutdoorGrowing)
-- [r/Autoflowers](https://www.reddit.com/r/autoflowers)
-- [r/MephHeads](https://www.reddit.com/r/MephHeads)
-- [r/Rosin](https://www.reddit.com/r/Rosin)
+  <section class="resourceSection">
+    <div class="resourceGrid resourceGrid-compact">
+      {% assign reddit = resources | where: "type", "reddit" %}
+      {% for resource in reddit %}
+        <article class="resourceCard">
+          <div class="resourceHeader">
+            <h3 class="resourceName">
+              <a href="{{ resource.url }}">{{ resource.name }}</a>
+            </h3>
+            {% if resource.rating > 0 %}
+              <div class="resourceRating" aria-label="Rating: {{ resource.rating }} out of 5">
+                {% for i in (1..5) %}
+                  {% if i <= resource.rating %}
+                    <i class="{{ rating-icon }}"></i>
+                  {% else %}
+                    <i style="color: var(--gray-600) " class="{{ rating-icon-sub }}"></i>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+          {% if resource.status %}
+            <span class="resourceStatus status-{{ resource.status }}">{{ resource.status }}</span>
+          {% endif %}
+          {% if resource.notes != "" %}
+            <p class="resourceNotes">{{ resource.notes }}</p>
+          {% endif %}
+          {% if resource.tags %}
+            <div class="resourceTags">
+              {% for tag in resource.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
-## Lemmy Communities
+## <i class="fa-solid fa-users" aria-hidden="true"></i> Lemmy Communities
+{: #lemmy}
 
-- [!Trees@lemmy.world](https://lemmy.world/c/trees)
+  <section class="resourceSection">
+    <div class="resourceGrid resourceGrid-compact">
+      {% assign lemmy = resources | where: "type", "lemmy" %}
+      {% for resource in lemmy %}
+        <article class="resourceCard">
+          <div class="resourceHeader">
+            <h3 class="resourceName">
+              <a href="{{ resource.url }}">{{ resource.name }}</a>
+            </h3>
+            {% if resource.rating > 0 %}
+              <div class="resourceRating" aria-label="Rating: {{ resource.rating }} out of 5">
+                {% for i in (1..5) %}
+                  {% if i <= resource.rating %}
+                    <i class="{{ rating-icon }}"></i>
+                  {% else %}
+                    <i style="color: var(--gray-600) " class="{{ rating-icon-sub }}"></i>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+          {% if resource.status %}
+            <span class="resourceStatus status-{{ resource.status }}">{{ resource.status }}</span>
+          {% endif %}
+          {% if resource.notes != "" %}
+            <p class="resourceNotes">{{ resource.notes }}</p>
+          {% endif %}
+          {% if resource.tags %}
+            <div class="resourceTags">
+              {% for tag in resource.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
-## Seeds Banks
+## <i class="fa-solid fa-seedling" aria-hidden="true"></i> Seed Banks
+{: #seed-banks}
 
-- [North Atlantic Seed Company](https://northatlanticseed.com/)
-  - Women owned
-  - Great selection
-  - Freebies with every order
+  <section class="resourceSection">
+    <div class="resourceGrid">
+      {% assign seedbanks = resources | where: "type", "seed-bank" %}
+      {% for resource in seedbanks %}
+        <article class="resourceCard {% if resource.rating == 5 %}card-featured{% endif %}">
+          <div class="resourceHeader">
+            <h3 class="resourceName">
+              <a href="{{ resource.url }}">{{ resource.name }}</a>
+            </h3>
+            {% if resource.rating > 0 %}
+              <div class="resourceRating" aria-label="Rating: {{ resource.rating }} out of 5">
+                {% for i in (1..5) %}
+                  {% if i <= resource.rating %}
+                    <i class="{{ rating-icon }}"></i>
+                  {% else %}
+                    <i style="color: var(--gray-600) " class="{{ rating-icon-sub }}"></i>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+          {% if resource.status %}
+            <span class="resourceStatus status-{{ resource.status }}">{{ resource.status }}</span>
+          {% endif %}
+          {% if resource.location %}
+            <p class="resourceLocation"><i class="fa-solid fa-location-dot"></i> {{ resource.location }}</p>
+          {% endif %}
+          {% if resource.notes != "" %}
+            <p class="resourceNotes">{{ resource.notes }}</p>
+          {% endif %}
+          {% if resource.tags %}
+            <div class="resourceTags">
+              {% for tag in resource.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
-- [Multiverse Beans](https://multiversebeans.com/)
-  - Good reputation on reddit
- 
-## Breeders
+## <i class="fa-solid fa-dna" aria-hidden="true"></i> Breeders
+{: #breeders}
 
-- [Mephisto Genetics](https://www.mephistogenetics.com/)
-  - 'Best of the best' for autos
-- [Robinhood Seeds](https://robinhoodseeds.com/)
-  - Bargain brand for Square One Genetics
-  - NASC carries them
+  <section class="resourceSection">
+    <div class="resourceGrid">
+      {% assign breeders = resources | where: "type", "breeder" %}
+      {% for resource in breeders %}
+        <article class="resourceCard {% if resource.rating == 5 %}card-featured{% endif %}">
+          <div class="resourceHeader">
+            <h3 class="resourceName">
+              <a href="{{ resource.url }}">{{ resource.name }}</a>
+            </h3>
+            {% if resource.rating > 0 %}
+              <div class="resourceRating" aria-label="Rating: {{ resource.rating }} out of 5">
+                {% for i in (1..5) %}
+                  {% if i <= resource.rating %}
+                    <i class="{{ rating-icon }}"></i>
+                  {% else %}
+                    <i style="color: var(--gray-600) " class="{{ rating-icon-sub }}"></i>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+          {% if resource.status %}
+            <span class="resourceStatus status-{{ resource.status }}">{{ resource.status }}</span>
+          {% endif %}
+          {% if resource.notes != "" %}
+            <p class="resourceNotes">{{ resource.notes }}</p>
+          {% endif %}
+          {% if resource.tags %}
+            <div class="resourceTags">
+              {% for tag in resource.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
-## Chicago Grow Stores
+## <i class="fa-solid fa-store" aria-hidden="true"></i> Chicago Grow Stores
+{: #chicago-stores}
 
-- [Chicago Roots](https://www.chicagoroots.com)
-  - Carries Build a Soil products
-- [Christy Webber Farm and Garden](https://www.cwfng.com/)
-  - Not "Grow" focused but sells plenty of organic gardening supplies
-- [Brew & Grow Chicago](https://www.brewandgrow.com)
-  - Chicago location seems to have closed. Suburbs Only 
+  <section class="resourceSection">
+    <div class="resourceGrid">
+      {% assign stores = resources | where: "type", "local-store" %}
+      {% for resource in stores %}
+        <article class="resourceCard {% if resource.status == 'closed' %}card-closed{% endif %}">
+          <div class="resourceHeader">
+            <h3 class="resourceName">
+              {% if resource.url != "" %}
+                <a href="{{ resource.url }}">{{ resource.name }}</a>
+              {% else %}
+                {{ resource.name }}
+              {% endif %}
+            </h3>
+            {% if resource.rating > 0 %}
+              <div class="resourceRating" aria-label="Rating: {{ resource.rating }} out of 5">
+                {% for i in (1..5) %}
+                  {% if i <= resource.rating %}
+                    <i class="{{ rating-icon }}"></i>
+                  {% else %}
+                    <i style="color: var(--gray-600) " class="{{ rating-icon-sub }}"></i>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+          {% if resource.status %}
+            <span class="resourceStatus status-{{ resource.status }}">{{ resource.status }}</span>
+          {% endif %}
+          {% if resource.location %}
+            <p class="resourceLocation"><i class="fa-solid fa-location-dot"></i> {{ resource.location }}</p>
+          {% endif %}
+          {% if resource.notes != "" %}
+            <p class="resourceNotes">{{ resource.notes }}</p>
+          {% endif %}
+          {% if resource.tags %}
+            <div class="resourceTags">
+              {% for tag in resource.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </section>

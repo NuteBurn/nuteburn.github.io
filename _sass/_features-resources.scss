@@ -1,0 +1,284 @@
+/* ---------- RESOURCES CONTAINER ---------- */
+
+#resourcesContainer {
+  margin-bottom: var(--spacer-3);
+}
+
+/* ---------- RESOURCE SECTIONS ---------- */
+
+.resourceSection {
+  margin-bottom: var(--spacer-3);
+
+  h2 {
+    i {
+      color: var(--icon-color);
+      margin-right: var(--half-spacer);
+    }
+  }
+}
+
+/* ---------- RESOURCE GRID ---------- */
+
+.resourceGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--flex-min-width), 1fr));
+  gap: var(--spacer);
+  grid-auto-flow: dense; /* Allow cards to fill gaps */
+
+  /* Compact grid for simple lists (Reddit, Lemmy) */
+  &.resourceGrid-compact {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: var(--half-spacer);
+  }
+}
+
+/* ---------- RESOURCE CARDS ---------- */
+
+.resourceCard {
+  @include card-base;
+  @include card-hover-lift;
+  display: flex;
+  flex-direction: column;
+  gap: var(--half-spacer);
+
+  /* Featured cards span 2 columns */
+  &.card-featured {
+    background: linear-gradient(135deg, var(--cream) 0%, var(--warm-off-white) 100%);
+    border-color: var(--tag-color);
+    border-width: 3px;
+
+    .resourceName {
+      font-size: 1.2rem;
+    }
+  }
+
+  /* Wide cards span 2 columns */
+  &.card-wide {
+    grid-column: span 1; /* Default to 1 on mobile */
+  }
+
+  /* Closed stores - visually de-emphasized */
+  &.card-closed {
+    opacity: 0.6;
+    filter: grayscale(50%);
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+/* ---------- RESOURCE HEADER ---------- */
+
+.resourceHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--half-spacer);
+  margin-bottom: var(--gap-sm);
+}
+
+.resourceName {
+  flex: 1;
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--heading-color);
+
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--link-hover-color);
+      text-decoration: underline;
+    }
+  }
+}
+
+/* ---------- RESOURCE RATING ---------- */
+
+.resourceRating {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+
+  i {
+    color: var(--sun-gold);
+    font-size: 0.9rem;
+  }
+
+  .fa-regular {
+    color: var(--gray-400);
+  }
+}
+
+/* ---------- RESOURCE STATUS ---------- */
+
+.resourceStatus {
+  display: inline-block;
+  padding: var(--gap-sm) var(--half-spacer);
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: lowercase;
+  border-radius: calc(var(--border-radius) * 2);
+  letter-spacing: 0.5px;
+  max-width: 6rem;
+  text-align: center;
+
+  &.status-reading {
+    background: var(--blue-300);
+    color: var(--dark-blue);
+  }
+
+  &.status-completed {
+    background: var(--green);
+    color: var(--white);
+  }
+
+  &.status-reference {
+    background: var(--purple);
+    color: var(--white);
+  }
+
+  &.status-active {
+    background: var(--teal);
+    color: var(--white);
+  }
+
+  &.status-archived {
+    background: var(--gray-500);
+    color: var(--white);
+  }
+
+  &.status-closed {
+    background: var(--red);
+    color: var(--white);
+  }
+}
+
+/* ---------- RESOURCE CONTENT ---------- */
+
+.resourceNotes,
+.resourceFavorite,
+.resourceLocation {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--body-color);
+}
+
+.resourceFavorite {
+  font-style: italic;
+
+  strong {
+    color: var(--heading-color);
+    font-style: normal;
+  }
+}
+
+.resourceLocation {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-sm);
+  font-weight: 500;
+
+  i {
+    color: var(--icon-color);
+  }
+}
+
+/* ---------- RESOURCE TAGS ---------- */
+
+.resourceTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap-sm);
+  margin-top: auto;
+
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 0.7rem;
+    background: var(--tag-color);
+    color: var(--white);
+    border-radius: calc(var(--border-radius) * 2);
+    font-weight: 500;
+    text-transform: lowercase;
+  }
+}
+
+/* ---------- RESPONSIVE ADJUSTMENTS ---------- */
+
+/* Tablet: 2 columns base, featured/wide span 2 */
+@media (min-width: 48em) {
+  .resourceGrid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+
+  .resourceCard {
+    &.card-featured,
+    &.card-wide {
+      grid-column: span 2;
+    }
+  }
+
+  .resourceGrid-compact {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+/* Desktop: 3 columns base, featured spans 2, wide spans 2 */
+@media (min-width: 64em) {
+  .resourceGrid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .resourceCard {
+    min-height: 180px;
+
+    &.card-featured {
+      grid-column: span 2;
+    }
+
+    &.card-wide {
+      grid-column: span 2;
+    }
+  }
+
+  .resourceGrid-compact {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+}
+
+/* Large Desktop: 4+ columns, featured can span 2-3 */
+@media (min-width: 80em) {
+  .resourceGrid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+
+  .resourceCard.card-featured {
+    grid-column: span 2;
+  }
+}
+
+/* ---------- DARK MODE ADJUSTMENTS ---------- */
+
+@media (prefers-color-scheme: dark) {
+  .resourceRating .fa-regular {
+    color: var(--gray-600);
+  }
+
+  .resourceStatus {
+    &.status-reading {
+      background: var(--blue-400);
+      color: var(--gray-900);
+    }
+  }
+
+  .resourceCard.card-featured {
+    background: linear-gradient(135deg, var(--warm-charcoal) 0%, lighten(#2b2621, 5%) 100%);
+    border-color: var(--amber);
+  }
+}

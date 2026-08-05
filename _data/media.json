@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "name": "Detroit Nutrient Company's Just Add Water",
+    "url": "https://detroitnutrientcompany.com/collections/most-popular/products/great-lakes-water-only-soil",
+    "status": "current"
+  },
+  {
+    "id": 1,
+    "name": "Fox Farm's Happy Frog",
+    "url": "https://foxfarm.com/product/happy-frog-potting-soil",
+    "status": "out"
+  },
+  {
+    "id": 2,
+    "name": "Build a Soil Light",
+    "url": "https://buildasoil.com/products/buildasoil-living-soil-light",
+    "status": "current"
+  }
+]

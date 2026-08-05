@@ -1,0 +1,41 @@
+// _foundation-mixins.scss
+// Reusable patterns and utilities
+
+// Title styling for headings
+@mixin title-style {
+  color: var(--title-color);
+  text-shadow: var(--text-shadow-title);
+}
+
+// Card base styles
+@mixin card-base {
+  padding: var(--spacer);
+  border: 2px solid var(--border-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+// Shared lift effect for interactive cards.
+@mixin card-hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow:
+      3px 3px 3px var(--accent-shadow),
+      4px 4px 3px var(--secondary-shadow);
+  }
+}
+
+// Responsive breakpoints
+@mixin respond-to($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+// Icon styling
+@mixin icon-style($color: var(--icon-color)) {
+  color: $color;
+  flex-shrink: 0;
+}

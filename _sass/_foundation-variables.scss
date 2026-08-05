@@ -1,0 +1,158 @@
+:root {
+  /* ---------- GRAYSCALE PALETTE ---------- */
+  --gray-000: #f8f9fa;
+  --gray-100: #f1f3f5;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #868e96;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+
+  /* ---------- BASE COLOR PALETTE ---------- */
+  --white: #fff;
+  --red: #fa5252;
+  --pink: #e64980;
+  --grape: #be4bdb;
+  --purple: #7950f2;
+  --dark-purple: purple;
+  --indigo: #4c6ef5;
+  --blue: #268bd2;
+  --blue-300: #74c0fc;
+  --blue-400: #4dabf7;
+  --dark-blue: #00008b;
+  --cyan: #15aabf;
+  --teal: #12b886;
+  --green: #40c057;
+  --dark-green: #006400;
+  --yellow: #fab005;
+  --yellow-100: #fff3bf;
+  --orange: #fd7e14;
+
+  /* ---------- BRAND COLORS ---------- */
+  --forest-black: #1a1f1a;
+  --warm-charcoal: #2b2621;
+  --forest-green: #2d5016;
+  --amber: #ffc078;
+  --amber-light: #e8b861;
+  --deep-moss: #1a3a0f;
+  --warm-off-white: #f4f1e8;
+  --cream: #faf8f3;
+  --olive-green: #6b8e23;
+  --sage-green: #8ba888;
+  --earthy-brown: #8b6f47;
+  --root-brown: #5d4e37;
+  --sky-blue: #87ceeb;
+  --pale-lime: #d4ed91;
+  --fresh-leaf: #7cb342;
+  --sun-gold: #f59e0b;
+  --tangerine: #ff8c42;
+
+  /* ---------- TYPOGRAPHY ---------- */
+  --body-font: -apple-system, BlinkMacSystemFont, "Roboto Condensed", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --body-font-size: 16px;
+  --body-line-height: 1.5;
+  --body-color: var(--gray-800);
+  --body-bg: var(--cream);
+
+  --heading-font: "Chicle", "Segoe script", var(--body-font);
+  --heading-color: var(--dark-green);
+  --title-color: var(--dark-green);
+  --icon-color: var(--dark-green);
+
+  /* ---------- LINKS ---------- */
+  --link-color: var(--olive-green);
+  --link-hover-color: #7c6a9f;
+
+  /* ---------- SHADOWS & EFFECTS ---------- */
+  --accent-shadow: var(--earthy-brown);
+  --secondary-shadow: var(--tangerine);
+
+  --text-shadow:
+    1px 1px 2px var(--accent-shadow),
+    2px 2px 2px var(--secondary-shadow);
+
+  --text-shadow-title:
+    2px 2px 0px var(--secondary-shadow),
+    2px 3px 0px var(--accent-shadow),
+    3px 4px 0px var(--accent-shadow);
+
+  --icon-shadow:
+    1px 1px 2px var(--accent-shadow),
+    2px 2px 2px var(--secondary-shadow);
+
+  --box-shadow:
+    2px 2px 0px var(--accent-shadow),
+    3px 3px 0px var(--secondary-shadow);
+
+  /* ---------- BORDERS & SPACING ---------- */
+  --border-color: var(--sage-green);
+  --border-radius: .25rem;
+
+  --spacer: 1rem;
+  --spacer-1: 1rem;
+  --spacer-2: calc(var(--spacer) * 1.5);
+  --spacer-3: calc(var(--spacer) * 3);
+  --half-spacer: calc(var(--spacer) / 2);
+
+  --gap-sm: 0.25rem;
+  --gap-md: var(--half-spacer); // 0.5rem
+  --gap-lg: var(--spacer); // 1rem
+
+  --flex-min-width: 280px; // Minimum box width
+  --tech-item-min: 160px; // Minimum tech item width
+
+  /* ---------- COMPONENTS ---------- */
+  --tag-color: var(--tangerine);
+  --zebra: var(--gray-200);
+
+  /* ---------- SIDEBAR ---------- */
+  --sidebar-width: 18rem;
+  --sidebar-bg: linear-gradient(135deg, var(--sun-gold), var(--tangerine), var(--dark-green));
+  --sidebar-color: var(--cream);
+  --nav-link-color: var(--cream);
+  --active-color: var(--pale-lime);
+
+  /* ---------- TABLE OF CONTENTS ---------- */
+  --toc-text: var(--gray-800);
+  --toc-bg-tablet: var(--warm-off-white);
+  --toc-bg-desktop: rgba(244, 241, 232, .92);
+}
+
+
+/* ---------- DARK MODE (Harvest Hour) ---------- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Typography & Base */
+    --body-color: var(--cream);
+    --body-bg: var(--warm-charcoal);
+    --heading-color: var(--amber-light);
+    --title-color: var(--amber);
+    --icon-color: var(--grape);
+
+    /* Links */
+    --link-color: var(--amber-light);
+    --link-hover-color: var(--pale-lime);
+
+    /* Borders & Components */
+    --border-color: var(--earthy-brown);
+    --zebra: rgba(0, 0, 0, .2);
+    --tag-color: var(--tangerine);
+
+    /* Table of Contents */
+    --toc-text: var(--cream);
+    --toc-bg-tablet: #38312b;
+    --toc-bg-desktop: rgba(56, 49, 43, .92);
+
+    /* Shadows */
+    --accent-shadow: var(--tangerine);
+    --secondary-shadow: var(--grape);
+
+    /* Sidebar */
+    --sidebar-bg: linear-gradient(135deg, var(--amber), var(--tangerine), var(--grape));
+    --sidebar-color: var(--cream);
+    --active-color: var(--pale-lime);
+  }
+}

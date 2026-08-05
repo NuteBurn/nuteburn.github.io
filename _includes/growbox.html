@@ -1,54 +1,64 @@
 {%- assign plants = site.data.grows | sort: 'sowDate' -%}
-{%- assign plantCount = plants | size -%}
-{% assign count = plantCount %}
-{% assign seeds = site.data.seeds | sort: 'seedID' %}
-{% capture today %}{{ "now" | date: "%s" | divided_by: 86400}}{% endcapture %}
-{%- comment -%}86400 is the # of seconds in a day{%- endcomment -%}      
+{%- assign seeds = site.data.seeds | sort: 'seedID' -%}
+{%- assign secondsPerDay = 86400 -%}
+{%- comment -%}86400 is the # of seconds in a day{%- endcomment -%}
+{%- assign todayInDays = 'now' | date: '%s' | divided_by: secondsPerDay -%}
+{%- assign hasActivePlants = false -%}
+
 <div id="growbox">
   <div id="growrow" class="flex-container">
     <div class="growTitlebox">
       <h1>Current Grows</h1>
     </div>
+
     {% for plant in plants %}
-      {%- if plant.harvestDate == nil and plant.sowDate != nil -%}
-      {%- capture count -%}{% increment count %}{%- endcapture -%}
-      {% assign seedNum = plant.seedID %}
-      {% assign plantName = plant.seed %}
-      {% assign seed = seeds.[seedNum] %}
-      {% assign seedType = seed.type %}
-          {% capture sowDate %}{{plant.sowDate | date: "%s" | divided_by: 86400}}{% endcapture %}
-          {% capture currentDay -%}{{today | minus: sowDate}}{%- endcapture %} 
-            <div class="plantbox">
-              {% if seed.link != nil %}
-                <a href="{{seed.link}}" target="_blank"><h4>{{ plantName }}</h4></a>
-                {% else %}
-                <h4>{{ plantName }}</h4>
-                {% endif %}
-                {%- if plant.flipDate == nil -%}
-                {% capture currentDay -%}{{today | minus: sowDate}}{%- endcapture %} 
-                <div class="daybox">
-                  <i class="day">Day:</i><strong class="currentDay">{{currentDay}}</strong>
-                  {%- if seedType == "Fem Photo" -%}
-                    <div class="stage"> of Veg </div>
-                  {%- endif -%}
-                  <div class="weekHover">week:{{ currentDay | divided_by: 7 }}</div>
-                  <div class="sown">Sown: {{ plant.sowDate | date: "%m/%d/%y" }}</div>
-                </div>
-                {%- else -%}
-                {% capture flipDate %}{{plant.flipDate | date: "%s" | divided_by: 86400}}{% endcapture %}
-                {% capture currentDay -%}{{today | minus: flipDate}}{%- endcapture %} 
-                  <div class="daybox">
-                  <i class="day">Day:</i><strong class="currentDay">{{currentDay}}</strong>
-                  <div class="weekHover">week:{{ currentDay | divided_by: 7 }}</div>
-                  <div class="stage">of Flower</div>
-                  <div class="flipped">Flip: {{ plant.flipDate | date: "%m/%d/%y" }}</div>
-                </div>
-                {%- endif -%}
-              </div> 
-      {%- endif -%}         
+      {%- if plant.harvestDate == null and plant.sowDate != null and plant.status != 'culled' -%}
+        {%- assign hasActivePlants = true -%}
+        {%- assign plantName = plant.seed -%}
+        {%- assign matchedSeeds = seeds | where: 'seedID', plant.seedID -%}
+        {%- assign seed = matchedSeeds[0] -%}
+
+        {%- comment -%} Determine reference date and labels based on growth stage {%- endcomment -%}
+        {% if plant.flipDate %}
+          {%- assign referenceDate = plant.flipDate -%}
+          {%- assign stageLabel = 'of Flower' -%}
+          {%- assign dateLabel = 'Flip' -%}
+          {%- assign dateClass = 'flipped' -%}
+        {% else %}
+          {%- assign referenceDate = plant.sowDate -%}
+          {%- assign stageLabel = 'of Veg' -%}
+          {%- assign dateLabel = 'Sown' -%}
+          {%- assign dateClass = 'sown' -%}
+        {% endif %}
+
+        {%- assign referenceDays = referenceDate | date: '%s' | divided_by: secondsPerDay -%}
+        {%- assign currentDay = todayInDays | minus: referenceDays -%}
+
+        <div class="plantbox">
+          {% if seed.link %}
+            <a href="{{seed.link}}" target="_blank">
+              <h4>{{ plantName }}</h4>
+            </a>
+          {% else %}
+            <h4>{{ plantName }}</h4>
+          {% endif %}
+
+          <div class="daybox">
+            <i class="day">Day:</i><strong class="currentDay">{{ currentDay }}</strong>
+            <div class="weekHover">week:{{ currentDay | divided_by: 7 }}</div>
+            {%- if plant.flipDate or seed.type == 'Fem Photo' -%}
+              <div class="stage">{{ stageLabel }}</div>
+            {%- endif -%}
+            <div class="{{ dateClass }}">{{ dateLabel }}: {{ referenceDate | date: '%m/%d/%y' }}</div>
+          </div>
+        </div>
+      {%- endif -%}
     {% endfor %}
-    {%- if plantCount == count -%}
-      <p> Nothing is currently growing, check back soon. </p>
-    {%- endif -%}
+
+    {%- unless hasActivePlants -%}
+      <div>
+        <p>Nothing currently growing, check back soon.</p>
+      </div>
+    {%- endunless -%}
   </div>
 </div>

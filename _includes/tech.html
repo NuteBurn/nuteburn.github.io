@@ -1,62 +1,94 @@
-{%- assign ipm = site.data.pest-control -%} {%- assign hardware =
-site.data.equipment -%} {%- assign tents = hardware | where: "type", "tent" -%}
+{%- assign ipm = site.data.pest-control -%}
+{%- assign hardware = site.data.equipment -%}
+{%- assign tents = hardware | where: "type", "tent" | where: "status", "current" -%}
 {%- assign postProcess = hardware | where: "category", "post-processing" -%}
-<div id="equipmentBox" class="flex-container">
+
+<div id="equipmentBox">
   <div class="techTitlebox">
     <h1 id="current-setup">Current Setup</h1>
   </div>
-  {%- for tent in tents -%} {% assign inTent = hardware | where: "location",
-  tent.name %}
-  <div class="tentBox flex-container">
-    <div class="titlebox">
-      <h2>
-        <i class="{{tent.fa-icon}}" title="{{tent.type}}">&nbsp;</i>{{ tent.name
-        }}
-      </h2>
-      {%- if tent.description != nil -%}
-      <p>{{ tent.description }}</p>
-      {%- endif -%}
+
+  {%- comment -%} Tent Equipment Boxes {%- endcomment -%}
+  {%- for tent in tents -%}
+    {%- assign inTent = hardware | where: "location", tent.name | where: "status", "current" -%}
+    
+    <div class="tentBox">
+      <div class="techTitlebox">
+        <h2>
+          {%- if tent.fa-icon -%}
+            <i class="{{ tent.fa-icon }}" aria-hidden="true"></i>&nbsp;
+          {%- endif -%}
+          {{ tent.name }}
+        </h2>
+        {%- if tent.description -%}
+          <p>{{ tent.description }}</p>
+        {%- endif -%}
+      </div>
+
+      {%- for hw in inTent -%}
+        <div class="techBox">
+          {%- if hw.fa-icon -%}
+            <i class="{{ hw.fa-icon }}" aria-hidden="true"></i>&nbsp;
+          {%- else -%}
+            <strong>{{ hw.type }}:</strong>&nbsp;
+          {%- endif -%}
+          <a href="{{ hw.link }}">{{ hw.name }}</a>
+        </div>
+      {%- endfor -%}
     </div>
-    {% for hw in inTent %} {%- if hw.status == "current" -%}
-    <div class="techBox">
-      {% if hw.fa-icon != nil %}<i class="{{hw.fa-icon}}" title="{{hw.type}}">&nbsp</i><a href="{{hw.link}}">{{ hw.name
-        }}</a> {% else %}<strong>{{ hw.type }}:</strong><a href="{{hw.link}}">{{ hw.name }}</a>
-      {% endif %}
-    </div>
-    {%- endif -%} {%- endfor -%}
-  </div>
   {%- endfor -%}
+
+  {%- comment -%} Tea Equipment {%- endcomment -%}
+  {%- assign teaEquipment = hardware | where: "category", "tea" -%}
   <div id="tea" class="tentBox">
     <div class="techTitlebox">
-      <h2><i class="fa-solid fa-flask"></i>&nbsp;Tea Equipment</h2>
+      <h2>
+        <i class="fa-solid fa-flask" aria-hidden="true"></i>&nbsp;Tea Equipment
+      </h2>
     </div>
-    {% assign TE = hardware | where: "category" , "tea" %} {%- for item in TE
-    -%} {%- if item.status == "current" -%}
-    <div class="techBox">
-      &#9687;&nbsp;<strong>{{ item.type }}:&nbsp;</strong><a href="{{item.link}}">{{ item.name }}</a>
-    </div>
-    {%- endif -%} {%- endfor -%}
+    {%- for item in teaEquipment -%}
+      {%- if item.status == "current" -%}
+        <div class="techBox">
+          <span class="bullet">&#9687;</span>&nbsp;
+          <strong>{{ item.type }}:</strong>&nbsp;
+          <a href="{{ item.link }}">{{ item.name }}</a>
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
   </div>
+
+  {%- comment -%} Integrated Pest Management {%- endcomment -%}
   <div id="ipm" class="tentBox">
     <div class="techTitlebox">
       <h2>
-        <i class="fa-solid fa-bug-slash"></i>&nbsp;Integrated Pest Management
+        <i class="fa-solid fa-bug-slash" aria-hidden="true"></i>&nbsp;Integrated Pest Management
       </h2>
     </div>
-    {%- for item in ipm -%} {%- if item.status == "current" -%}
-    <div class="techBox">
-      &#9687;&nbsp;<a href="{{item.link}}">{{ item.name }}</a>
-    </div>
-    {%- endif -%} {%- endfor -%}
+    {%- for item in ipm -%}
+      {%- if item.status == "current" -%}
+        <div class="techBox">
+          <span class="bullet">&#9687;</span>&nbsp;
+          <a href="{{ item.link }}">{{ item.name }}</a>
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
   </div>
+
+  {%- comment -%} Post Processing {%- endcomment -%}
   <div id="postProcess" class="tentBox">
     <div class="techTitlebox">
-      <h2><i class="fa-solid fa-mortar-pestle"></i>&nbsp;Post Processing</h2>
+      <h2>
+        <i class="fa-solid fa-mortar-pestle" aria-hidden="true"></i>&nbsp;Post Processing
+      </h2>
     </div>
-    {%- for item in postProcess -%} {%- if item.status =="current" -%}
-    <div class="techBox">
-      &#9687;<strong>{{ item.type }}:&nbsp</strong><a href="{{item.link}}">{{ item.name }}</a>
-    </div>
-    {%- endif -%} {%- endfor -%}
+    {%- for item in postProcess -%}
+      {%- if item.status == "current" -%}
+        <div class="techBox">
+          <span class="bullet">&#9687;</span>&nbsp;
+          <strong>{{ item.type }}:</strong>&nbsp;
+          <a href="{{ item.link }}">{{ item.name }}</a>
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
   </div>
 </div>

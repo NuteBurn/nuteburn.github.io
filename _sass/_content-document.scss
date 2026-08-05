@@ -1,7 +1,9 @@
-// Posts and pages
-//
-// Each post is wrapped in `.post` and is used on default and post layouts. Each
-// page is wrapped in `.page` and is only used on the page layout.
+// _content-document.scss
+// Posts, pages, messages, and related content
+
+/* ---------- POSTS & PAGES ---------- */
+// Each post is wrapped in `.post` and is used on default and post layouts.
+// Each page is wrapped in `.page` and is only used on the page layout.
 
 .page,
 .post {
@@ -16,12 +18,10 @@
 .page-title,
 .post-title {
   color: var(--title-color);
-  text-shadow: 1px 2px 2px var(--accent-shadow);
-}
-.page-title,
-.post-title {
+  text-shadow: var(--text-shadow-title);
   margin-top: 0;
 }
+
 .post-title a {
   color: inherit;
   text-decoration: none;
@@ -32,10 +32,13 @@
   }
 }
 
+/* ---------- POST METADATA ---------- */
 // Meta data line below post title
+
 .post-date {
   float: left;
 }
+
 .post-date,
 .post-tags {
   display: block;
@@ -46,8 +49,8 @@
   font-size: .75rem;
 }
 
+/* ---------- RELATED POSTS ---------- */
 
-// Related posts
 .related {
   padding-top: var(--spacer-2);
   padding-bottom: var(--spacer-2);

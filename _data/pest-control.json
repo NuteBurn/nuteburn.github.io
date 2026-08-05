@@ -1,0 +1,54 @@
+[
+  {
+    "id": 0,
+    "name": "Mosquito Bits",
+    "brand": "Summit",
+    "type": "biological-control",
+    "url": "https://www.homedepot.com/p/Mosquito-Bits-30-oz-Granular-Biological-Mosquito-Control-117-6/206940251",
+    "activeIngredient": "Bacillus thuringiensis israelensis (BTI)",
+    "purpose": ["mosquitos", "gnats", "fungus-gnats"],
+    "applicationMethod": ["soil-drench", "top-dress"],
+    "status": "current",
+    "category": "pest-control",
+    "notes": "Apply to soil or use as tea for watering"
+  },
+  {
+    "id": 1,
+    "name": "Yellow Sticky Traps",
+    "brand": "Generic",
+    "type": "trap",
+    "url": "https://smile.amazon.com/gp/product/B07DRN8H49/",
+    "activeIngredient": null,
+    "purpose": ["gnats", "fungus-gnats", "whiteflies", "aphids"],
+    "applicationMethod": ["placement"],
+    "status": "current",
+    "category": "pest-control",
+    "notes": "Place near soil level for gnats, canopy level for flying insects"
+  },
+  {
+    "id": 2,
+    "name": "Captain Jack's Deadbug Brew",
+    "brand": "Bonide",
+    "type": "insecticide",
+    "url": "https://www.homedepot.com/p/Bonide-32-oz-Captain-Jack-s-Deadbug-Brew-Ready-To-Use-2506/203564356",
+    "activeIngredient": "Spinosad",
+    "purpose": ["gnats", "caterpillars", "thrips", "loopers", "leaf-miners", "spider-mites"],
+    "applicationMethod": ["foliar-spray"],
+    "status": "current",
+    "category": "pest-control",
+    "notes": "OMRI listed organic. Apply in dark hours only, harmful to bees when wet"
+  },
+  {
+    "id": 3,
+    "name": "Neem Oil",
+    "brand": "Bonide",
+    "type": "fungicide-insecticide",
+    "url": "https://www.homedepot.com/p/Bonide-32-oz-Neem-Oil-Fungicide-Miticide-and-Insecticide-Ready-To-Use-0226/203528194",
+    "activeIngredient": "Clarified Hydrophobic Extract of Neem Oil",
+    "purpose": ["gnats", "whiteflies", "powdery-mildew", "spider-mites", "aphids"],
+    "applicationMethod": ["foliar-spray"],
+    "status": "current",
+    "category": "pest-control",
+    "notes": "Apply during lights-off to prevent leaf burn. Do not use during flower"
+  }
+]

@@ -1,14 +1,17 @@
 // Layout
 //
 // Styles for managing the structural hierarchy of the site.
+
 .content {
-  padding-top:var(--spacer-1);
-  padding-bottom:var(--spacer-1);
+  padding-top: var(--spacer-1);
+  padding-bottom: var(--spacer-1);
 }
+
 iframe {
   max-width: 100%;
   overflow-y: scroll;
 }
+
 .container {
   max-width: 38rem;
   padding-left: var(--spacer-1);
@@ -20,6 +23,7 @@ footer {
   margin-top: var(--spacer-2);
   margin-bottom: var(--spacer-2);
 }
+
 #copyright {
   text-align: center;
 }
@@ -30,20 +34,36 @@ footer {
     margin-left: calc(2rem + var(--sidebar-width));
     margin-right: 2rem;
   }
+
+  /* Wide layout for grid-heavy pages */
+  .content.wide-layout {
+    max-width: 60rem;
+  }
+
   html {
     font-size: 16px;
   }
+
   footer {
-    margin-left: calc(2rem + var(--sidebar-width))
+    margin-left: calc(2rem + var(--sidebar-width));
   }
 }
 
 @media (min-width: 64em) {
   .content {
+    max-width: 38rem;
     margin-left: 22rem;
     margin-right: 4rem;
   }
-  footer {
-    margin-left: 22rem;
+
+  .content.wide-layout {
+    max-width: 75rem;
+  }
+
+}
+
+@media (min-width: 80em) {
+  .content.wide-layout {
+    max-width: 110rem;
   }
 }

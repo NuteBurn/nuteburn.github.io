@@ -1,0 +1,132 @@
+// _features-grow-journal.scss
+// Grow journal components: equipment tracking and plant progress
+
+/* ---------- EQUIPMENT GRID LAYOUT ---------- */
+
+#equipmentBox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--flex-min-width), 1fr));
+  gap: var(--spacer);
+  margin-bottom: var(--spacer);
+
+  h1 {
+    @include title-style;
+  }
+}
+
+// The setup heading is a grid item too; keep it above the full card grid rather
+// than letting it occupy only the first column at intermediate viewport widths.
+#equipmentBox > .techTitlebox {
+  grid-column: 1 / -1;
+}
+
+/* ---------- EQUIPMENT CONTAINERS ---------- */
+
+.tentBox {
+  @include card-base;
+  @include card-hover-lift;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-sm);
+  padding: .75rem;
+
+  h2 {
+    margin: 0 0 var(--gap-sm);
+  }
+
+  p {
+    margin-bottom: var(--gap-sm);
+  }
+}
+
+.techBox {
+  display: flex;
+  align-items: baseline;
+  gap: var(--gap-sm);
+
+  .bullet {
+    color: var(--tag-color);
+    font-weight: bold;
+  }
+
+  .fa-solid,
+  .fas,
+  .fab,
+  i[class*="fa-"] {
+    color: var(--tag-color);
+    flex-shrink: 0; /* Prevent icon squishing */
+  }
+}
+
+/* ---------- GROW BOX ---------- */
+
+#growbox {
+  margin-bottom: 1rem;
+
+  h1 {
+    @include title-style;
+  }
+}
+
+#growrow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.growTitlebox {
+  width: 100%;
+}
+
+.plantbox {
+  @include card-hover-lift;
+  display: grid;
+  border: var(--border-color) solid;
+  border-radius: var(--border-radius);
+  padding: 0 5px 5px;
+  margin: 5px;
+  box-shadow: var(--box-shadow);
+}
+
+/* ---------- DAY TRACKING ---------- */
+
+.daybox {
+  display: grid;
+  min-width: 6rem;
+
+  &:hover {
+    .sown, .flipped {
+      display: none;
+    }
+
+    .weekHover {
+      visibility: visible;
+      display: unset;
+      color: black;
+    }
+  }
+}
+
+.currentDay {
+  font-size: 3rem;
+  margin: -.75rem 0;
+  font-family: var(--heading-font);
+}
+
+.sown,
+.flipped,
+.stage {
+  font-style: italic;
+  font-size: .8rem;
+}
+
+.weekHover {
+  display: none;
+  font-size: 1rem;
+  border-radius: var(--border-radius);
+  border: 0;
+  background-color: var(--gray-300);
+  text-align: center;
+  z-index: 1;
+  width: inherit;
+  line-height: calc(var(--body-line-height) - .5);
+}

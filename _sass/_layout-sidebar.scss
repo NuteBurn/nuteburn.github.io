@@ -1,0 +1,175 @@
+/* ---------- SIDEBAR ---------- */
+
+.sidebar {
+  text-align: center;
+  padding: var(--spacer-2) var(--spacer);
+  color: var(--sidebar-color);
+  background-image: var(--sidebar-bg);
+  background-color: var(--sidebar-fb);
+}
+
+/* ---------- SIDEBAR TITLE & BRANDING ---------- */
+
+#title {
+  text-shadow: var(--text-shadow-title);
+}
+
+.sidebar-about h1 {
+  color: var(--sidebar-color);
+  margin-top: 0;
+  font-family: var(--heading-font);
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.fas.fa-cannabis {
+  font-size: 6rem;
+  color: var(--icon-color);
+  text-shadow: var(--icon-shadow);
+  text-align: center;
+}
+
+.lead > i {
+  font-size: 0.75rem;
+}
+
+/* ---------- SIDEBAR LINKS ---------- */
+
+.sidebar a {
+  color: var(--sidebar-color);
+  padding: var(--half-spacer);
+  font-weight: bold;
+}
+
+/* ---------- SIDEBAR NAV ---------- */
+
+.sidebar-nav {
+  margin-bottom: var(--half-spacer);
+}
+
+.sidebar-nav-item {
+  display: inline-block;
+  padding: .15rem .4rem;
+  line-height: 1.75;
+  border-radius: var(--border-radius);
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.sidebar-nav-item::before {
+  content: '\0020  ';
+}
+
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  color: var(--sidebar-color);
+  background-color: rgba(26, 31, 26, .45);
+  font-weight: bold;
+  transform: translateY(-1px);
+  text-shadow:
+    1px 1px 2px var(--accent-shadow),
+    2px 2px 2px var(--secondary-shadow);
+}
+
+.sidebar-nav-item.active {
+  font-weight: bold;
+  color: var(--active-color);
+}
+
+.sidebar-nav-item.active::after {
+  content: ' \f4d8 ';
+  font-family: FontAwesome;
+  color: var(--active-color);
+}
+
+/* ---------- SOCIAL ICONS ---------- */
+
+#social-media {
+  text-align: center;
+  margin-bottom: var(--half-spacer);
+}
+
+#social-media a {
+  display: inline-flex;
+  border-radius: 50%;
+  transition: transform 0.2s ease, text-shadow 0.2s ease;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-1px);
+    background-color: rgba(26, 31, 26, .45);
+    text-shadow:
+      1px 1px 2px var(--accent-shadow),
+      2px 2px 2px var(--secondary-shadow);
+  }
+}
+
+#social-media .fab,
+#social-media .fas,
+#social-media .fa-solid {
+  padding: 10px;
+  font-size: 2rem;
+}
+
+#social-media a:hover .fab,
+#social-media a:hover .fas,
+#social-media a:hover .fa-solid,
+#social-media a:focus .fab,
+#social-media a:focus .fas,
+#social-media a:focus .fa-solid {
+  color: var(--sidebar-color);
+}
+
+/* ---------- COPYRIGHT ---------- */
+
+#copyright {
+  text-align: center;
+}
+
+/* ---------- TABLET+ (48em+) ---------- */
+
+@media (min-width: 48em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: var(--sidebar-width);
+    text-align: left;
+  }
+
+  .sidebar a {
+    padding: 0 !important;
+  }
+
+  .sidebar-nav-item {
+    display: block !important;
+    padding: .15rem .4rem !important;
+  }
+
+  #copyright {
+    display: block;
+  }
+
+  .sidebar-sticky {
+    position: absolute;
+    right: var(--spacer-1);
+    bottom: var(--spacer-1);
+    left: var(--spacer-1);
+  }
+}
+
+/* ---------- DESKTOP (58em+) ---------- */
+
+@media (min-width: 58em) {
+  html {
+    font-size: 15px;
+  }
+
+  .sidebar-nav-item {
+    display: block !important;
+  }
+
+  .sidebar-nav-item::before {
+    content: none;
+  }
+}
