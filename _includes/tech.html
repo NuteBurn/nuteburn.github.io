@@ -51,7 +51,7 @@
         <div class="techBox">
           <span class="bullet">&#9687;</span>&nbsp;
           <strong>{{ item.type }}:</strong>&nbsp;
-          <a href="{{ item.url }}">{{ item.name }}</a>
+          <a href="{{ item.link }}">{{ item.name }}</a>
         </div>
       {%- endif -%}
     {%- endfor -%}
@@ -68,7 +68,7 @@
       {%- if item.status == "current" -%}
         <div class="techBox">
           <span class="bullet">&#9687;</span>&nbsp;
-          <a href="{{ item.url }}">{{ item.name }}</a>
+          <a href="{{ item.link }}">{{ item.name }}</a>
         </div>
       {%- endif -%}
     {%- endfor -%}
@@ -86,7 +86,7 @@
         <div class="techBox">
           <span class="bullet">&#9687;</span>&nbsp;
           <strong>{{ item.type }}:</strong>&nbsp;
-          <a href="{{ item.url }}">{{ item.name }}</a>
+          <a href="{{ item.link }}">{{ item.name }}</a>
         </div>
       {%- endif -%}
     {%- endfor -%}
