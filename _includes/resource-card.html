@@ -1,0 +1,48 @@
+{% assign resource = include.resource %}
+<article class="resourceCard{{ include.card_classes }}">
+  <div class="resourceHeader">
+    <h3 class="resourceName">
+      {% if resource.url and resource.url != "" %}
+        <a href="{{ resource.url }}">{{ resource.name }}</a>
+      {% else %}
+        {{ resource.name }}
+      {% endif %}
+    </h3>
+
+    {% if resource.rating and resource.rating > 0 %}
+      <div class="resourceRating" aria-label="Rating: {{ resource.rating }} out of 5">
+        {% for i in (1..5) %}
+          {% if i <= resource.rating %}
+            <i class="{{ include.rating_icon }}" aria-hidden="true"></i>
+          {% else %}
+            <i class="{{ include.rating_icon }} resourceRating-empty" aria-hidden="true"></i>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+
+  {% if resource.status %}
+    <span class="resourceStatus status-{{ resource.status }}">{{ resource.status }}</span>
+  {% endif %}
+
+  {% if resource.location %}
+    <p class="resourceLocation"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> {{ resource.location }}</p>
+  {% endif %}
+
+  {% if resource.notes and resource.notes != "" %}
+    <p class="resourceNotes">{{ resource.notes }}</p>
+  {% endif %}
+
+  {% if resource.favoriteContent %}
+    <p class="resourceFavorite"><strong>Favorites:</strong> {{ resource.favoriteContent }}</p>
+  {% endif %}
+
+  {% if resource.tags %}
+    <div class="resourceTags">
+      {% for tag in resource.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
+</article>
