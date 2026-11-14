@@ -67,7 +67,7 @@
   {
     "id": 6,
     "seed": "Trizzlers",
-    "seedID": null,
+    "seedID": 11,
     "sowDate": "2021-09-19",
     "transplantDate": null,
     "flipDate": null,
@@ -93,7 +93,7 @@
   {
     "id": 8,
     "seed": "Orange Sherbert",
-    "seedID": null,
+    "seedID": 8,
     "sowDate": "2021-10-25",
     "transplantDate": null,
     "flipDate": null,
@@ -106,7 +106,7 @@
   {
     "id": 9,
     "seed": "Lemon Potion",
-    "seedID": null,
+    "seedID": 7,
     "sowDate": "2021-10-25",
     "transplantDate": null,
     "flipDate": null,
@@ -119,7 +119,7 @@
   {
     "id": 10,
     "seed": "Red Poison",
-    "seedID": null,
+    "seedID": 4,
     "sowDate": "2021-11-02",
     "transplantDate": null,
     "flipDate": null,
@@ -132,7 +132,7 @@
   {
     "id": 11,
     "seed": "HOTZ",
-    "seedID": 11,
+    "seedID": 12,
     "sowDate": "2022-01-08",
     "transplantDate": null,
     "flipDate": null,
@@ -145,7 +145,7 @@
   {
     "id": 12,
     "seed": "Sour Diesel Auto",
-    "seedID": 8,
+    "seedID": 9,
     "sowDate": "2022-02-04",
     "transplantDate": null,
     "flipDate": null,
@@ -158,7 +158,7 @@
   {
     "id": 13,
     "seed": "Sour Diesel Auto",
-    "seedID": 8,
+    "seedID": 9,
     "sowDate": "2022-02-04",
     "transplantDate": null,
     "flipDate": null,
@@ -171,7 +171,7 @@
   {
     "id": 14,
     "seed": "Sour Diesel Auto",
-    "seedID": 8,
+    "seedID": 9,
     "sowDate": "2022-02-04",
     "transplantDate": null,
     "flipDate": null,
@@ -184,7 +184,7 @@
   {
     "id": 15,
     "seed": "Canna-Cheese",
-    "seedID": 13,
+    "seedID": 14,
     "sowDate": "2022-04-30",
     "transplantDate": null,
     "flipDate": null,
@@ -197,7 +197,7 @@
   {
     "id": 16,
     "seed": "Brooklyn Sunrise Auto",
-    "seedID": 9,
+    "seedID": 10,
     "sowDate": "2022-04-30",
     "transplantDate": null,
     "flipDate": null,
@@ -210,7 +210,7 @@
   {
     "id": 17,
     "seed": "Brooklyn Sunrise Auto",
-    "seedID": 9,
+    "seedID": 10,
     "sowDate": "2022-04-30",
     "transplantDate": null,
     "flipDate": null,
@@ -223,7 +223,7 @@
   {
     "id": 18,
     "seed": "Brooklyn Sunrise Auto",
-    "seedID": 9,
+    "seedID": 10,
     "sowDate": "2022-04-30",
     "transplantDate": null,
     "flipDate": null,
@@ -236,7 +236,7 @@
   {
     "id": 19,
     "seed": "El Chemi Kiwi",
-    "seedID": 16,
+    "seedID": 17,
     "sowDate": "2022-09-10",
     "transplantDate": null,
     "flipDate": null,
@@ -288,7 +288,7 @@
   {
     "id": 23,
     "seed": "Meph Freebie SN x SW",
-    "seedID": null,
+    "seedID": 18,
     "sowDate": "2023-01-17",
     "transplantDate": null,
     "flipDate": null,
@@ -301,7 +301,7 @@
   {
     "id": 24,
     "seed": "Meph Freebie SN x SW",
-    "seedID": null,
+    "seedID": 18,
     "sowDate": "2023-01-17",
     "transplantDate": null,
     "flipDate": null,
@@ -314,7 +314,7 @@
   {
     "id": 25,
     "seed": "Meph Freebie SN x SW",
-    "seedID": 17,
+    "seedID": 18,
     "sowDate": "2023-01-17",
     "transplantDate": null,
     "flipDate": null,
@@ -327,7 +327,7 @@
   {
     "id": 26,
     "seed": "Meph Freebie CQ x MS",
-    "seedID": 18,
+    "seedID": 19,
     "sowDate": "2023-01-17",
     "transplantDate": null,
     "flipDate": null,
@@ -340,7 +340,7 @@
   {
     "id": 27,
     "seed": "Santa Muerte",
-    "seedID": 20,
+    "seedID": 21,
     "sowDate": "2024-01-10",
     "transplantDate": "2024-02-02",
     "flipDate": "2024-02-22",
@@ -353,7 +353,7 @@
   {
     "id": 28,
     "seed": "Santa Muerte",
-    "seedID": 20,
+    "seedID": 21,
     "sowDate": "2024-01-10",
     "transplantDate": "2024-02-02",
     "flipDate": "2024-02-22",
@@ -366,7 +366,7 @@
   {
     "id": 29,
     "seed": "Blue Dream",
-    "seedID": 19,
+    "seedID": 20,
     "sowDate": "2024-01-10",
     "transplantDate": "2024-02-02",
     "flipDate": "2024-02-22",
@@ -379,7 +379,7 @@
   {
     "id": 30,
     "seed": "Blue Dream",
-    "seedID": 19,
+    "seedID": 20,
     "sowDate": "2024-01-10",
     "transplantDate": "2024-02-02",
     "flipDate": "2024-02-22",
@@ -392,7 +392,7 @@
   {
     "id": 31,
     "seed": "Red Hot Wedding",
-    "seedID": 21,
+    "seedID": 22,
     "sowDate": "2024-04-26",
     "transplantDate": "2024-06-04",
     "flipDate": "2024-07-08",
@@ -405,7 +405,7 @@
   {
     "id": 32,
     "seed": "Red Hot Wedding",
-    "seedID": 21,
+    "seedID": 22,
     "sowDate": "2024-04-26",
     "transplantDate": "2024-06-04",
     "flipDate": "2024-07-08",
@@ -418,7 +418,7 @@
   {
     "id": 33,
     "seed": "Red Hot Wedding",
-    "seedID": 21,
+    "seedID": 22,
     "sowDate": "2024-04-26",
     "transplantDate": "2024-06-04",
     "flipDate": "2024-07-08",
@@ -431,7 +431,7 @@
   {
     "id": 34,
     "seed": "Red Hot Wedding",
-    "seedID": 21,
+    "seedID": 22,
     "sowDate": "2024-04-26",
     "transplantDate": "2024-06-04",
     "flipDate": "2024-07-08",
@@ -444,7 +444,7 @@
   {
     "id": 35,
     "seed": "Three Bears OG",
-    "seedID": 14,
+    "seedID": 15,
     "sowDate": "2025-02-12",
     "transplantDate": null,
     "flipDate": null,
@@ -457,7 +457,7 @@
   {
     "id": 36,
     "seed": "Three Bears OG",
-    "seedID": 14,
+    "seedID": 15,
     "sowDate": "2025-02-12",
     "transplantDate": null,
     "flipDate": null,
@@ -466,5 +466,31 @@
     "space": "2x4",
     "pot": "30G",
     "media": "BaS mix"
+  },
+    {
+    "id": 37,
+    "seed": "Canna-Cheese",
+    "seedID": 14,
+    "sowDate": "2026-11-08",
+    "transplantDate": null,
+    "flipDate": null,
+    "harvestDate": null,
+    "status": "veg",
+    "space": "2x4",
+    "pot": "30G",
+    "media": "BaS mix"
+  },
+   {
+    "id": 38,
+    "seed": "Canna-Cheese",
+    "seedID": 14,
+    "sowDate": "2026-11-08",
+    "transplantDate": null,
+    "flipDate": null,
+    "harvestDate": null,
+    "status": "veg",
+    "space": "2x4",
+    "pot": "30G",
+    "media": "Living Soil Mix"
   }
 ]
