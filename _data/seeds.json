@@ -150,8 +150,8 @@
     "lifeCycle": null,
     "strain": "Canna-Cheese",
     "link": "https://www.mephistogenetics.com/strains/canna-cheese-1-1",
-    "stock": 2,
-    "grows": 1
+    "stock": 0,
+    "grows": 3
   },
   {
     "seedID": 15,
